@@ -22,7 +22,7 @@
   }
   header {
     padding: .9rem 1rem 1rem; border-bottom: 1px solid var(--border);
-    background: #1a2332; position: sticky; top: 0; z-index: 20;
+    background: #1a2332; position: relative; z-index: 20;
   }
   h1 { margin: 0 0 .25rem; font-size: 1.1rem; font-weight: 650; }
   .how {
@@ -130,10 +130,10 @@
   <h1>Trailer lineup for Leslie</h1>
   <div class="disclaimer"><strong>Lineup only — not an ID.</strong> Flip photos. Eliminate mismatches. Tell police/insurance only what you actually saw.</div>
   <div class="how">
-    <strong>How to use:</strong> Type a company name below (example: <em>Swift</em> or <em>Werner</em>), or leave it blank and scroll the photos. Tap a photo to zoom. Tap <em>Eliminate</em> if the rear doors don’t match.
+    <strong>Don’t type first — scroll the photos.</strong> Tap a chip (Swift, Knight…) only if you want that company. Tap a photo to zoom. Tap Eliminate if it’s not a match.
   </div>
   <div class="search-wrap">
-    <input type="search" id="q" placeholder="Type company name…" enterkeyhint="search" autocomplete="off" autocorrect="off" spellcheck="false" />
+    <input type="search" id="q" placeholder="Or type a company name…" enterkeyhint="search" inputmode="search" autocomplete="off" autocorrect="off" spellcheck="false" />
     <button type="button" class="clear-q" id="clearQ" aria-label="Clear search">Clear</button>
   </div>
   <div class="chips" id="chips"></div>
@@ -204,6 +204,10 @@ async function load(){
     });
     buildChips();
     render();
+    // Don't open the keyboard on load — photos first on phone
+    const q = document.getElementById('q');
+    q.blur();
+    setTimeout(()=>q.blur(), 50);
   } catch(err){
     document.getElementById('list').innerHTML =
       `<p class="err">Couldn’t load the photo list (${err.message}). Pull to refresh, or text Rick.</p>`;
