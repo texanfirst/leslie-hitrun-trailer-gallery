@@ -1,0 +1,26 @@
+/workspace/leslie-hitrun/trailer-gallery/scripts/topup_zeros.py:71: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pix=list(ims.getdata())
+topup pam
+  drop 0.06524739583333333
+  now 1
+topup averitt
+  now 0
+topup melton
+  now 0
+topup hirschbach
+  now 0
+topup dart
+  now 0
+topup mercer
+  drop 0.005768229166666666
+  now 0
+topup roadrunner
+  now 0
+topup pittohio
+  drop 0.0
+  now 0
+topup lonestar
+  now 0
+topup bennett
+  now 0
+added 1 total images 251

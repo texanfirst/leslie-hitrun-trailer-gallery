@@ -1,0 +1,575 @@
+/workspace/leslie-hitrun/trailer-gallery/scripts/build_gallery.py:79: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels = list(im_s.getdata())
+/workspace/leslie-hitrun/.venv/lib/python3.13/site-packages/PIL/Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+[1/75] Swift Transportation
+  drop non-white (0.043): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Not_so_Swift_
+  drop non-white (0.047): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Swift_seems_l
+  drop non-white (0.0): https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Swift_stepdec
+  drop non-white (0.043): https://res.cloudinary.com/knight-swift-transportation/image/upload/q_
+  drop non-white (0.006): https://res.cloudinary.com/knight-swift-transportation/image/upload/q_
+  kept 6 images
+[2/75] Werner Enterprises
+  drop non-white (0.094): https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Werner_2011_V
+  drop non-white (0.084): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Werner_Enterp
+  drop non-white (0.007): https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/%C3%96sterrei
+  drop non-white (0.014): https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/%C3%96sterrei
+  drop non-white (0.015): https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/%C3%96sterrei
+  drop non-white (0.011): https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/%C3%96sterrei
+  drop non-white (0.036): https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/%C3%96sterrei
+  kept 4 images
+[3/75] J.B. Hunt Transport
+  drop non-white (0.046): https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/JB_Hunt_Reefe
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/0/00/JB_Hunt_truck_%26_trailer%2C_CS.jpg?ut
+  drop non-white (0.02): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/J.B._Hunt_int
+  drop non-white (0.0): https://www.jbhunt.com/_jcr_content/root/main-par/hero_banner/image.co
+  drop non-white (0.012): https://www.jbhunt.com/_jcr_content/root/main-par/tabs_section_copy/to
+  kept 7 images
+[4/75] Schneider National
+  HTTP 404: https://schneider.com/about
+  HTTP 404: https://schneider.com/about-us
+  HTTP 404: https://schneider.com/fleet
+  HTTP 404: https://schneider.com/equipment
+  HTTP 404: https://schneider.com/services
+  HTTP 404: https://schneider.com/company
+  drop non-white (0.026): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Schneider_nat
+  drop non-white (0.093): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/HelgeSchneide
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/a/a1/Helge_Schneider_0853.jpg?utm_source=co
+  drop non-white (0.017): https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Helge_Schneid
+  drop non-white (0.002): https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Helge_schneid
+  drop non-white (0.084): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Maischberger_
+  kept 6 images
+[5/75] Knight Transportation
+  drop non-white (0.0): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Exercise_Stee
+  drop non-white (0.008): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Red_Semi-Truc
+  drop non-white (0.034): https://www.knighttrans.com/wp-content/uploads/2024/06/careers-shop-12
+  kept 5 images
+[6/75] Prime Inc
+  drop non-white (0.0): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Clibing_Mt._S
+  drop non-white (0.016): https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Truck_stuck_o
+  kept 6 images
+[7/75] CRST The Transportation Solution
+  HTTP 404: https://www.crst.com/about
+  HTTP 404: https://www.crst.com/about-us
+  HTTP 404: https://www.crst.com/fleet
+  HTTP 404: https://www.crst.com/equipment
+  HTTP 404: https://www.crst.com/services
+  HTTP 404: https://www.crst.com/company
+  drop non-white (0.099): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Interstate_95
+  drop non-white (0.0): https://www.crst.com/wp-content/uploads/2023/11/Dedicated-Solutions-Ic
+  drop non-white (0.055): https://www.crst.com/wp-content/uploads/2026/09/2026-DAW-Email-header-
+  drop non-white (0.008): https://www.crst.com/wp-content/uploads/2026/09/GettyImages-510220199-
+  kept 3 images
+[8/75] Crete Carrier
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  drop non-white (0.077): https://www.cretecarrier.com/wp-content/uploads/2026/07/branded-placeh
+  drop non-white (0.051): https://www.cretecarrier.com/wp-content/uploads/2026/01/truckloads-of-
+  kept 2 images
+[9/75] Roehl Transport
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  drop non-white (0.065): https://www.roehl.jobs/getmedia/43b740c1-b0e4-4b26-896e-861972243d38/c
+  drop non-white (0.043): https://www.roehl.jobs/getmedia/c488f9db-92af-4182-b039-8249a6eb5138/r
+  drop non-white (0.037): https://www.roehl.jobs/getmedia/5211726a-f1d8-4c6b-b3ff-0f05caef3d02/r
+  kept 5 images
+[10/75] Covenant Logistics
+  HTTP 404: https://www.covenantlogistics.com/about-us
+  HTTP 404: https://www.covenantlogistics.com/fleet
+  drop non-white (0.009): https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/040i_ar_lrcon
+  drop non-white (0.002): https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/IMAG0677_%285
+  kept 5 images
+[11/75] U.S. Xpress
+  drop non-white (0.034): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/US_Navy_05102
+  drop non-white (0.087): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/TRANSPORTATIO
+  kept 10 images
+[12/75] Heartland Express
+  HTTP 404: https://www.heartlandexpress.com/about
+  HTTP 404: https://www.heartlandexpress.com/about-us
+  HTTP 404: https://www.heartlandexpress.com/fleet
+  HTTP 404: https://www.heartlandexpress.com/equipment
+  HTTP 404: https://www.heartlandexpress.com/services
+  HTTP 404: https://www.heartlandexpress.com/company
+  kept 1 images
+[13/75] Marten Transport
+  HTTP 404: https://www.marten.com/about-us
+  HTTP 404: https://www.marten.com/fleet
+  HTTP 404: https://www.marten.com/equipment
+  HTTP 404: https://www.marten.com/services
+  HTTP 404: https://www.marten.com/company
+  drop non-white (0.013): https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/IMAG0659_%285
+  drop non-white (0.035): https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/IMAG0660_%285
+  drop non-white (0.058): https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/IMAG0662_%285
+  drop non-white (0.011): https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/IMAG0663_%285
+  drop non-white (0.021): https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/IMAG0664_%285
+  drop non-white (0.004): https://www.marten.com/wp-content/uploads/2022/04/CertLogos-8@2x.png
+  drop non-white (0.011): https://www.marten.com/wp-content/uploads/2026/02/2026-Elite-Fleet-Log
+  kept 1 images
+[14/75] KLLM Transport Services
+  HTTP 404: https://www.kllm.com/about-us
+  HTTP 404: https://www.kllm.com/fleet
+  kept 7 images
+[15/75] Stevens Transport
+  drop non-white (0.003): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Defense.gov_N
+  drop non-white (0.005): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/M2_Bradley_lo
+  drop non-white (0.061): https://www.stevenstransport.com/wp-content/uploads/2023/05/People-Dri
+  kept 9 images
+[16/75] P.A.M. Transport
+  drop non-white (0.065): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/PAMTRANSPORTT
+  kept 0 images
+[17/75] USA Truck
+  drop non-white (0.068): https://upload.wikimedia.org/wikipedia/commons/2/22/Hypermart_USA_truc
+  drop non-white (0.004): https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/I-95_SB_South
+  drop non-white (0.075): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Colorful_Semi
+  drop non-white (0.008): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Red_Semi-Truc
+  kept 7 images
+[18/75] Averitt Express
+  HTTP 502: https://www.averittexpress.com/about
+  HTTP 502: https://www.averittexpress.com/about-us
+  HTTP 502: https://www.averittexpress.com/fleet
+  HTTP 502: https://www.averittexpress.com/equipment
+  HTTP 502: https://www.averittexpress.com/services
+  HTTP 502: https://www.averittexpress.com/company
+  drop non-white (0.075): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/2020-07-14_08
+  drop non-white (0.002): https://www.averitt.com/hs-fs/hubfs/Q4Q%20Truckload.png?width=500&heig
+  drop non-white (0.013): https://cdn2.hubspot.net/hub/507386/hubfs/CLEAN-images/lazy-imgs/lazy-
+  kept 0 images
+[19/75] Estes Express Lines
+  HTTP 404: https://www.estes-express.com/about-us
+  HTTP 404: https://www.estes-express.com/fleet
+  HTTP 404: https://www.estes-express.com/equipment
+  HTTP 404: https://www.estes-express.com/company
+  drop non-white (0.067): https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Commercial_di
+  drop non-white (0.017): https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Estes_Express
+  drop non-white (0.073): https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Estes_Express
+  drop non-white (0.048): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Estes_Express
+  drop non-white (0.046): https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Estes_Express
+  kept 3 images
+[20/75] Old Dominion Freight Line
+  HTTP 404: https://www.odfl.com/about
+  HTTP 404: https://www.odfl.com/about-us
+  HTTP 404: https://www.odfl.com/fleet
+  HTTP 404: https://www.odfl.com/equipment
+  HTTP 404: https://www.odfl.com/services
+  HTTP 404: https://www.odfl.com/company
+  drop non-white (0.037): https://www.odfl.com/content/dam/odfl/us/en/images/services/od-critica
+  kept 6 images
+[21/75] Saia LTL Freight
+  drop non-white (0.043): https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Andover_Stree
+  drop non-white (0.024): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Saia_Lane%2C_
+  drop non-white (0.039): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Saia_Lane%2C_
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/a/a9/Saia_Motor_Freight%2C_Volvo_VNL.jpg?ut
+  drop non-white (0.01): https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Saia_Truck_at
+  kept 1 images
+[22/75] R+L Carriers
+  HTTP 404: https://www.rlcarriers.com/about
+  HTTP 404: https://www.rlcarriers.com/about-us
+  HTTP 404: https://www.rlcarriers.com/fleet
+  HTTP 404: https://www.rlcarriers.com/equipment
+  HTTP 404: https://www.rlcarriers.com/services
+  HTTP 404: https://www.rlcarriers.com/company
+  drop non-white (0.044): https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/R%26L_Carrier
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/f/f9/R%2BL_Truck.jpg?utm_source=commons.wik
+  kept 6 images
+[23/75] XPO Logistics
+  HTTP 404: https://www.xpo.com/about
+  HTTP 404: https://www.xpo.com/fleet
+  HTTP 404: https://www.xpo.com/equipment
+  kept 6 images
+[24/75] ABF Freight
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/7/73/23_0051984_Convair_Negative_Image_-_Se
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/c/c7/23_0051986_Convair_Negative_Image_-_Se
+  drop non-white (0.067): https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Truck_Spottin
+  kept 4 images
+[25/75] TForce Freight
+  HTTP 404: https://www.tforcefreight.com/about
+  HTTP 404: https://www.tforcefreight.com/about-us
+  HTTP 404: https://www.tforcefreight.com/fleet
+  HTTP 404: https://www.tforcefreight.com/equipment
+  HTTP 404: https://www.tforcefreight.com/services
+  HTTP 404: https://www.tforcefreight.com/company
+  kept 3 images
+[26/75] FedEx Freight
+  drop non-white (0.095): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/FedEx_Freight
+  drop non-white (0.041): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/FedEx_Freight
+  drop non-white (0.078): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/FedEx_Truck.j
+  kept 3 images
+[27/75] Landstar System
+  HTTP 404: https://www.landstar.com/about-us
+  HTTP 404: https://www.landstar.com/fleet
+  HTTP 404: https://www.landstar.com/equipment
+  HTTP 404: https://www.landstar.com/company
+  drop non-white (0.076): https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/FEMA_-_13996_
+  drop non-white (0.0): https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/Truck_trapped
+  kept 4 images
+[28/75] NFI Industries
+  HTTP 202: https://www.nfiindustries.com/
+  HTTP 202: https://www.nfiindustries.com/about
+  HTTP 202: https://www.nfiindustries.com/about-us
+  HTTP 202: https://www.nfiindustries.com/fleet
+  HTTP 202: https://www.nfiindustries.com/equipment
+  HTTP 202: https://www.nfiindustries.com/services
+  HTTP 202: https://www.nfiindustries.com/company
+  kept 1 images
+[29/75] C.R. England
+  HTTP 404: https://www.crengland.com/fleet
+  HTTP 404: https://www.crengland.com/equipment
+  HTTP 404: https://www.crengland.com/services
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/d/d2/SaltFlats1.jpg?utm_source=commons.wiki
+  drop non-white (0.019): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Trucks_parked
+  drop non-white (0.034): https://www.crengland.com/wp-content/uploads/2026/08/august-2026-artic
+  kept 3 images
+[30/75] Melton Truck Lines
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)"))): https://www.meltontruck.com/
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)"))): https://www.meltontruck.com/about
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)"))): https://www.meltontruck.com/about-us
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)"))): https://www.meltontruck.com/fleet
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)"))): https://www.meltontruck.com/equipment
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)"))): https://www.meltontruck.com/services
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)"))): https://www.meltontruck.com/company
+  kept 0 images
+[31/75] Maverick Transportation
+  HTTP 404: https://www.maverickusa.com/about
+  HTTP 404: https://www.maverickusa.com/about-us
+  HTTP 404: https://www.maverickusa.com/fleet
+  HTTP 404: https://www.maverickusa.com/equipment
+  HTTP 404: https://www.maverickusa.com/services
+  HTTP 404: https://www.maverickusa.com/company
+  kept 1 images
+[32/75] TMC Transportation
+  HTTP 404: https://www.tmctrans.com/about
+  HTTP 404: https://www.tmctrans.com/about-us
+  HTTP 404: https://www.tmctrans.com/fleet
+  drop non-white (0.064): https://www.tmctrans.com/webres/Image/TMCTRUCK4.jpg
+  drop non-white (0.099): https://www.tmctrans.com/webres/Image/TMCTRUCK11.jpg
+  drop non-white (0.098): https://www.tmctrans.com/webres/Image/TMCTRUCK15.jpg
+  drop non-white (0.05): https://www.tmctrans.com/webres/Image/TMCTRUCK10.jpg
+  kept 3 images
+[33/75] Hirschbach Motor Lines
+  ERR HTTPSConnectionPool(host='www.hirschbach.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hirschbach.com'. (_ssl.c:1029)"))): https://www.hirschbach.com/
+  ERR HTTPSConnectionPool(host='www.hirschbach.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hirschbach.com'. (_ssl.c:1029)"))): https://www.hirschbach.com/about
+  ERR HTTPSConnectionPool(host='www.hirschbach.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hirschbach.com'. (_ssl.c:1029)"))): https://www.hirschbach.com/about-us
+  ERR HTTPSConnectionPool(host='www.hirschbach.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hirschbach.com'. (_ssl.c:1029)"))): https://www.hirschbach.com/fleet
+  ERR HTTPSConnectionPool(host='www.hirschbach.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hirschbach.com'. (_ssl.c:1029)"))): https://www.hirschbach.com/equipment
+  ERR HTTPSConnectionPool(host='www.hirschbach.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hirschbach.com'. (_ssl.c:1029)"))): https://www.hirschbach.com/services
+  ERR HTTPSConnectionPool(host='www.hirschbach.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.hirschbach.com'. (_ssl.c:1029)"))): https://www.hirschbach.com/company
+  kept 0 images
+[34/75] Paschall Truck Lines
+  HTTP 404: https://www.ptl-inc.com/about
+  HTTP 404: https://www.ptl-inc.com/about-us
+  HTTP 404: https://www.ptl-inc.com/fleet
+  HTTP 404: https://www.ptl-inc.com/equipment
+  HTTP 404: https://www.ptl-inc.com/company
+  kept 1 images
+[35/75] Millis Transfer
+  HTTP 404: https://www.millistransfer.com/fleet
+  HTTP 404: https://www.millistransfer.com/equipment
+  HTTP 404: https://www.millistransfer.com/services
+  HTTP 404: https://www.millistransfer.com/company
+  kept 2 images
+[36/75] Epes Transport System
+  HTTP 404: https://www.epestransport.com/about-us
+  HTTP 404: https://www.epestransport.com/fleet
+  HTTP 404: https://www.epestransport.com/equipment
+  HTTP 404: https://www.epestransport.com/company
+  kept 2 images
+[37/75] Boyd Bros Transportation
+  HTTP 404: https://www.boydbros.com/about
+  HTTP 404: https://www.boydbros.com/fleet
+  HTTP 404: https://www.boydbros.com/equipment
+  HTTP 404: https://www.boydbros.com/services
+  HTTP 404: https://www.boydbros.com/company
+  drop non-white (0.097): https://boydbros.com/images/uploads/BoydBros-Header3.jpg
+  kept 2 images
+[38/75] Dart Transit Company
+  HTTP 404: https://www.dart.net/about
+  HTTP 404: https://www.dart.net/fleet
+  HTTP 404: https://www.dart.net/equipment
+  HTTP 404: https://www.dart.net/services
+  HTTP 404: https://www.dart.net/company
+  kept 0 images
+[39/75] Transport America
+  ERR HTTPSConnectionPool(host='www.transportamerica.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.transportamerica.com'. (_ssl.c:1029)"))): https://www.transportamerica.com/
+  ERR HTTPSConnectionPool(host='www.transportamerica.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.transportamerica.com'. (_ssl.c:1029)"))): https://www.transportamerica.com/about
+  ERR HTTPSConnectionPool(host='www.transportamerica.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.transportamerica.com'. (_ssl.c:1029)"))): https://www.transportamerica.com/about-us
+  ERR HTTPSConnectionPool(host='www.transportamerica.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.transportamerica.com'. (_ssl.c:1029)"))): https://www.transportamerica.com/fleet
+  ERR HTTPSConnectionPool(host='www.transportamerica.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.transportamerica.com'. (_ssl.c:1029)"))): https://www.transportamerica.com/equipment
+  ERR HTTPSConnectionPool(host='www.transportamerica.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.transportamerica.com'. (_ssl.c:1029)"))): https://www.transportamerica.com/services
+  ERR HTTPSConnectionPool(host='www.transportamerica.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.transportamerica.com'. (_ssl.c:1029)"))): https://www.transportamerica.com/company
+  drop non-white (0.001): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Fox_NBC-det
+  drop non-white (0.075): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Colorful_Semi
+  drop non-white (0.016): https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Lorry_Transpo
+  kept 3 images
+[40/75] Western Flyer Xpress
+  HTTP 404: https://www.wfxpress.com/about
+  HTTP 404: https://www.wfxpress.com/about-us
+  HTTP 404: https://www.wfxpress.com/fleet
+  HTTP 404: https://www.wfxpress.com/equipment
+  HTTP 404: https://www.wfxpress.com/services
+  HTTP 404: https://www.wfxpress.com/company
+  drop non-white (0.091): https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Chicago_and_N
+  drop non-white (0.065): https://upload.wikimedia.org/wikipedia/commons/c/cc/GOES-R_Ground_Segm
+  kept 1 images
+[41/75] May Trucking Company
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  HTTP 404: https://www.maytrucking.com/about
+  HTTP 404: https://www.maytrucking.com/about-us
+  HTTP 404: https://www.maytrucking.com/fleet
+  HTTP 404: https://www.maytrucking.com/equipment
+  drop non-white (0.014): https://www.maytrucking.com/assets/images/med-dark-bluespeedingcity-e4
+  drop non-white (0.075): https://www.maytrucking.com/assets/images/gauges-7dcc18dd4c.jpg
+  kept 4 images
+[42/75] System Transport
+  ERR HTTPSConnectionPool(host='www.systemtransport.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.systemtransport.com', port=443): Failed to resolve 'www.systemtransport.com' ([Errno -3] Temporary failure in name resolution)")): https://www.systemtransport.com/
+  ERR HTTPSConnectionPool(host='www.systemtransport.com', port=443): Max retries exceeded with url: /about (Caused by NameResolutionError("HTTPSConnection(host='www.systemtransport.com', port=443): Failed to resolve 'www.systemtransport.com' ([Errno -3] Temporary failure in name resolution)")): https://www.systemtransport.com/about
+  ERR HTTPSConnectionPool(host='www.systemtransport.com', port=443): Max retries exceeded with url: /about-us (Caused by NameResolutionError("HTTPSConnection(host='www.systemtransport.com', port=443): Failed to resolve 'www.systemtransport.com' ([Errno -3] Temporary failure in name resolution)")): https://www.systemtransport.com/about-us
+  ERR HTTPSConnectionPool(host='www.systemtransport.com', port=443): Max retries exceeded with url: /fleet (Caused by NameResolutionError("HTTPSConnection(host='www.systemtransport.com', port=443): Failed to resolve 'www.systemtransport.com' ([Errno -3] Temporary failure in name resolution)")): https://www.systemtransport.com/fleet
+  ERR HTTPSConnectionPool(host='www.systemtransport.com', port=443): Max retries exceeded with url: /equipment (Caused by NameResolutionError("HTTPSConnection(host='www.systemtransport.com', port=443): Failed to resolve 'www.systemtransport.com' ([Errno -3] Temporary failure in name resolution)")): https://www.systemtransport.com/equipment
+  ERR HTTPSConnectionPool(host='www.systemtransport.com', port=443): Max retries exceeded with url: /services (Caused by NameResolutionError("HTTPSConnection(host='www.systemtransport.com', port=443): Failed to resolve 'www.systemtransport.com' ([Errno -3] Temporary failure in name resolution)")): https://www.systemtransport.com/services
+  ERR HTTPSConnectionPool(host='www.systemtransport.com', port=443): Max retries exceeded with url: /company (Caused by NameResolutionError("HTTPSConnection(host='www.systemtransport.com', port=443): Failed to resolve 'www.systemtransport.com' ([Errno -3] Temporary failure in name resolution)")): https://www.systemtransport.com/company
+  drop non-white (0.001): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/A_Fox_NBC-det
+  kept 4 images
+[43/75] John Christner Trucking
+  ERR HTTPSConnectionPool(host='www.johnchristner.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.johnchristner.com'. (_ssl.c:1029)"))): https://www.johnchristner.com/
+  ERR HTTPSConnectionPool(host='www.johnchristner.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.johnchristner.com'. (_ssl.c:1029)"))): https://www.johnchristner.com/about
+  ERR HTTPSConnectionPool(host='www.johnchristner.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.johnchristner.com'. (_ssl.c:1029)"))): https://www.johnchristner.com/about-us
+  ERR HTTPSConnectionPool(host='www.johnchristner.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.johnchristner.com'. (_ssl.c:1029)"))): https://www.johnchristner.com/fleet
+  ERR HTTPSConnectionPool(host='www.johnchristner.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.johnchristner.com'. (_ssl.c:1029)"))): https://www.johnchristner.com/equipment
+  ERR HTTPSConnectionPool(host='www.johnchristner.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.johnchristner.com'. (_ssl.c:1029)"))): https://www.johnchristner.com/services
+  ERR HTTPSConnectionPool(host='www.johnchristner.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.johnchristner.com'. (_ssl.c:1029)"))): https://www.johnchristner.com/company
+  drop non-white (0.02): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Taking_a_quic
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/2/2f/Truck_181_%28cropped%29.jpg?utm_source
+  kept 3 images
+[44/75] Pride Transport
+  drop non-white (0.038): https://pridetransportation.blob.core.windows.net/uploads/optimized/Ma
+  kept 5 images
+[45/75] Central Freight Lines
+  ERR HTTPSConnectionPool(host='www.centralfreight.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.centralfreight.com/
+  ERR HTTPSConnectionPool(host='www.centralfreight.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1029)'))): https://www.centralfreight.com/about
+  ERR HTTPSConnectionPool(host='www.centralfreight.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.centralfreight.com/about-us
+  ERR HTTPSConnectionPool(host='www.centralfreight.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.centralfreight.com/fleet
+  ERR HTTPSConnectionPool(host='www.centralfreight.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.centralfreight.com/equipment
+  ERR HTTPSConnectionPool(host='www.centralfreight.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.centralfreight.com/services
+  ERR HTTPSConnectionPool(host='www.centralfreight.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.centralfreight.com/company
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/0/05/Central_Freight_Lines_truck.jpg?utm_so
+  kept 5 images
+[46/75] Mesilla Valley Transportation
+  HTTP 404: https://www.m-v-t.com/equipment
+  HTTP 404: https://www.m-v-t.com/services
+  HTTP 404: https://www.m-v-t.com/company
+  kept 1 images
+[47/75] Mercer Transportation
+  HTTP 202: https://www.mercer-trans.com/
+  HTTP 202: https://www.mercer-trans.com/about
+  HTTP 202: https://www.mercer-trans.com/about-us
+  HTTP 202: https://www.mercer-trans.com/fleet
+  HTTP 202: https://www.mercer-trans.com/equipment
+  HTTP 202: https://www.mercer-trans.com/services
+  HTTP 202: https://www.mercer-trans.com/company
+  kept 0 images
+[48/75] Hub Group
+  HTTP 404: https://www.hubgroup.com/fleet
+  HTTP 404: https://www.hubgroup.com/equipment
+  HTTP 404: https://www.hubgroup.com/services
+  drop non-white (0.065): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/2024-05-21_12
+  drop non-white (0.02): https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Rainy_Truck_S
+  kept 1 images
+[49/75] Southeastern Freight Lines
+  HTTP 404: https://www.sefl.com/about
+  HTTP 404: https://www.sefl.com/about-us
+  HTTP 404: https://www.sefl.com/fleet
+  HTTP 404: https://www.sefl.com/equipment
+  HTTP 404: https://www.sefl.com/services
+  HTTP 404: https://www.sefl.com/company
+  drop non-white (0.0): https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Interstate_95
+  kept 2 images
+[50/75] Forward Air
+  HTTP 404: https://www.forwardair.com/about-us
+  HTTP 404: https://www.forwardair.com/fleet
+  HTTP 404: https://www.forwardair.com/equipment
+  HTTP 404: https://www.forwardair.com/company
+  drop non-white (0.005): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/M2_Bradley_lo
+  drop non-white (0.016): https://cdn.bfldr.com/2YLU38BS/at/x445khqb3gw5hk863j5jvkcj/Truck-15.jp
+  kept 2 images
+[51/75] Dupre Logistics
+  HTTP 404: https://www.duprelogistics.com/about-us
+  HTTP 404: https://www.duprelogistics.com/fleet
+  HTTP 404: https://www.duprelogistics.com/equipment
+  HTTP 404: https://www.duprelogistics.com/services
+  kept 1 images
+[52/75] Acme Truck Line
+  HTTP 403: http://www.acmetruck.com/wp-content/uploads/2026/01/HSHS-Safety-Logo-300x141.png
+  kept 2 images
+[53/75] Miller Transporters
+  ERR HTTPSConnectionPool(host='www.millert.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))): https://www.millert.com/
+  ERR HTTPSConnectionPool(host='www.millert.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))): https://www.millert.com/about
+  ERR HTTPSConnectionPool(host='www.millert.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))): https://www.millert.com/about-us
+  ERR HTTPSConnectionPool(host='www.millert.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))): https://www.millert.com/fleet
+  ERR HTTPSConnectionPool(host='www.millert.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))): https://www.millert.com/equipment
+  ERR HTTPSConnectionPool(host='www.millert.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))): https://www.millert.com/services
+  ERR HTTPSConnectionPool(host='www.millert.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1029)'))): https://www.millert.com/company
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/2/2e/MillerTruckWhite.png?utm_source=common
+  kept 1 images
+[54/75] Roadrunner Transportation
+  ERR HTTPSConnectionPool(host='www.roadrunner.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.roadrunner.com'. (_ssl.c:1029)"))): https://www.roadrunner.com/
+  ERR HTTPSConnectionPool(host='www.roadrunner.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.roadrunner.com'. (_ssl.c:1029)"))): https://www.roadrunner.com/about
+  ERR HTTPSConnectionPool(host='www.roadrunner.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.roadrunner.com'. (_ssl.c:1029)"))): https://www.roadrunner.com/about-us
+  ERR HTTPSConnectionPool(host='www.roadrunner.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.roadrunner.com'. (_ssl.c:1029)"))): https://www.roadrunner.com/fleet
+  ERR HTTPSConnectionPool(host='www.roadrunner.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.roadrunner.com'. (_ssl.c:1029)"))): https://www.roadrunner.com/equipment
+  ERR HTTPSConnectionPool(host='www.roadrunner.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.roadrunner.com'. (_ssl.c:1029)"))): https://www.roadrunner.com/services
+  ERR HTTPSConnectionPool(host='www.roadrunner.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.roadrunner.com'. (_ssl.c:1029)"))): https://www.roadrunner.com/company
+  kept 0 images
+[55/75] Dayton Freight Lines
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  kept 4 images
+[56/75] PITT OHIO
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  HTTP 404: https://www.pittohio.com/about
+  HTTP 404: https://www.pittohio.com/about-us
+  HTTP 404: https://www.pittohio.com/fleet
+  HTTP 404: https://www.pittohio.com/equipment
+  HTTP 404: https://www.pittohio.com/services
+  HTTP 404: https://www.pittohio.com/company
+  kept 0 images
+[57/75] Walmart Transportation
+  HTTP 404: https://one.walmart.com/
+  HTTP 404: https://one.walmart.com/about
+  HTTP 404: https://one.walmart.com/about-us
+  HTTP 404: https://one.walmart.com/fleet
+  HTTP 404: https://one.walmart.com/equipment
+  HTTP 404: https://one.walmart.com/services
+  HTTP 404: https://one.walmart.com/company
+  drop non-white (0.094): https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Walmart%E2%80
+  drop non-white (0.091): https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Walmart%E2%80
+  kept 4 images
+[58/75] Amazon Freight / ATG
+  drop non-white (0.021): https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Amazon_Logist
+  drop non-white (0.019): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/I-75_20161_Re
+  drop non-white (0.022): https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/I-75_20161_Re
+  drop non-white (0.056): https://cdn.transportation.brightspotcdn.com/dims4/default/4c02518/214
+  drop non-white (0.045): https://cdn.transportation.brightspotcdn.com/dims4/default/9b02ef0/214
+  kept 6 images
+[59/75] Sysco
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/0/0f/Sysco_semitruck%2C_Spokane%2C_USA.png?
+  kept 5 images
+[60/75] US Foods
+  HTTP 404: https://www.usfoods.com/about
+  HTTP 404: https://www.usfoods.com/about-us
+  HTTP 404: https://www.usfoods.com/fleet
+  HTTP 404: https://www.usfoods.com/equipment
+  HTTP 404: https://www.usfoods.com/services
+  HTTP 404: https://www.usfoods.com/company
+  drop non-white (0.044): https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Ditch_Witch_S
+  drop non-white (0.017): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Ditch_Witch_S
+  drop non-white (0.047): https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Dot_Foods_Dis
+  drop non-white (0.018): https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Horizontalboh
+  drop non-white (0.098): https://www.usfoods.com/_jcr_content/root/main-par/login_state_contain
+  drop non-white (0.086): https://www.usfoods.com/_jcr_content/root/main-par/login_state_contain
+  drop non-white (0.024): https://www.usfoods.com/_jcr_content/root/main-par/login_state_contain
+  kept 3 images
+[61/75] PepsiCo / Frito-Lay
+  HTTP 404: https://www.pepsico.com/about-us
+  HTTP 404: https://www.pepsico.com/fleet
+  HTTP 404: https://www.pepsico.com/equipment
+  HTTP 404: https://www.pepsico.com/services
+  HTTP 404: https://www.pepsico.com/company
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/c/c4/2010_Frito_Lay_All_Electric_Truck%2C_N
+  HTTP 429: https://upload.wikimedia.org/wikipedia/commons/5/5e/Frito_Lay_Display_%2824192864980%29.jp
+  drop non-white (0.03): https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/RESIDENT_OF_O
+  kept 9 images
+[62/75] Coca-Cola Consolidated / fleet
+  HTTP 404: https://www.cokeconsolidated.com/fleet
+  HTTP 404: https://www.cokeconsolidated.com/services
+  HTTP 404: https://www.cokeconsolidated.com/company
+  drop non-white (0.047): https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Coca-Cola-tru
+  drop non-white (0.035): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Coca-Cola_sem
+  kept 4 images
+[63/75] Penske Truck Leasing
+  drop non-white (0.063): https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Penske_Truck_
+  drop non-white (0.033): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Penske_Truck_
+  drop non-white (0.035): https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Penske_rental
+  drop non-white (0.033): https://www.penske.com/-/media/Penske/Content-Cards/Companies/trucks_7
+  kept 4 images
+[64/75] Ryder System
+  drop non-white (0.098): https://www.ryder.com/globalassets/media/images/about-us/seohero-about
+  kept 11 images
+[65/75] U-Haul
+  drop non-white (0.012): https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Snow_Covered_
+  drop non-white (0.02): https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/U-haul_%26_Tr
+  drop non-white (0.069): https://cdnep-uhaul-uhaulcom-global-p-001-f2eeewccehcfg9c9.z01.azurefd
+  drop non-white (0.078): https://cdnep-uhaul-uhaulcom-global-p-001-f2eeewccehcfg9c9.z01.azurefd
+  kept 8 images
+[66/75] Budget Truck Rental
+  drop non-white (0.0): https://www.budgettruck.com/portals/budgettruck/Images/bdgt_trucks_ico
+  kept 5 images
+[67/75] Schneider Dedicated / private brands
+  HTTP 404: https://schneider.com/about
+  HTTP 404: https://schneider.com/about-us
+  HTTP 404: https://schneider.com/fleet
+  HTTP 404: https://schneider.com/equipment
+  HTTP 404: https://schneider.com/services
+  HTTP 404: https://schneider.com/company
+  kept 3 images
+[68/75] FFE Transportation Services
+  HTTP 404: https://www.ffeinc.com/about
+  HTTP 404: https://www.ffeinc.com/about-us
+  HTTP 404: https://www.ffeinc.com/fleet
+  HTTP 404: https://www.ffeinc.com/equipment
+  HTTP 404: https://www.ffeinc.com/services
+  HTTP 404: https://www.ffeinc.com/company
+  kept 1 images
+[69/75] Lone Star Transportation
+  ERR HTTPSConnectionPool(host='www.lonestar-transport.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.lonestar-transport.com/
+  ERR HTTPSConnectionPool(host='www.lonestar-transport.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.lonestar-transport.com/about
+  ERR HTTPSConnectionPool(host='www.lonestar-transport.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.lonestar-transport.com/about-us
+  ERR HTTPSConnectionPool(host='www.lonestar-transport.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.lonestar-transport.com/fleet
+  ERR HTTPSConnectionPool(host='www.lonestar-transport.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.lonestar-transport.com/equipment
+  ERR HTTPSConnectionPool(host='www.lonestar-transport.com', port=443): Max retries exceeded with url: /services (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.lonestar-transport.com/services
+  ERR HTTPSConnectionPool(host='www.lonestar-transport.com', port=443): Max retries exceeded with url: /company (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)'))): https://www.lonestar-transport.com/company
+  kept 0 images
+[70/75] Brown Integrated Logistics
+  ERR HTTPSConnectionPool(host='www.browngls.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='www.browngls.com', port=443): Failed to resolve 'www.browngls.com' ([Errno -2] Name or service not known)")): https://www.browngls.com/
+  ERR HTTPSConnectionPool(host='www.browngls.com', port=443): Max retries exceeded with url: /about (Caused by NameResolutionError("HTTPSConnection(host='www.browngls.com', port=443): Failed to resolve 'www.browngls.com' ([Errno -2] Name or service not known)")): https://www.browngls.com/about
+  ERR HTTPSConnectionPool(host='www.browngls.com', port=443): Max retries exceeded with url: /about-us (Caused by NameResolutionError("HTTPSConnection(host='www.browngls.com', port=443): Failed to resolve 'www.browngls.com' ([Errno -2] Name or service not known)")): https://www.browngls.com/about-us
+  ERR HTTPSConnectionPool(host='www.browngls.com', port=443): Max retries exceeded with url: /fleet (Caused by NameResolutionError("HTTPSConnection(host='www.browngls.com', port=443): Failed to resolve 'www.browngls.com' ([Errno -2] Name or service not known)")): https://www.browngls.com/fleet
+  ERR HTTPSConnectionPool(host='www.browngls.com', port=443): Max retries exceeded with url: /equipment (Caused by NameResolutionError("HTTPSConnection(host='www.browngls.com', port=443): Failed to resolve 'www.browngls.com' ([Errno -2] Name or service not known)")): https://www.browngls.com/equipment
+  ERR HTTPSConnectionPool(host='www.browngls.com', port=443): Max retries exceeded with url: /services (Caused by NameResolutionError("HTTPSConnection(host='www.browngls.com', port=443): Failed to resolve 'www.browngls.com' ([Errno -2] Name or service not known)")): https://www.browngls.com/services
+  ERR HTTPSConnectionPool(host='www.browngls.com', port=443): Max retries exceeded with url: /company (Caused by NameResolutionError("HTTPSConnection(host='www.browngls.com', port=443): Failed to resolve 'www.browngls.com' ([Errno -2] Name or service not known)")): https://www.browngls.com/company
+  kept 4 images
+[71/75] Paper Transport
+  drop non-white (0.045): https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Timber_Haul_i
+  drop non-white (0.0): https://www.papertransport.com/wp-content/uploads/2021/06/PTI-Logo-Wha
+  drop non-white (0.0): https://www.papertransport.com/wp-content/uploads/2024/05/nacfe-1.png
+  kept 5 images
+[72/75] Anderson Trucking Service (ATS)
+  HTTP 404: https://www.atsinc.com/about-us
+  HTTP 404: https://www.atsinc.com/fleet
+  drop non-white (0.0): https://www.atsinc.com/hubfs/ats-truck-sunset.jpeg
+  drop non-white (0.055): https://www.atsinc.com/hubfs/dry-van-transporting-produce-1.jpg
+  drop non-white (0.004): https://f.hubspotusercontent30.net/hub/20336983/hubfs/Images/Trailers/
+  drop non-white (0.006): https://f.hubspotusercontent30.net/hub/20336983/hubfs/Images/Trailers/
+  kept 1 images
+[73/75] Bennett Motor Express
+  kept 0 images
+[74/75] TQL (broker — trailers vary)
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  HTTP 429: https://commons.wikimedia.org/w/api.php
+  HTTP 404: https://www.tql.com/about
+  HTTP 404: https://www.tql.com/fleet
+  HTTP 404: https://www.tql.com/equipment
+  HTTP 404: https://www.tql.com/services
+  HTTP 404: https://www.tql.com/company
+  kept 1 images
+[75/75] C.H. Robinson (broker)
+  robots disallow /
+  robots disallow /about
+  robots disallow /about-us
+  robots disallow /fleet
+  robots disallow /equipment
+  robots disallow /services
+  robots disallow /company
+  drop non-white (0.074): https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/C.H._Robinson
+  kept 2 images
+
+DONE: 75 companies, 250 images kept (fetched 440)

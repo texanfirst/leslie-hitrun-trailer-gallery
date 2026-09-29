@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Trailer lineup — Selma I-35 hit-and-run (gallery only)</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --card: #1a2332;
+    --border: #2d3a4d;
+    --text: #e7ecf3;
+    --muted: #8b9bb4;
+    --accent: #c45c4a;
+    --accent2: #5b8def;
+    --ok: #3d9a6a;
+    --warn: #c9a227;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background: var(--bg); color: var(--text); line-height: 1.45;
+  }
+  header {
+    padding: 1.25rem 1.5rem; border-bottom: 1px solid var(--border);
+    background: linear-gradient(180deg, #1a2332 0%, var(--bg) 100%);
+    position: sticky; top: 0; z-index: 20;
+  }
+  h1 { margin: 0 0 .35rem; font-size: 1.25rem; font-weight: 650; }
+  .disclaimer {
+    background: #3a221c; border: 1px solid var(--accent); color: #f0cfc8;
+    padding: .6rem .85rem; border-radius: 8px; font-size: .9rem; margin: .75rem 0 0;
+  }
+  .meta { color: var(--muted); font-size: .85rem; margin-top: .35rem; }
+  .controls {
+    display: flex; flex-wrap: wrap; gap: .6rem; margin-top: .9rem; align-items: center;
+  }
+  input[type="search"], select {
+    background: var(--card); border: 1px solid var(--border); color: var(--text);
+    padding: .55rem .75rem; border-radius: 8px; font-size: 1rem; min-width: 220px;
+  }
+  input[type="search"] { flex: 1; min-width: 260px; }
+  label.chk { font-size: .9rem; color: var(--muted); display: flex; gap: .4rem; align-items: center; }
+  .stats { font-size: .85rem; color: var(--muted); }
+  main { padding: 1rem 1.5rem 3rem; }
+  .company {
+    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+    margin-bottom: 1rem; overflow: hidden;
+  }
+  .company.hidden { display: none; }
+  .company-head {
+    padding: .85rem 1rem; display: flex; flex-wrap: wrap; gap: .5rem 1rem;
+    align-items: baseline; border-bottom: 1px solid var(--border);
+    cursor: pointer; user-select: none;
+  }
+  .company-head h2 { margin: 0; font-size: 1.05rem; }
+  .badge {
+    font-size: .7rem; text-transform: uppercase; letter-spacing: .04em;
+    padding: .15rem .45rem; border-radius: 999px; border: 1px solid var(--border);
+    color: var(--muted);
+  }
+  .badge.high { border-color: var(--accent); color: #f0a090; }
+  .badge.burgundy { border-color: #8b2942; background: #4a1a28; color: #f0b8c4; }
+  .badge.redhint { border-color: #a33; color: #e88; }
+  .notes { flex: 1 1 100%; color: var(--muted); font-size: .85rem; margin: 0; }
+  .gallery {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: .75rem; padding: .85rem 1rem 1rem;
+  }
+  .thumb {
+    background: #0c1016; border: 1px solid var(--border); border-radius: 8px;
+    overflow: hidden; display: flex; flex-direction: column;
+  }
+  .thumb img {
+    width: 100%; height: 150px; object-fit: cover; background: #111; cursor: zoom-in;
+  }
+  .thumb .cap {
+    padding: .4rem .55rem; font-size: .72rem; color: var(--muted);
+  }
+  .thumb .cap strong { color: var(--text); display: block; font-size: .78rem; }
+  .elim {
+    display: flex; gap: .4rem; padding: 0 .55rem .55rem; flex-wrap: wrap;
+  }
+  .elim button {
+    font-size: .75rem; border-radius: 6px; border: 1px solid var(--border);
+    background: #243044; color: var(--text); padding: .25rem .5rem; cursor: pointer;
+  }
+  .elim button.out { background: #3a221c; border-color: var(--accent); color: #f0cfc8; }
+  .elim button.maybe { background: #2a3420; border-color: var(--ok); color: #b8e0c8; }
+  .company.eliminated { opacity: .35; }
+  .company.eliminated .gallery { display: none; }
+  .noimgs { padding: 1rem; color: var(--muted); font-size: .9rem; font-style: italic; }
+  .lightbox {
+    display: none; position: fixed; inset: 0; background: rgba(0,0,0,.92);
+    z-index: 50; align-items: center; justify-content: center; padding: 1rem;
+  }
+  .lightbox.open { display: flex; }
+  .lightbox img { max-width: 96vw; max-height: 90vh; object-fit: contain; }
+  .lightbox .close {
+    position: absolute; top: 1rem; right: 1rem; background: #333; color: #fff;
+    border: 0; border-radius: 8px; padding: .5rem .8rem; cursor: pointer; font-size: 1rem;
+  }
+  footer { padding: 1rem 1.5rem 2rem; color: var(--muted); font-size: .8rem; }
+  a { color: var(--accent2); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Trailer lineup gallery — Selma TX I-35</h1>
+  <div class="meta">Incident: Mon 2026-09-28 ~9:32 AM CT · White semi trailer · Rear-door writing believed burgundy / dark red</div>
+  <div class="disclaimer">
+    <strong>Lineup only — not an identification.</strong>
+    This is a comparison aid for Leslie to flip through public fleet photos and eliminate obvious mismatches.
+    Do not treat any company here as “the truck.” Report matches to police / insurance with what you actually saw.
+  </div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="Search company name or text on door (e.g. SWIFT, Werner, red…)" autofocus />
+    <select id="prio">
+      <option value="all">All priorities</option>
+      <option value="high" selected>High priority first view</option>
+      <option value="medium">Medium+</option>
+    </select>
+    <select id="letter">
+      <option value="all">Any lettering hint</option>
+      <option value="burgundy" selected>Burgundy / red hints</option>
+      <option value="white">Has white-ish photo</option>
+    </select>
+    <label class="chk"><input type="checkbox" id="hideElim" checked /> Hide eliminated</label>
+    <span class="stats" id="stats"></span>
+  </div>
+</header>
+<main id="list"></main>
+<footer>
+  Data: <code>companies.json</code> · Images from Wikimedia Commons + public carrier sites (robots-respecting, rate-limited).
+  Elimination choices are stored in this browser only (localStorage).
+</footer>
+<div class="lightbox" id="lb"><button class="close" id="lbClose">Close</button><img id="lbImg" alt="" /></div>
+<script>
+const elimKey = 'leslie-hitrun-elim-v1';
+let companies = [];
+let elim = JSON.parse(localStorage.getItem(elimKey) || '{}');
+
+function saveElim(){ localStorage.setItem(elimKey, JSON.stringify(elim)); }
+
+async function load(){
+  const r = await fetch('companies.json');
+  const data = await r.json();
+  companies = data.companies || [];
+  // Sort: high priority + burgundy/red first
+  companies.sort((a,b)=>{
+    const score = c => (c.priority==='high'?3:c.priority==='medium'?2:1)
+      + ((c.lettering_hint||'').match(/red|burgundy/i)?2:0)
+      + (c.image_count?0.5:0);
+    return score(b)-score(a);
+  });
+  render();
+}
+
+function match(c, q){
+  if(!q) return true;
+  const blob = [
+    c.name, c.id, c.notes, c.lettering_hint, c.region,
+    ...(c.door_text_keywords||[]),
+    ...(c.images||[]).flatMap(i=>[i.title,i.lettering_note,i.lettering_detected])
+  ].join(' ').toLowerCase();
+  return q.split(/\s+/).every(t => blob.includes(t));
+}
+
+function render(){
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const prio = document.getElementById('prio').value;
+  const letter = document.getElementById('letter').value;
+  const hideElim = document.getElementById('hideElim').checked;
+  const root = document.getElementById('list');
+  root.innerHTML = '';
+  let shown=0, imgs=0;
+
+  for(const c of companies){
+    const status = elim[c.id] || '';
+    if(hideElim && status==='out') continue;
+    if(prio==='high' && c.priority!=='high') continue;
+    if(prio==='medium' && !(c.priority==='high'||c.priority==='medium')) continue;
+    if(letter==='burgundy'){
+      const hint=(c.lettering_hint||'').toLowerCase();
+      const has = /red|burgundy/.test(hint) || (c.images||[]).some(i=>i.burgundy_candidate || /burgundy|red/.test(i.lettering_note||'') || i.lettering_detected==='burgundy/dark-red');
+      if(!has) continue;
+    }
+    if(letter==='white' && !(c.images||[]).some(i=>i.white_ratio>=0.1)) continue;
+    if(!match(c,q)) continue;
+
+    shown++;
+    imgs += (c.images||[]).length;
+    const div = document.createElement('section');
+    div.className = 'company' + (status==='out'?' eliminated':'');
+    div.dataset.id = c.id;
+
+    const badges = [];
+    badges.push(`<span class="badge ${c.priority==='high'?'high':''}">${c.priority||'n/a'}</span>`);
+    badges.push(`<span class="badge">${c.region||''}</span>`);
+    if(/burgundy/i.test(c.lettering_hint||'')) badges.push('<span class="badge burgundy">burgundy hint</span>');
+    else if(/^red/i.test(c.lettering_hint||'') || /red\//i.test(c.lettering_hint||'')) badges.push('<span class="badge redhint">red lettering hint</span>');
+    badges.push(`<span class="badge">${c.image_count||0} photos</span>`);
+
+    let gallery='';
+    if(!(c.images||[]).length){
+      gallery = `<div class="noimgs">No public trailer photo found yet — keep/eliminate by name &amp; known lettering: <strong>${c.lettering_hint||'unknown'}</strong>. Check their site: ${c.website?`<a href="${c.website}" target="_blank" rel="noopener">${c.website}</a>`:''(n/a')}</div>`;
+    } else {
+      gallery = '<div class="gallery">' + c.images.map(im=>{
+        const tags = [];
+        if(im.is_strong_white) tags.push('strong white');
+        if(im.burgundy_candidate) tags.push('burgundy cand.');
+        if(im.lettering_note) tags.push('lettering: '+im.lettering_note);
+        tags.push('white≈'+Math.round((im.white_ratio||0)*100)+'%');
+        return `<div class="thumb">
+          <img src="images/${im.file}" alt="${(c.name+' trailer').replace(/"/g,'')}" loading="lazy" data-full="images/${im.file}" />
+          <div class="cap"><strong>${im.source||''}</strong>${tags.join(' · ')}<br/><a href="${im.source_url||'#'}" target="_blank" rel="noopener">source</a></div>
+        </div>`;
+      }).join('') + '</div>';
+    }
+
+    div.innerHTML = `
+      <div class="company-head">
+        <h2>${c.name}</h2>
+        ${badges.join('')}
+        <p class="notes">${c.notes||''} · Door-text keywords: ${(c.door_text_keywords||[]).slice(0,8).join(', ')}</p>
+        <div class="elim">
+          <button type="button" data-act="maybe" class="${status==='maybe'?'maybe':''}">Maybe / keep looking</button>
+          <button type="button" data-act="out" class="${status==='out'?'out':''}">Eliminate (not a match)</button>
+          <button type="button" data-act="clear">Clear</button>
+        </div>
+      </div>
+      ${gallery}`;
+    root.appendChild(div);
+  }
+  document.getElementById('stats').textContent = `${shown} companies shown · ${imgs} images · ${Object.values(elim).filter(v=>v==='out').length} eliminated`;
+}
+
+document.getElementById('list').addEventListener('click', e=>{
+  const btn = e.target.closest('button[data-act]');
+  if(btn){
+    const sec = btn.closest('.company');
+    const id = sec.dataset.id;
+    const act = btn.dataset.act;
+    if(act==='clear') delete elim[id];
+    else elim[id]=act;
+    saveElim(); render(); return;
+  }
+  const img = e.target.closest('img[data-full]');
+  if(img){
+    document.getElementById('lbImg').src = img.dataset.full;
+    document.getElementById('lb').classList.add('open');
+  }
+});
+document.getElementById('lbClose').onclick = ()=> document.getElementById('lb').classList.remove('open');
+document.getElementById('lb').onclick = e=>{ if(e.target.id==='lb') e.currentTarget.classList.remove('open'); };
+['q','prio','letter','hideElim'].forEach(id=>{
+  document.getElementById(id).addEventListener('input', render);
+  document.getElementById(id).addEventListener('change', render);
+});
+load();
+</script>
+</body>
+</html>

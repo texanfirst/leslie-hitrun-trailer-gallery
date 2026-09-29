@@ -1,0 +1,677 @@
+[
+  {
+    "id": "swift",
+    "name": "Swift Transportation",
+    "website": "https://www.swifttrans.com",
+    "region": "national",
+    "notes": "Very common on I-35; white dry vans; large red/burgundy SWIFT lettering on rear doors",
+    "lettering_hint": "red/burgundy",
+    "priority": "high"
+  },
+  {
+    "id": "werner",
+    "name": "Werner Enterprises",
+    "website": "https://www.werner.com",
+    "region": "national",
+    "notes": "White trailers; red WERNER lettering",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "jbhunt",
+    "name": "J.B. Hunt Transport",
+    "website": "https://www.jbhunt.com",
+    "region": "national",
+    "notes": "White trailers; orange/black JB Hunt branding",
+    "lettering_hint": "orange",
+    "priority": "medium"
+  },
+  {
+    "id": "schneider",
+    "name": "Schneider National",
+    "website": "https://schneider.com",
+    "region": "national",
+    "notes": "Often orange tractors; white trailers with orange SCHNEIDER",
+    "lettering_hint": "orange",
+    "priority": "medium"
+  },
+  {
+    "id": "knight",
+    "name": "Knight Transportation",
+    "website": "https://www.knighttrans.com",
+    "region": "national",
+    "notes": "White trailers; red/black Knight logo",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "prime",
+    "name": "Prime Inc",
+    "website": "https://www.primeinc.com",
+    "region": "national",
+    "notes": "White reefers/vans; blue/black Prime lettering",
+    "lettering_hint": "blue",
+    "priority": "medium"
+  },
+  {
+    "id": "crst",
+    "name": "CRST The Transportation Solution",
+    "website": "https://www.crst.com",
+    "region": "national",
+    "notes": "White trailers; red CRST lettering",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "crete",
+    "name": "Crete Carrier",
+    "website": "https://www.cretecarrier.com",
+    "region": "national",
+    "notes": "White trailers; red Crete lettering common",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "roehl",
+    "name": "Roehl Transport",
+    "website": "https://www.roehl.jobs",
+    "region": "national",
+    "notes": "White trailers; red Roehl branding",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "covenant",
+    "name": "Covenant Logistics",
+    "website": "https://www.covenantlogistics.com",
+    "region": "national",
+    "notes": "White trailers; blue/red Covenant marks",
+    "lettering_hint": "blue/red",
+    "priority": "medium"
+  },
+  {
+    "id": "usxpress",
+    "name": "U.S. Xpress",
+    "website": "https://www.usxpress.com",
+    "region": "national",
+    "notes": "White trailers; red/black US Xpress",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "heartland",
+    "name": "Heartland Express",
+    "website": "https://www.heartlandexpress.com",
+    "region": "national",
+    "notes": "White trailers; red Heartland lettering",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "marten",
+    "name": "Marten Transport",
+    "website": "https://www.marten.com",
+    "region": "national",
+    "notes": "Mostly reefers; white with blue/green",
+    "lettering_hint": "blue",
+    "priority": "low"
+  },
+  {
+    "id": "kllm",
+    "name": "KLLM Transport Services",
+    "website": "https://www.kllm.com",
+    "region": "national",
+    "notes": "Reefers; white with red/blue KLLM",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "stevens",
+    "name": "Stevens Transport",
+    "website": "https://www.stevenstransport.com",
+    "region": "texas",
+    "notes": "Dallas-based; heavy I-35; white reefers; red/blue Stevens",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "pam",
+    "name": "P.A.M. Transport",
+    "website": "https://www.pamtransport.com",
+    "region": "national",
+    "notes": "White trailers; red PAM lettering",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "usatruck",
+    "name": "USA Truck",
+    "website": "https://www.usa-truck.com",
+    "region": "national",
+    "notes": "White trailers; red/blue USA Truck",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "averitt",
+    "name": "Averitt Express",
+    "website": "https://www.averittexpress.com",
+    "region": "regional",
+    "notes": "Southeast; white trailers; red Averitt",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "estes",
+    "name": "Estes Express Lines",
+    "website": "https://www.estes-express.com",
+    "region": "national",
+    "notes": "LTL; white/green Estes trailers",
+    "lettering_hint": "green",
+    "priority": "low"
+  },
+  {
+    "id": "odfl",
+    "name": "Old Dominion Freight Line",
+    "website": "https://www.odfl.com",
+    "region": "national",
+    "notes": "LTL; white/green ODFL",
+    "lettering_hint": "green",
+    "priority": "low"
+  },
+  {
+    "id": "saia",
+    "name": "Saia LTL Freight",
+    "website": "https://www.saia.com",
+    "region": "national",
+    "notes": "LTL; orange Saia on white/orange",
+    "lettering_hint": "orange",
+    "priority": "low"
+  },
+  {
+    "id": "rlcarriers",
+    "name": "R+L Carriers",
+    "website": "https://www.rlcarriers.com",
+    "region": "national",
+    "notes": "LTL; white with red/black R+L",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "xpo",
+    "name": "XPO Logistics",
+    "website": "https://www.xpo.com",
+    "region": "national",
+    "notes": "LTL; white with red XPO",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "abf",
+    "name": "ABF Freight",
+    "website": "https://www.abf.com",
+    "region": "national",
+    "notes": "LTL; white with green ABF",
+    "lettering_hint": "green",
+    "priority": "low"
+  },
+  {
+    "id": "tforce",
+    "name": "TForce Freight",
+    "website": "https://www.tforcefreight.com",
+    "region": "national",
+    "notes": "Former UPS Freight; brown/white",
+    "lettering_hint": "brown",
+    "priority": "low"
+  },
+  {
+    "id": "fedexfreight",
+    "name": "FedEx Freight",
+    "website": "https://www.fedex.com/en-us/shipping/freight.html",
+    "region": "national",
+    "notes": "Purple/green FedEx Freight trailers",
+    "lettering_hint": "purple",
+    "priority": "low"
+  },
+  {
+    "id": "landstar",
+    "name": "Landstar System",
+    "website": "https://www.landstar.com",
+    "region": "national",
+    "notes": "Owner-ops; varied trailers often white with Landstar",
+    "lettering_hint": "blue/red",
+    "priority": "medium"
+  },
+  {
+    "id": "nfi",
+    "name": "NFI Industries",
+    "website": "https://www.nfiindustries.com",
+    "region": "national",
+    "notes": "White trailers; blue NFI",
+    "lettering_hint": "blue",
+    "priority": "medium"
+  },
+  {
+    "id": "crengland",
+    "name": "C.R. England",
+    "website": "https://www.crengland.com",
+    "region": "national",
+    "notes": "White reefers; red England lettering",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "melton",
+    "name": "Melton Truck Lines",
+    "website": "https://www.meltontruck.com",
+    "region": "national",
+    "notes": "Flatbed mostly; some vans",
+    "lettering_hint": "red",
+    "priority": "low"
+  },
+  {
+    "id": "maverick",
+    "name": "Maverick Transportation",
+    "website": "https://www.maverickusa.com",
+    "region": "national",
+    "notes": "Flatbed; white trailers with red Maverick",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "tmc",
+    "name": "TMC Transportation",
+    "website": "https://www.tmctrans.com",
+    "region": "national",
+    "notes": "Flatbed; white with blue TMC",
+    "lettering_hint": "blue",
+    "priority": "low"
+  },
+  {
+    "id": "hirschbach",
+    "name": "Hirschbach Motor Lines",
+    "website": "https://www.hirschbach.com",
+    "region": "national",
+    "notes": "Reefers; white with red Hirschbach",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "paschall",
+    "name": "Paschall Truck Lines",
+    "website": "https://www.ptl-inc.com",
+    "region": "national",
+    "notes": "White dry vans; red PTL",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "millis",
+    "name": "Millis Transfer",
+    "website": "https://www.millistransfer.com",
+    "region": "regional",
+    "notes": "Midwest; white trailers",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "epes",
+    "name": "Epes Transport System",
+    "website": "https://www.epestransport.com",
+    "region": "regional",
+    "notes": "Southeast; white with red Epes",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "boydbros",
+    "name": "Boyd Bros Transportation",
+    "website": "https://www.boydbros.com",
+    "region": "national",
+    "notes": "Flatbed; white with red Boyd",
+    "lettering_hint": "red",
+    "priority": "low"
+  },
+  {
+    "id": "dart",
+    "name": "Dart Transit Company",
+    "website": "https://www.dart.net",
+    "region": "national",
+    "notes": "White trailers; red Dart lettering",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "transportamerica",
+    "name": "Transport America",
+    "website": "https://www.transportamerica.com",
+    "region": "national",
+    "notes": "White trailers; red/blue Transport America",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "westernflyer",
+    "name": "Western Flyer Xpress",
+    "website": "https://www.wfxpress.com",
+    "region": "regional",
+    "notes": "OKC-based; I-35 corridor; white vans",
+    "lettering_hint": "red/blue",
+    "priority": "high"
+  },
+  {
+    "id": "maytrucking",
+    "name": "May Trucking Company",
+    "website": "https://www.maytrucking.com",
+    "region": "regional",
+    "notes": "West; white trailers; red May",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "systemtransport",
+    "name": "System Transport",
+    "website": "https://www.systemtransport.com",
+    "region": "national",
+    "notes": "Flatbed; white with red System",
+    "lettering_hint": "red",
+    "priority": "low"
+  },
+  {
+    "id": "johnchristner",
+    "name": "John Christner Trucking",
+    "website": "https://www.johnchristner.com",
+    "region": "national",
+    "notes": "Reefers; white with blue/red JCT",
+    "lettering_hint": "blue/red",
+    "priority": "medium"
+  },
+  {
+    "id": "pridetransport",
+    "name": "Pride Transport",
+    "website": "https://www.pridetransport.com",
+    "region": "regional",
+    "notes": "West; white reefers",
+    "lettering_hint": "red",
+    "priority": "low"
+  },
+  {
+    "id": "centralfreight",
+    "name": "Central Freight Lines",
+    "website": "https://www.centralfreight.com",
+    "region": "texas",
+    "notes": "Waco TX LTL; common on I-35; white trailers",
+    "lettering_hint": "red/blue",
+    "priority": "high"
+  },
+  {
+    "id": "mesillavalley",
+    "name": "Mesilla Valley Transportation",
+    "website": "https://www.m-v-t.com",
+    "region": "regional",
+    "notes": "Southwest; white trailers; red MVT",
+    "lettering_hint": "red",
+    "priority": "high"
+  },
+  {
+    "id": "mercer",
+    "name": "Mercer Transportation",
+    "website": "https://www.mercer-trans.com",
+    "region": "national",
+    "notes": "Owner-ops; varied white trailers",
+    "lettering_hint": "varied",
+    "priority": "medium"
+  },
+  {
+    "id": "hubgroup",
+    "name": "Hub Group",
+    "website": "https://www.hubgroup.com",
+    "region": "national",
+    "notes": "Intermodal; white containers/trailers",
+    "lettering_hint": "blue",
+    "priority": "medium"
+  },
+  {
+    "id": "southeastern",
+    "name": "Southeastern Freight Lines",
+    "website": "https://www.sefl.com",
+    "region": "regional",
+    "notes": "Southeast LTL; white with red SEFL",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "forwardair",
+    "name": "Forward Air",
+    "website": "https://www.forwardair.com",
+    "region": "national",
+    "notes": "Expedited; white trailers; red/black Forward",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "dupre",
+    "name": "Dupre Logistics",
+    "website": "https://www.duprelogistics.com",
+    "region": "regional",
+    "notes": "Gulf/South; white/tank",
+    "lettering_hint": "blue",
+    "priority": "low"
+  },
+  {
+    "id": "acmetruck",
+    "name": "Acme Truck Line",
+    "website": "https://www.acmetruck.com",
+    "region": "regional",
+    "notes": "Gulf Coast; white trailers",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "millertrans",
+    "name": "Miller Transporters",
+    "website": "https://www.millert.com",
+    "region": "regional",
+    "notes": "Tank mostly",
+    "lettering_hint": "blue",
+    "priority": "low"
+  },
+  {
+    "id": "roadrunner",
+    "name": "Roadrunner Transportation",
+    "website": "https://www.roadrunner.com",
+    "region": "national",
+    "notes": "LTL/truckload; white with red Roadrunner",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "daytonfreight",
+    "name": "Dayton Freight Lines",
+    "website": "https://www.daytonfreight.com",
+    "region": "regional",
+    "notes": "Midwest LTL; white with red Dayton",
+    "lettering_hint": "red",
+    "priority": "low"
+  },
+  {
+    "id": "pittohio",
+    "name": "PITT OHIO",
+    "website": "https://www.pittohio.com",
+    "region": "regional",
+    "notes": "Northeast LTL",
+    "lettering_hint": "red",
+    "priority": "low"
+  },
+  {
+    "id": "walmart",
+    "name": "Walmart Transportation",
+    "website": "https://one.walmart.com",
+    "region": "private",
+    "notes": "Private fleet; white trailers; blue Walmart spark",
+    "lettering_hint": "blue",
+    "priority": "medium"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon Freight / ATG",
+    "website": "https://freight.amazon.com",
+    "region": "private",
+    "notes": "White trailers; black/blue Amazon smile",
+    "lettering_hint": "black/blue",
+    "priority": "medium"
+  },
+  {
+    "id": "sysco",
+    "name": "Sysco",
+    "website": "https://www.sysco.com",
+    "region": "private",
+    "notes": "White reefers; blue Sysco",
+    "lettering_hint": "blue",
+    "priority": "low"
+  },
+  {
+    "id": "usfoods",
+    "name": "US Foods",
+    "website": "https://www.usfoods.com",
+    "region": "private",
+    "notes": "White reefers; red/blue US Foods",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "pepsico",
+    "name": "PepsiCo / Frito-Lay",
+    "website": "https://www.pepsico.com",
+    "region": "private",
+    "notes": "White trailers; red/blue Pepsi or Frito-Lay",
+    "lettering_hint": "red/blue",
+    "priority": "medium"
+  },
+  {
+    "id": "cocacola",
+    "name": "Coca-Cola Consolidated / fleet",
+    "website": "https://www.cokeconsolidated.com",
+    "region": "private",
+    "notes": "White trailers; red Coca-Cola script",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "penske",
+    "name": "Penske Truck Leasing",
+    "website": "https://www.penske.com",
+    "region": "leasing",
+    "notes": "Yellow/red Penske; many white customer trailers",
+    "lettering_hint": "red/yellow",
+    "priority": "medium"
+  },
+  {
+    "id": "ryder",
+    "name": "Ryder System",
+    "website": "https://www.ryder.com",
+    "region": "leasing",
+    "notes": "Yellow Ryder; white customer trailers common",
+    "lettering_hint": "yellow",
+    "priority": "medium"
+  },
+  {
+    "id": "uhaul",
+    "name": "U-Haul",
+    "website": "https://www.uhaul.com",
+    "region": "rental",
+    "notes": "Orange/white; unlikely semi dry van match",
+    "lettering_hint": "orange",
+    "priority": "low"
+  },
+  {
+    "id": "budget",
+    "name": "Budget Truck Rental",
+    "website": "https://www.budgettruck.com",
+    "region": "rental",
+    "notes": "Orange/white box trucks mostly",
+    "lettering_hint": "orange",
+    "priority": "low"
+  },
+  {
+    "id": "schneiderdedicated",
+    "name": "Schneider Dedicated / private brands",
+    "website": "https://schneider.com",
+    "region": "national",
+    "notes": "Often white trailers for customers",
+    "lettering_hint": "varied",
+    "priority": "medium"
+  },
+  {
+    "id": "ffe",
+    "name": "FFE Transportation Services",
+    "website": "https://www.ffeinc.com",
+    "region": "texas",
+    "notes": "Dallas refrigerated; white reefers on I-35",
+    "lettering_hint": "red/blue",
+    "priority": "high"
+  },
+  {
+    "id": "lonestar",
+    "name": "Lone Star Transportation",
+    "website": "https://www.lonestar-transport.com",
+    "region": "texas",
+    "notes": "TX heavy-haul/flatbed; check white vans",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "brownintegrated",
+    "name": "Brown Integrated Logistics",
+    "website": "https://www.browngls.com",
+    "region": "regional",
+    "notes": "Southeast; white dry vans",
+    "lettering_hint": "brown/red",
+    "priority": "medium"
+  },
+  {
+    "id": "papertransport",
+    "name": "Paper Transport",
+    "website": "https://www.papertransport.com",
+    "region": "regional",
+    "notes": "Midwest; white trailers; red Paper",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "anderson",
+    "name": "Anderson Trucking Service (ATS)",
+    "website": "https://www.atsinc.com",
+    "region": "national",
+    "notes": "Flatbed/specialized; some white vans",
+    "lettering_hint": "red",
+    "priority": "low"
+  },
+  {
+    "id": "bennett",
+    "name": "Bennett Motor Express",
+    "website": "https://www.bennettig.com",
+    "region": "national",
+    "notes": "Heavy haul; white trailers with red Bennett",
+    "lettering_hint": "red",
+    "priority": "medium"
+  },
+  {
+    "id": "tql",
+    "name": "TQL (broker \u2014 trailers vary)",
+    "website": "https://www.tql.com",
+    "region": "broker",
+    "notes": "Broker; carrier trailers vary \u2014 include for completeness",
+    "lettering_hint": "varied",
+    "priority": "low"
+  },
+  {
+    "id": "chrobinson",
+    "name": "C.H. Robinson (broker)",
+    "website": "https://www.chrobinson.com",
+    "region": "broker",
+    "notes": "Broker; Navisphere carriers vary",
+    "lettering_hint": "varied",
+    "priority": "low"
+  }
+]

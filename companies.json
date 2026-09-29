@@ -1,0 +1,4264 @@
+{
+  "incident": {
+    "date": "2026-09-28",
+    "approx_time": "9:32 AM CT",
+    "location": "Selma, TX \u2014 I-35",
+    "description": "White semi trailer; rear-door writing believed burgundy/dark red. Lineup only \u2014 not an identification."
+  },
+  "generated_at": "2026-09-29 05:37:19 CDT",
+  "company_count": 75,
+  "image_count": 234,
+  "companies": [
+    {
+      "id": "swift",
+      "name": "Swift Transportation",
+      "website": "https://www.swifttrans.com",
+      "region": "national",
+      "notes": "Very common on I-35; white dry vans; large red/burgundy SWIFT lettering on rear doors",
+      "lettering_hint": "red/burgundy",
+      "priority": "high",
+      "door_text_keywords": [
+        "Swift Transportation",
+        "Swift",
+        "Transportation",
+        "red/burgundy"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "swift_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ANot_so_Swift_Truck_2.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Not_so_Swift_Truck_2.jpg/960px-Not_so_Swift_Truck_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Not so Swift Truck 2.jpg",
+          "white_ratio": 0.174,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "swift_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ANot_so_Swift_Truck_3.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Not_so_Swift_Truck_3.jpg/960px-Not_so_Swift_Truck_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Not so Swift Truck 3.jpg",
+          "white_ratio": 0.315,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "swift_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATarget_trailer_and_Swift_Transportation_tractor.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Target_trailer_and_Swift_Transportation_tractor.jpg/960px-Target_trailer_and_Swift_Transportation_tractor.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Target trailer and Swift Transportation tractor.jpg",
+          "white_ratio": 0.116,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "swift_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_072.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Truck_072.jpg/960px-Truck_072.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck 072.jpg",
+          "white_ratio": 0.117,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "swift_05.jpg",
+          "source": "company_site",
+          "source_url": "https://www.swifttrans.com/about",
+          "image_url": "https://res.cloudinary.com/knight-swift-transportation/image/upload/f_auto,q_auto/directus/59d416ec-ea1a-4f6c-a971-9b6e028d1007.png",
+          "title": "/about",
+          "white_ratio": 0.458,
+          "lettering_detected": "unclear",
+          "lettering_note": "red/burgundy",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "werner",
+      "name": "Werner Enterprises",
+      "website": "https://www.werner.com",
+      "region": "national",
+      "notes": "White trailers; red WERNER lettering",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Werner Enterprises",
+        "Werner",
+        "Enterprises",
+        "red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "werner_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A2022_Werner_Enterprises.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/2022_Werner_Enterprises.jpg/960px-2022_Werner_Enterprises.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:2022 Werner Enterprises.jpg",
+          "white_ratio": 0.377,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "werner_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ABlue_truck_sky_background_large.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Blue_truck_sky_background_large.jpg/960px-Blue_truck_sky_background_large.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Blue truck sky background large.jpg",
+          "white_ratio": 0.368,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "werner_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWerner_dollar_general_delivery.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Werner_dollar_general_delivery.jpg/960px-Werner_dollar_general_delivery.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Werner dollar general delivery.jpg",
+          "white_ratio": 0.344,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "werner_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWerner_trailer_dayton.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Werner_trailer_dayton.JPG/960px-Werner_trailer_dayton.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Werner trailer dayton.JPG",
+          "white_ratio": 0.51,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "jbhunt",
+      "name": "J.B. Hunt Transport",
+      "website": "https://www.jbhunt.com",
+      "region": "national",
+      "notes": "White trailers; orange/black JB Hunt branding",
+      "lettering_hint": "orange",
+      "priority": "medium",
+      "door_text_keywords": [
+        "J.B. Hunt Transport",
+        "Hunt",
+        "Transport",
+        "orange"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "jbhunt_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_16361_-_Photograph_by_Ed_Edahl_taken_on_09-28-2005_in_Texas.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/FEMA_-_16361_-_Photograph_by_Ed_Edahl_taken_on_09-28-2005_in_Texas.jpg/960px-FEMA_-_16361_-_Photograph_by_Ed_Edahl_taken_on_09-28-2005_in_Texas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:FEMA - 16361 - Photograph by Ed Edahl taken on 09-28-2005 in Texas.jpg",
+          "white_ratio": 0.276,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "jbhunt_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AHunt_truck_in_ca_desert_%2814527672636%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Hunt_truck_in_ca_desert_%2814527672636%29.jpg/960px-Hunt_truck_in_ca_desert_%2814527672636%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Hunt truck in ca desert (14527672636).jpg",
+          "white_ratio": 0.506,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "jbhunt_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AJ.B._Hunt_intermodal_semi_truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/J.B._Hunt_intermodal_semi_truck.jpg/960px-J.B._Hunt_intermodal_semi_truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:J.B. Hunt intermodal semi truck.jpg",
+          "white_ratio": 0.146,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "jbhunt_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AJ.B_Hunt_semi-truck_trailer_on_Interstate_90_in_Spokane%2C_WA.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/J.B_Hunt_semi-truck_trailer_on_Interstate_90_in_Spokane%2C_WA.jpg/960px-J.B_Hunt_semi-truck_trailer_on_Interstate_90_in_Spokane%2C_WA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:J.B Hunt semi-truck trailer on Interstate 90 in Spokane, WA.jpg",
+          "white_ratio": 0.498,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "jbhunt_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AJB_Hunt_truck_in_Harrisburg_jeh.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/JB_Hunt_truck_in_Harrisburg_jeh.jpg/960px-JB_Hunt_truck_in_Harrisburg_jeh.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:JB Hunt truck in Harrisburg jeh.jpg",
+          "white_ratio": 0.232,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "schneider",
+      "name": "Schneider National",
+      "website": "https://schneider.com",
+      "region": "national",
+      "notes": "Often orange tractors; white trailers with orange SCHNEIDER",
+      "lettering_hint": "orange",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Schneider National",
+        "Schneider",
+        "National",
+        "orange"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "schneider_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_Crunch_%281%29_%28688043114%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Truck_Crunch_%281%29_%28688043114%29.jpg/960px-Truck_Crunch_%281%29_%28688043114%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck Crunch (1) (688043114).jpg",
+          "white_ratio": 0.225,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "schneider_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_Crunch_%282%29_%28687170497%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Truck_Crunch_%282%29_%28687170497%29.jpg/960px-Truck_Crunch_%282%29_%28687170497%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck Crunch (2) (687170497).jpg",
+          "white_ratio": 0.171,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "schneider_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_Crunch_%283%29_%28687166295%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Truck_Crunch_%283%29_%28687166295%29.jpg/960px-Truck_Crunch_%283%29_%28687166295%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck Crunch (3) (687166295).jpg",
+          "white_ratio": 0.126,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "schneider_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_Crunch_%286%29_%28687997996%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Truck_Crunch_%286%29_%28687997996%29.jpg/960px-Truck_Crunch_%286%29_%28687997996%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck Crunch (6) (687997996).jpg",
+          "white_ratio": 0.328,
+          "lettering_detected": "orange",
+          "lettering_note": "orange",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "schneider_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_Crunch_%287%29_%28687986854%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Truck_Crunch_%287%29_%28687986854%29.jpg/960px-Truck_Crunch_%287%29_%28687986854%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck Crunch (7) (687986854).jpg",
+          "white_ratio": 0.229,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "knight",
+      "name": "Knight Transportation",
+      "website": "https://www.knighttrans.com",
+      "region": "national",
+      "notes": "White trailers; red/black Knight logo",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Knight Transportation",
+        "Knight",
+        "Transportation",
+        "red"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "knight_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ABakersfield%2C_%28CA%29_Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bakersfield%2C_%28CA%29_Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza%29.jpg/960px-Bakersfield%2C_%28CA%29_Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Bakersfield, (CA) Knight Transportation Service Trucking at Flying J Travel Plaza).jpg",
+          "white_ratio": 0.207,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "knight_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AKnight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg/960px-Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Knight Transportation Service Trucking at Flying J Travel Plaza Bakersfield, (CA).jpg",
+          "white_ratio": 0.21,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "knight_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AVolvo_VN_tractor-trailer%2C_G._Goebel.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Volvo_VN_tractor-trailer%2C_G._Goebel.jpg/960px-Volvo_VN_tractor-trailer%2C_G._Goebel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Volvo VN tractor-trailer, G. Goebel.jpg",
+          "white_ratio": 0.294,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "knight_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.knighttrans.com/",
+          "image_url": "https://www.knighttrans.com/wp-content/uploads/2024/06/careers-driving-1600x1067.jpg",
+          "title": "Knight Transportation truck drivers",
+          "white_ratio": 0.339,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "knight_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.knighttrans.com/",
+          "image_url": "https://www.knighttrans.com/wp-content/uploads/2024/06/careers-office-1200x800.jpg",
+          "title": "Knight Transportation office jobs",
+          "white_ratio": 0.298,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "prime",
+      "name": "Prime Inc",
+      "website": "https://www.primeinc.com",
+      "region": "national",
+      "notes": "White reefers/vans; blue/black Prime lettering",
+      "lettering_hint": "blue",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Prime Inc",
+        "Prime",
+        "Inc",
+        "blue"
+      ],
+      "image_count": 6,
+      "images": [
+        {
+          "file": "prime_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AI-95_NB_Colleton_Co%2C_SC_Truck_Rest_Area.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/I-95_NB_Colleton_Co%2C_SC_Truck_Rest_Area.jpg/960px-I-95_NB_Colleton_Co%2C_SC_Truck_Rest_Area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:I-95 NB Colleton Co, SC Truck Rest Area.jpg",
+          "white_ratio": 0.176,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "prime_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ANTSB_investigates_crash_in_New_Mexico.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/NTSB_investigates_crash_in_New_Mexico.jpg/960px-NTSB_investigates_crash_in_New_Mexico.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:NTSB investigates crash in New Mexico.jpg",
+          "white_ratio": 0.269,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "prime_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APRIME_Inc_-_Peterbilt_Refrigerated_Semi-trailer_truck_-_I-90_Spokane%2C_WA.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/PRIME_Inc_-_Peterbilt_Refrigerated_Semi-trailer_truck_-_I-90_Spokane%2C_WA.jpg/960px-PRIME_Inc_-_Peterbilt_Refrigerated_Semi-trailer_truck_-_I-90_Spokane%2C_WA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:PRIME Inc - Peterbilt Refrigerated Semi-trailer truck - I-90 Spokane, WA.jpg",
+          "white_ratio": 0.363,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "prime_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWebb_Telescope_Upres_B-roll_Clips_%28SVS14393_-_Truck_rolls_off_ship-clip1_00001_print%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Webb_Telescope_Upres_B-roll_Clips_%28SVS14393_-_Truck_rolls_off_ship-clip1_00001_print%29.jpg/960px-Webb_Telescope_Upres_B-roll_Clips_%28SVS14393_-_Truck_rolls_off_ship-clip1_00001_print%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Webb Telescope Upres B-roll Clips (SVS14393 - Truck rolls off ship-clip1 00001 print).jpg",
+          "white_ratio": 0.115,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "prime_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.primeinc.com/",
+          "image_url": "https://www.primeinc.com/wp-content/uploads/2019/05/CARRIER_SOLU_TRUCK_2.png",
+          "title": "A white Prime, Inc. truck pulling a refrigerated trailer with the word \"Your Truck\" and \"Your Trailer\" above it.",
+          "white_ratio": 0.457,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "prime_05.jpg",
+          "source": "company_site",
+          "source_url": "https://www.primeinc.com/",
+          "image_url": "https://www.primeinc.com/wp-content/uploads/2019/05/CARRIER_SOLU_TRUCK_1.png",
+          "title": "A white Prime, Inc. Power Fleet truck pulling a refrigerated trailer with the word \"Your Truck\" and \"Prime's Trailer\" above it.",
+          "white_ratio": 0.473,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "crst",
+      "name": "CRST The Transportation Solution",
+      "website": "https://www.crst.com",
+      "region": "national",
+      "notes": "White trailers; red CRST lettering",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "CRST The Transportation Solution",
+        "CRST",
+        "The",
+        "Transportation",
+        "Solution",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "crst_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AInterstate_95_in_Connecticut_PICT0053_%282884026716%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Interstate_95_in_Connecticut_PICT0053_%282884026716%29.jpg/960px-Interstate_95_in_Connecticut_PICT0053_%282884026716%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Interstate 95 in Connecticut PICT0053 (2884026716).jpg",
+          "white_ratio": 0.131,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "crst_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.crst.com/",
+          "image_url": "https://www.crst.com/wp-content/uploads/2026/09/crst-dedicated-private-fleet-conversion.jpg-1024x683.jpg",
+          "title": "CRST Dedicated tractors and trailers positioned in a fleet yard, representing dedicated transportation services and private fleet conversion solutions for shippers. Home 10",
+          "white_ratio": 0.147,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "crete",
+      "name": "Crete Carrier",
+      "website": "https://www.cretecarrier.com",
+      "region": "national",
+      "notes": "White trailers; red Crete lettering common",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Crete Carrier",
+        "Crete",
+        "Carrier",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "crete_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.cretecarrier.com/",
+          "image_url": "https://www.cretecarrier.com/wp-content/uploads/2022/06/crete-shaffer-button-window3.jpg",
+          "title": "Crete Carrier and Shaffer Trucking - dry van and refrigerated application button",
+          "white_ratio": 0.369,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "crete_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.cretecarrier.com/",
+          "image_url": "https://www.cretecarrier.com/wp-content/uploads/2025/03/hunt-window-button2.jpg",
+          "title": "Hunt Transportation - flatbed / open deck application button",
+          "white_ratio": 0.357,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "roehl",
+      "name": "Roehl Transport",
+      "website": "https://www.roehl.jobs",
+      "region": "national",
+      "notes": "White trailers; red Roehl branding",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Roehl Transport",
+        "Roehl",
+        "Transport",
+        "red"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "roehl_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.roehl.jobs/",
+          "image_url": "https://www.roehl.jobs/getmedia/f0f1e61b-3a8f-4d53-a2be-94c5cb47cde8/hero-mobile-truck-270x480.webp?ext=.webp",
+          "title": "/",
+          "white_ratio": 0.165,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "roehl_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.roehl.jobs/",
+          "image_url": "https://www.roehl.jobs/getmedia/35001f48-5ab4-4e70-9bad-e9408e1fb32c/safety-is-our-cornerstone-value-1280x720.webp?ext=.webp",
+          "title": "The Roehl Way - With Roehl Truck Driver",
+          "white_ratio": 0.408,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "roehl_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.roehl.jobs/",
+          "image_url": "https://www.roehl.jobs/getmedia/7f6e7aad-1c96-4d7f-b51a-50ae3a5f74f0/driver-culture-640x360.webp?ext=.webp",
+          "title": "Roehl Truck and Truck Drivers",
+          "white_ratio": 0.33,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "roehl_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.roehl.jobs/",
+          "image_url": "https://www.roehl.jobs/getmedia/482443c5-74d8-42d0-9a55-039496ca86c4/best-equipment-3-1280x720.webp?ext=.webp",
+          "title": "4 Roehl Commercial Trucks",
+          "white_ratio": 0.405,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "roehl_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.roehl.jobs/",
+          "image_url": "https://www.roehl.jobs/getmedia/f5d08ba4-23d4-466d-b31d-becf986ba37d/kimberly-b-thumbnail.webp?ext=.webp",
+          "title": "Kim B. -  Roehl Transport CDL Truck Driver",
+          "white_ratio": 0.522,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "covenant",
+      "name": "Covenant Logistics",
+      "website": "https://www.covenantlogistics.com",
+      "region": "national",
+      "notes": "White trailers; blue/red Covenant marks",
+      "lettering_hint": "blue/red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Covenant Logistics",
+        "Covenant",
+        "Logistics",
+        "blue/red"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "covenant_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.covenantlogistics.com/",
+          "image_url": "https://cdn.prod.website-files.com/610d8077cf5e6dbc79a9b347/66e09d941976bc9b465a1b61_E28A5788-56.webp",
+          "title": "Woman writing notes on a glass whiteboard in a bright office",
+          "white_ratio": 0.622,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "covenant_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.covenantlogistics.com/",
+          "image_url": "https://cdn.prod.website-files.com/610d8077cf5e6dbc79a9b347/67228375f52476cc1cd1d7c8_E28A5308-Edit-24.webp",
+          "title": "Covenant tractor-trailer hauling freight down a highway",
+          "white_ratio": 0.413,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "covenant_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.covenantlogistics.com/",
+          "image_url": "https://cdn.prod.website-files.com/610d8077cf5e6dbc79a9b347/65a04c4b1cd2764ffcb17271_Transport.webp",
+          "title": "Covenant tractor-trailer speeding down a highway with motion blur",
+          "white_ratio": 0.416,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "covenant_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.covenantlogistics.com/about",
+          "image_url": "https://cdn.prod.website-files.com/610d8077cf5e6d8ff8a9b34c/68e407a5b45fae572615a4c4_AdobeStock_1602562702.jpeg",
+          "title": "Bright, elegant room with built-in white bookshelves and glass cabinet doors",
+          "white_ratio": 0.764,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "covenant_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.covenantlogistics.com/equipment",
+          "image_url": "https://cdn.prod.website-files.com/610d8077cf5e6dbc79a9b347/65b922ae01c3e7ad7d57cb20_DSC00446.webp",
+          "title": "Freightliner Cascadia",
+          "white_ratio": 0.486,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "usxpress",
+      "name": "U.S. Xpress",
+      "website": "https://www.usxpress.com",
+      "region": "national",
+      "notes": "White trailers; red/black US Xpress",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "U.S. Xpress",
+        "Xpress",
+        "red"
+      ],
+      "image_count": 10,
+      "images": [
+        {
+          "file": "usxpress_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_13789_-_Photograph_by_Mark_Wolfe_taken_on_07-11-2005_in_Alabama.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/FEMA_-_13789_-_Photograph_by_Mark_Wolfe_taken_on_07-11-2005_in_Alabama.jpg/960px-FEMA_-_13789_-_Photograph_by_Mark_Wolfe_taken_on_07-11-2005_in_Alabama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:FEMA - 13789 - Photograph by Mark Wolfe taken on 07-11-2005 in Alabama.jpg",
+          "white_ratio": 0.265,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usxpress_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_13790_-_Photograph_by_Mark_Wolfe_taken_on_07-11-2005_in_Alabama.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/FEMA_-_13790_-_Photograph_by_Mark_Wolfe_taken_on_07-11-2005_in_Alabama.jpg/960px-FEMA_-_13790_-_Photograph_by_Mark_Wolfe_taken_on_07-11-2005_in_Alabama.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:FEMA - 13790 - Photograph by Mark Wolfe taken on 07-11-2005 in Alabama.jpg",
+          "white_ratio": 0.155,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usxpress_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFEMA_-_37983_-_Aerial_of_distribution_center_in_Louisiana.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/FEMA_-_37983_-_Aerial_of_distribution_center_in_Louisiana.jpg/960px-FEMA_-_37983_-_Aerial_of_distribution_center_in_Louisiana.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:FEMA - 37983 - Aerial of distribution center in Louisiana.jpg",
+          "white_ratio": 0.145,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usxpress_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AHurricane-Tropical_Storm_-_Atlanta%2C_Ga._%2C_August_24%2C_2011_--_Empty_trucks_arrive_and_trailers_full_of_supplies_leaves_the_Atlanta_staging_area_to_head_to_a_staging_area_in_North_Car_-_DPLA_-_65e1ecd4b6009cb9d43832f3eb5ad69d.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Hurricane-Tropical_Storm_-_Atlanta%2C_Ga._%2C_August_24%2C_2011_--_Empty_trucks_arrive_and_trailers_full_of_supplies_leaves_the_Atlanta_staging_area_to_head_to_a_staging_area_in_North_Car_-_DPLA_-_65e1ecd4b6009cb9d43832f3eb5ad69d.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Hurricane-Tropical Storm - Atlanta, Ga. , August 24, 2011 -- Empty trucks arrive and trailers full of supplies leaves the Atlanta staging area to head to a staging area in North Car - DPLA - 65e1ecd4b6009cb9d43832f3eb5ad69d.jpg",
+          "white_ratio": 0.181,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usxpress_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_Parking_%40_NB_I-95_Martin_Co_Rest_Area.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Truck_Parking_%40_NB_I-95_Martin_Co_Rest_Area.jpg/960px-Truck_Parking_%40_NB_I-95_Martin_Co_Rest_Area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck Parking @ NB I-95 Martin Co Rest Area.jpg",
+          "white_ratio": 0.18,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usxpress_05.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg/960px-1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1450th Transportation Company Theater Operations (9086654).jpg",
+          "white_ratio": 0.519,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usxpress_06.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFlickr_-_The_U.S._Army_-_Tank_transportation.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Flickr_-_The_U.S._Army_-_Tank_transportation.jpg/960px-Flickr_-_The_U.S._Army_-_Tank_transportation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Flickr - The U.S. Army - Tank transportation.jpg",
+          "white_ratio": 0.195,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usxpress_07.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AKnight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg/960px-Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Knight Transportation Service Trucking at Flying J Travel Plaza Bakersfield, (CA).jpg",
+          "white_ratio": 0.21,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usxpress_08.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AUS_Soldiers_Work_Together_with_the_Polish_During_Historic_Rail_Transportation_Workshop_%287039466%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/US_Soldiers_Work_Together_with_the_Polish_During_Historic_Rail_Transportation_Workshop_%287039466%29.jpg/960px-US_Soldiers_Work_Together_with_the_Polish_During_Historic_Rail_Transportation_Workshop_%287039466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:US Soldiers Work Together with the Polish During Historic Rail Transportation Workshop (7039466).jpg",
+          "white_ratio": 0.71,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usxpress_09.jpg",
+          "source": "company_site",
+          "source_url": "https://www.usxpress.com/",
+          "image_url": "https://www.usxpress.com/wp-content/uploads/2026/05/Driver-Jose-C.webp",
+          "title": "Trucking & Freight Logistics Driver-Jose-C",
+          "white_ratio": 0.133,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "heartland",
+      "name": "Heartland Express",
+      "website": "https://www.heartlandexpress.com",
+      "region": "national",
+      "notes": "White trailers; red Heartland lettering",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Heartland Express",
+        "Heartland",
+        "Express",
+        "red"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "heartland_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AHeartland_Express%2C_Wabash_trailer%2C_Aurora%2C_CO.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Heartland_Express%2C_Wabash_trailer%2C_Aurora%2C_CO.jpg/960px-Heartland_Express%2C_Wabash_trailer%2C_Aurora%2C_CO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Heartland Express, Wabash trailer, Aurora, CO.jpg",
+          "white_ratio": 0.27,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "marten",
+      "name": "Marten Transport",
+      "website": "https://www.marten.com",
+      "region": "national",
+      "notes": "Mostly reefers; white with blue/green",
+      "lettering_hint": "blue",
+      "priority": "low",
+      "door_text_keywords": [
+        "Marten Transport",
+        "Marten",
+        "Transport",
+        "blue"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "marten_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AKenworth_T600B%2C_Marten_transportation%2C_Venice_CA.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Kenworth_T600B%2C_Marten_transportation%2C_Venice_CA.jpg/960px-Kenworth_T600B%2C_Marten_transportation%2C_Venice_CA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Kenworth T600B, Marten transportation, Venice CA.jpg",
+          "white_ratio": 0.25,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "kllm",
+      "name": "KLLM Transport Services",
+      "website": "https://www.kllm.com",
+      "region": "national",
+      "notes": "Reefers; white with red/blue KLLM",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "KLLM Transport Services",
+        "KLLM",
+        "Transport",
+        "Services",
+        "red"
+      ],
+      "image_count": 6,
+      "images": [
+        {
+          "file": "kllm_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.kllm.com/equipment",
+          "image_url": "https://www.kllm.com/wp-content/uploads/2021/07/tractor-freightliner.jpg",
+          "title": "Freightliner",
+          "white_ratio": 0.588,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "kllm_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.kllm.com/equipment",
+          "image_url": "https://www.kllm.com/wp-content/uploads/2021/07/tractor-freightliner-mobile.jpg",
+          "title": "Freightliner",
+          "white_ratio": 0.607,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "kllm_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.kllm.com/equipment",
+          "image_url": "https://www.kllm.com/wp-content/uploads/2021/07/tractor-kenworth.jpg",
+          "title": "Kenworth",
+          "white_ratio": 0.647,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "kllm_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.kllm.com/equipment",
+          "image_url": "https://www.kllm.com/wp-content/uploads/2021/07/tractor-kenworth-mobile2.jpg",
+          "title": "Kenworth",
+          "white_ratio": 0.62,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "kllm_05.jpg",
+          "source": "company_site",
+          "source_url": "https://www.kllm.com/equipment",
+          "image_url": "https://www.kllm.com/wp-content/uploads/2023/01/tractor-peterbilt.jpg",
+          "title": "Peterbilt",
+          "white_ratio": 0.602,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "kllm_06.jpg",
+          "source": "company_site",
+          "source_url": "https://www.kllm.com/equipment",
+          "image_url": "https://www.kllm.com/wp-content/uploads/2023/01/tractor-peterbilt-mobile.jpg",
+          "title": "Peterbilt",
+          "white_ratio": 0.551,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "stevens",
+      "name": "Stevens Transport",
+      "website": "https://www.stevenstransport.com",
+      "region": "texas",
+      "notes": "Dallas-based; heavy I-35; white reefers; red/blue Stevens",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Stevens Transport",
+        "Stevens",
+        "Transport",
+        "red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "stevens_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ANew_Kenworth_%40_Southbound_I-75_Sumter_Co_Rest_Area.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/New_Kenworth_%40_Southbound_I-75_Sumter_Co_Rest_Area.JPG/960px-New_Kenworth_%40_Southbound_I-75_Sumter_Co_Rest_Area.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:New Kenworth @ Southbound I-75 Sumter Co Rest Area.JPG",
+          "white_ratio": 0.15,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "stevens_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AStevens_Transport_refrigerated_truck_and_trailer.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Stevens_Transport_refrigerated_truck_and_trailer.jpg/960px-Stevens_Transport_refrigerated_truck_and_trailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Stevens Transport refrigerated truck and trailer.jpg",
+          "white_ratio": 0.542,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "stevens_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWestern_Hay_Tandem_and_other_trucks_%40_Southbound_I-75_Sumter_Co_Rest_Area.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Western_Hay_Tandem_and_other_trucks_%40_Southbound_I-75_Sumter_Co_Rest_Area.jpg/960px-Western_Hay_Tandem_and_other_trucks_%40_Southbound_I-75_Sumter_Co_Rest_Area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Western Hay Tandem and other trucks @ Southbound I-75 Sumter Co Rest Area.jpg",
+          "white_ratio": 0.425,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "stevens_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.stevenstransport.com/",
+          "image_url": "https://www.stevenstransport.com/wp-content/uploads/2023/05/Driver-Focused.jpg",
+          "title": "Image of semi truck with the words \"Driver Focused\" at the bottom",
+          "white_ratio": 0.168,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "pam",
+      "name": "P.A.M. Transport",
+      "website": "https://www.pamtransport.com",
+      "region": "national",
+      "notes": "White trailers; red PAM lettering",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "P.A.M. Transport",
+        "Transport",
+        "red"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "pam_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1938._Loading_log_truck_with_a_shovel._Coates_operation._Tillamook_Burn%2C_Oregon._%2833208344803%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/1938._Loading_log_truck_with_a_shovel._Coates_operation._Tillamook_Burn%2C_Oregon._%2833208344803%29.jpg/960px-1938._Loading_log_truck_with_a_shovel._Coates_operation._Tillamook_Burn%2C_Oregon._%2833208344803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1938. Loading log truck with a shovel. Coates operation. Tillamook Burn, Oregon. (33208344803).jpg",
+          "white_ratio": 0.152,
+          "lettering_detected": "unclear",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "usatruck",
+      "name": "USA Truck",
+      "website": "https://www.usa-truck.com",
+      "region": "national",
+      "notes": "White trailers; red/blue USA Truck",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "USA Truck",
+        "USA",
+        "Truck",
+        "red"
+      ],
+      "image_count": 6,
+      "images": [
+        {
+          "file": "usatruck_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1971-74_New_Mexico_Trailer_license_plate.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/1971-74_New_Mexico_Trailer_license_plate.jpg/960px-1971-74_New_Mexico_Trailer_license_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1971-74 New Mexico Trailer license plate.jpg",
+          "white_ratio": 0.141,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usatruck_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AI-95_SB_South_Carolina_Welcome_Center%3B_Bus_and_Truck_Parking_from_the_Back.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/I-95_SB_South_Carolina_Welcome_Center%3B_Bus_and_Truck_Parking_from_the_Back.jpg/960px-I-95_SB_South_Carolina_Welcome_Center%3B_Bus_and_Truck_Parking_from_the_Back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:I-95 SB South Carolina Welcome Center; Bus and Truck Parking from the Back.jpg",
+          "white_ratio": 0.146,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usatruck_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AUsatruckcab.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Usatruckcab.jpg/960px-Usatruckcab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Usatruckcab.jpg",
+          "white_ratio": 0.187,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usatruck_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AKnight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg/960px-Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza_Bakersfield%2C_%28CA%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Knight Transportation Service Trucking at Flying J Travel Plaza Bakersfield, (CA).jpg",
+          "white_ratio": 0.21,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usatruck_05.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AKnight_transportation_trailer_-_rear.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Knight_transportation_trailer_-_rear.jpg/960px-Knight_transportation_trailer_-_rear.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Knight transportation trailer - rear.jpg",
+          "white_ratio": 0.15,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "usatruck_06.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AVolvo_VN_tractor-trailer%2C_G._Goebel.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Volvo_VN_tractor-trailer%2C_G._Goebel.jpg/960px-Volvo_VN_tractor-trailer%2C_G._Goebel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Volvo VN tractor-trailer, G. Goebel.jpg",
+          "white_ratio": 0.294,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "averitt",
+      "name": "Averitt Express",
+      "website": "https://www.averittexpress.com",
+      "region": "regional",
+      "notes": "Southeast; white trailers; red Averitt",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Averitt Express",
+        "Averitt",
+        "Express",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "estes",
+      "name": "Estes Express Lines",
+      "website": "https://www.estes-express.com",
+      "region": "national",
+      "notes": "LTL; white/green Estes trailers",
+      "lettering_hint": "green",
+      "priority": "low",
+      "door_text_keywords": [
+        "Estes Express Lines",
+        "Estes",
+        "Express",
+        "Lines",
+        "green"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "estes_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AEstes_Express_Lines_Freight_Truck_in_Parking_Lot_-_28792598595.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Estes_Express_Lines_Freight_Truck_in_Parking_Lot_-_28792598595.jpg/960px-Estes_Express_Lines_Freight_Truck_in_Parking_Lot_-_28792598595.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Estes Express Lines Freight Truck in Parking Lot - 28792598595.jpg",
+          "white_ratio": 0.142,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "estes_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.estes-express.com/",
+          "image_url": "https://www.estes-express.com/contentAsset/image/4b2f1274f11efbaba3bd56c7f51a09a6/fileAsset/webp_q/25",
+          "title": "Picture of Estes Prepared To Meet Shippers\u2019 Needs As Truckload Capacity Tightens",
+          "white_ratio": 0.211,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "estes_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.estes-express.com/services",
+          "image_url": "https://www.estes-express.com/contentAsset/image/234e1fb0-633c-4cab-ac4d-56e330ff1441/fileAsset/webp_q/30",
+          "title": "Freight Shipping Made Simple",
+          "white_ratio": 0.569,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "odfl",
+      "name": "Old Dominion Freight Line",
+      "website": "https://www.odfl.com",
+      "region": "national",
+      "notes": "LTL; white/green ODFL",
+      "lettering_hint": "green",
+      "priority": "low",
+      "door_text_keywords": [
+        "Old Dominion Freight Line",
+        "Old",
+        "Dominion",
+        "Freight",
+        "Line",
+        "green"
+      ],
+      "image_count": 6,
+      "images": [
+        {
+          "file": "odfl_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A14th_St_7th_Av_td_%282019-07-11%29_14.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/14th_St_7th_Av_td_%282019-07-11%29_14.jpg/960px-14th_St_7th_Av_td_%282019-07-11%29_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:14th St 7th Av td (2019-07-11) 14.jpg",
+          "white_ratio": 0.122,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "odfl_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A14th_St_7th_Av_td_%282019-07-11%29_14_%28cropped%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/14th_St_7th_Av_td_%282019-07-11%29_14_%28cropped%29.jpg/960px-14th_St_7th_Av_td_%282019-07-11%29_14_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:14th St 7th Av td (2019-07-11) 14 (cropped).jpg",
+          "white_ratio": 0.134,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "odfl_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AODFL_Mark_on_trailer.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/ODFL_Mark_on_trailer.jpg/960px-ODFL_Mark_on_trailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:ODFL Mark on trailer.jpg",
+          "white_ratio": 0.116,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "odfl_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AOld_Dominion_Freight_Line_%282%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Old_Dominion_Freight_Line_%282%29.jpg/960px-Old_Dominion_Freight_Line_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Old Dominion Freight Line (2).jpg",
+          "white_ratio": 0.434,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "odfl_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AOld_Dominion_Freight_Line_on_trailer.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Old_Dominion_Freight_Line_on_trailer.jpg/960px-Old_Dominion_Freight_Line_on_trailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Old Dominion Freight Line on trailer.jpg",
+          "white_ratio": 0.162,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "odfl_05.jpg",
+          "source": "company_site",
+          "source_url": "https://www.odfl.com/",
+          "image_url": "https://www.odfl.com/content/dam/odfl/us/en/images/herobanner/AllServices_hero_truck_coast_1400x375.webp",
+          "title": "AllServices_hero_truck_coast_1400x375.webp",
+          "white_ratio": 0.102,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "saia",
+      "name": "Saia LTL Freight",
+      "website": "https://www.saia.com",
+      "region": "national",
+      "notes": "LTL; orange Saia on white/orange",
+      "lettering_hint": "orange",
+      "priority": "low",
+      "door_text_keywords": [
+        "Saia LTL Freight",
+        "Saia",
+        "LTL",
+        "Freight",
+        "orange"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "saia_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASAIA_truck_on_I-40_in_Arkansas%2C_March_2008.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/SAIA_truck_on_I-40_in_Arkansas%2C_March_2008.jpg/960px-SAIA_truck_on_I-40_in_Arkansas%2C_March_2008.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:SAIA truck on I-40 in Arkansas, March 2008.jpg",
+          "white_ratio": 0.184,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "rlcarriers",
+      "name": "R+L Carriers",
+      "website": "https://www.rlcarriers.com",
+      "region": "national",
+      "notes": "LTL; white with red/black R+L",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "R+L Carriers",
+        "R+L",
+        "Carriers",
+        "red"
+      ],
+      "image_count": 6,
+      "images": [
+        {
+          "file": "rlcarriers_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AI_ran_into_these_2_guys_yesterday_on_the_side_of_the_road._-freight_-truck_drivers_get_it_done%21_-goodpeople_-rustico_-rlcarriers_-yrc.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/I_ran_into_these_2_guys_yesterday_on_the_side_of_the_road._-freight_-truck_drivers_get_it_done%21_-goodpeople_-rustico_-rlcarriers_-yrc.jpg/960px-I_ran_into_these_2_guys_yesterday_on_the_side_of_the_road._-freight_-truck_drivers_get_it_done%21_-goodpeople_-rustico_-rlcarriers_-yrc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:I ran into these 2 guys yesterday on the side of the road. -freight -truck drivers get it done! -goodpeople -rustico -rlcarriers -yrc.jpg",
+          "white_ratio": 0.278,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "rlcarriers_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AR%2BL_Carriers%2C_S_Wahsatch_Ave%2C_Colorado_Springs.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/R%2BL_Carriers%2C_S_Wahsatch_Ave%2C_Colorado_Springs.jpg/960px-R%2BL_Carriers%2C_S_Wahsatch_Ave%2C_Colorado_Springs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:R+L Carriers, S Wahsatch Ave, Colorado Springs.jpg",
+          "white_ratio": 0.216,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "rlcarriers_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AR%2BL_Carriers_Truck_in_Las_Vegas.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/R%2BL_Carriers_Truck_in_Las_Vegas.jpg/960px-R%2BL_Carriers_Truck_in_Las_Vegas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:R+L Carriers Truck in Las Vegas.jpg",
+          "white_ratio": 0.152,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "rlcarriers_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AR%2BL_Carriers_truck_with_tandem_trailer%2C_Ypsilanti%2C_Michigan.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/R%2BL_Carriers_truck_with_tandem_trailer%2C_Ypsilanti%2C_Michigan.jpg/960px-R%2BL_Carriers_truck_with_tandem_trailer%2C_Ypsilanti%2C_Michigan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:R+L Carriers truck with tandem trailer, Ypsilanti, Michigan.jpg",
+          "white_ratio": 0.42,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "rlcarriers_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.rlcarriers.com/",
+          "image_url": "https://www.rlcarriers.com/Content/Images/home/slider/hazmat-placards.webp",
+          "title": "Hazardous materials placards and shipping labels on packaged freight.",
+          "white_ratio": 0.766,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "rlcarriers_05.jpg",
+          "source": "company_site",
+          "source_url": "https://www.rlcarriers.com/",
+          "image_url": "https://www.rlcarriers.com/Content/Images/home/worker-on-dock.webp",
+          "title": "R+L Carriers dock worker handling freight safely",
+          "white_ratio": 0.374,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "xpo",
+      "name": "XPO Logistics",
+      "website": "https://www.xpo.com",
+      "region": "national",
+      "notes": "LTL; white with red XPO",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "XPO Logistics",
+        "XPO",
+        "Logistics",
+        "red"
+      ],
+      "image_count": 6,
+      "images": [
+        {
+          "file": "xpo_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A2020_Renault_Trucks_T.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/2020_Renault_Trucks_T.jpg/960px-2020_Renault_Trucks_T.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:2020 Renault Trucks T.jpg",
+          "white_ratio": 0.101,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "xpo_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AVisita_a_la_empresa_XPO_Logistics_en_Cabanillas_del_Campo.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Visita_a_la_empresa_XPO_Logistics_en_Cabanillas_del_Campo.jpg/960px-Visita_a_la_empresa_XPO_Logistics_en_Cabanillas_del_Campo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Visita a la empresa XPO Logistics en Cabanillas del Campo.jpg",
+          "white_ratio": 0.679,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "xpo_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AXPO_Logistics_en_Oiartzun.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/XPO_Logistics_en_Oiartzun.jpg/960px-XPO_Logistics_en_Oiartzun.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:XPO Logistics en Oiartzun.jpg",
+          "white_ratio": 0.158,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "xpo_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AXPO_Tractor-Trailer.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/XPO_Tractor-Trailer.jpg/960px-XPO_Tractor-Trailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:XPO Tractor-Trailer.jpg",
+          "white_ratio": 0.493,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "xpo_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AXPO_Truck_and_Trailer_on_Bridge.png",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/XPO_Truck_and_Trailer_on_Bridge.png/960px-XPO_Truck_and_Trailer_on_Bridge.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:XPO Truck and Trailer on Bridge.png",
+          "white_ratio": 0.183,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "xpo_05.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AXPO_truck_%40_Zone_Industrielle_de_Vovray_%40_Seynod_%40_Annecy.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/XPO_truck_%40_Zone_Industrielle_de_Vovray_%40_Seynod_%40_Annecy.jpg/960px-XPO_truck_%40_Zone_Industrielle_de_Vovray_%40_Seynod_%40_Annecy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:XPO truck @ Zone Industrielle de Vovray @ Seynod @ Annecy.jpg",
+          "white_ratio": 0.227,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "abf",
+      "name": "ABF Freight",
+      "website": "https://www.abf.com",
+      "region": "national",
+      "notes": "LTL; white with green ABF",
+      "lettering_hint": "green",
+      "priority": "low",
+      "door_text_keywords": [
+        "ABF Freight",
+        "ABF",
+        "Freight",
+        "green"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "abf_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AChaining_up_in_travel_lane_%2849128226518%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Chaining_up_in_travel_lane_%2849128226518%29.jpg/960px-Chaining_up_in_travel_lane_%2849128226518%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Chaining up in travel lane (49128226518).jpg",
+          "white_ratio": 0.248,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "abf_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AThe_ABF_trailer.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/The_ABF_trailer.jpg/960px-The_ABF_trailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:The ABF trailer.jpg",
+          "white_ratio": 0.128,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "abf_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATrailer_Spotted_%28Anchorage%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Trailer_Spotted_%28Anchorage%29.jpg/960px-Trailer_Spotted_%28Anchorage%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Trailer Spotted (Anchorage).jpg",
+          "white_ratio": 0.284,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "abf_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.abf.com/",
+          "image_url": "https://cdn.bfldr.com/IL79ZI6C/at/5xcbw6p9c858qz3kvjrz845m/Hero_Short_0006_Truckload_1.jpg?drupal-image-style=scale_width_1025&width=1025&height=400&format=auto&itok=epzQqc-F",
+          "title": "/",
+          "white_ratio": 0.401,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "tforce",
+      "name": "TForce Freight",
+      "website": "https://www.tforcefreight.com",
+      "region": "national",
+      "notes": "Former UPS Freight; brown/white",
+      "lettering_hint": "brown",
+      "priority": "low",
+      "door_text_keywords": [
+        "TForce Freight",
+        "TForce",
+        "Freight",
+        "brown"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "tforce_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AUPS_Freight_Truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/UPS_Freight_Truck.jpg/960px-UPS_Freight_Truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:UPS Freight Truck.jpg",
+          "white_ratio": 0.396,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "tforce_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.tforcefreight.com/",
+          "image_url": "https://www.tforcefreight.com/ltl/Images/spinner.gif",
+          "title": "/",
+          "white_ratio": 0.789,
+          "lettering_detected": "unclear",
+          "lettering_note": "brown",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "tforce_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.tforcefreight.com/",
+          "image_url": "https://www.tforcefreight.com/ltl/img/53_Strohmyer.jpg",
+          "title": "Home",
+          "white_ratio": 0.351,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "fedexfreight",
+      "name": "FedEx Freight",
+      "website": "https://www.fedex.com/en-us/shipping/freight.html",
+      "region": "national",
+      "notes": "Purple/green FedEx Freight trailers",
+      "lettering_hint": "purple",
+      "priority": "low",
+      "door_text_keywords": [
+        "FedEx Freight",
+        "FedEx",
+        "Freight",
+        "purple"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "fedexfreight_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFEDEX_Freight_%284628756374%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/FEDEX_Freight_%284628756374%29.jpg/960px-FEDEX_Freight_%284628756374%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:FEDEX Freight (4628756374).jpg",
+          "white_ratio": 0.171,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "fedexfreight_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFEDEX_Freight_%284854351838%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/FEDEX_Freight_%284854351838%29.jpg/960px-FEDEX_Freight_%284854351838%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:FEDEX Freight (4854351838).jpg",
+          "white_ratio": 0.188,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "fedexfreight_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFEDEX_National_LTL_Freight_%2850608746077%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/FEDEX_National_LTL_Freight_%2850608746077%29.jpg/960px-FEDEX_National_LTL_Freight_%2850608746077%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:FEDEX National LTL Freight (50608746077).jpg",
+          "white_ratio": 0.245,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "landstar",
+      "name": "Landstar System",
+      "website": "https://www.landstar.com",
+      "region": "national",
+      "notes": "Owner-ops; varied trailers often white with Landstar",
+      "lettering_hint": "blue/red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Landstar System",
+        "Landstar",
+        "System",
+        "blue/red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "landstar_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A230131-A-LY440-1194.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/230131-A-LY440-1194.jpg/960px-230131-A-LY440-1194.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:230131-A-LY440-1194.jpg",
+          "white_ratio": 0.122,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "landstar_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASB_I-75_Rest_Area%2C_Alachua_Co%2C_FLA-6.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/SB_I-75_Rest_Area%2C_Alachua_Co%2C_FLA-6.jpg/960px-SB_I-75_Rest_Area%2C_Alachua_Co%2C_FLA-6.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:SB I-75 Rest Area, Alachua Co, FLA-6.jpg",
+          "white_ratio": 0.203,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "landstar_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASB_I-75_Rest_Area%2C_Alachua_Co%2C_FLA-7.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/SB_I-75_Rest_Area%2C_Alachua_Co%2C_FLA-7.jpg/960px-SB_I-75_Rest_Area%2C_Alachua_Co%2C_FLA-7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:SB I-75 Rest Area, Alachua Co, FLA-7.jpg",
+          "white_ratio": 0.291,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "landstar_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATTX%2C_BNSF_%26_Landstar%2C_Denver%2C_CO.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/TTX%2C_BNSF_%26_Landstar%2C_Denver%2C_CO.jpg/960px-TTX%2C_BNSF_%26_Landstar%2C_Denver%2C_CO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:TTX, BNSF & Landstar, Denver, CO.jpg",
+          "white_ratio": 0.129,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "nfi",
+      "name": "NFI Industries",
+      "website": "https://www.nfiindustries.com",
+      "region": "national",
+      "notes": "White trailers; blue NFI",
+      "lettering_hint": "blue",
+      "priority": "medium",
+      "door_text_keywords": [
+        "NFI Industries",
+        "NFI",
+        "Industries",
+        "blue"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "nfi_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AN_St_Johns_County_NB_I-95_Rest_Area%3B_Turned_in_Camper_Sign.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/N_St_Johns_County_NB_I-95_Rest_Area%3B_Turned_in_Camper_Sign.jpg/960px-N_St_Johns_County_NB_I-95_Rest_Area%3B_Turned_in_Camper_Sign.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:N St Johns County NB I-95 Rest Area; Turned in Camper Sign.jpg",
+          "white_ratio": 0.149,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "crengland",
+      "name": "C.R. England",
+      "website": "https://www.crengland.com",
+      "region": "national",
+      "notes": "White reefers; red England lettering",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "C.R. England",
+        "England",
+        "red"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "crengland_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ADenny%27s_%26_Truck_Parking_Lot_%40_Flying_J_in_Pasco%2C_FL.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Denny%27s_%26_Truck_Parking_Lot_%40_Flying_J_in_Pasco%2C_FL.jpg/960px-Denny%27s_%26_Truck_Parking_Lot_%40_Flying_J_in_Pasco%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Denny's & Truck Parking Lot @ Flying J in Pasco, FL.jpg",
+          "white_ratio": 0.24,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "crengland_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_Memphis_TN_2012-04-21_003.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Truck_Memphis_TN_2012-04-21_003.jpg/960px-Truck_Memphis_TN_2012-04-21_003.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck Memphis TN 2012-04-21 003.jpg",
+          "white_ratio": 0.369,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "crengland_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.crengland.com/",
+          "image_url": "https://www.crengland.com/wp-content/uploads/2026/06/july-2026-article-1024x576.png",
+          "title": "Prepare Freight Planning",
+          "white_ratio": 0.135,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "melton",
+      "name": "Melton Truck Lines",
+      "website": "https://www.meltontruck.com",
+      "region": "national",
+      "notes": "Flatbed mostly; some vans",
+      "lettering_hint": "red",
+      "priority": "low",
+      "door_text_keywords": [
+        "Melton Truck Lines",
+        "Melton",
+        "Truck",
+        "Lines",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "maverick",
+      "name": "Maverick Transportation",
+      "website": "https://www.maverickusa.com",
+      "region": "national",
+      "notes": "Flatbed; white trailers with red Maverick",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Maverick Transportation",
+        "Maverick",
+        "Transportation",
+        "red"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "maverick_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.maverickusa.com/",
+          "image_url": "https://cdn.prod.website-files.com/652db82f45a71830e13d282b/6580d306e7789f90f60ed769_applicant-portal.avif",
+          "title": "A close up of the side of a truck.",
+          "white_ratio": 0.124,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "tmc",
+      "name": "TMC Transportation",
+      "website": "https://www.tmctrans.com",
+      "region": "national",
+      "notes": "Flatbed; white with blue TMC",
+      "lettering_hint": "blue",
+      "priority": "low",
+      "door_text_keywords": [
+        "TMC Transportation",
+        "TMC",
+        "Transportation",
+        "blue"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "tmc_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.tmctrans.com/equipment",
+          "image_url": "https://www.tmctrans.com/webres/Image/TMCTRUCK12.jpg",
+          "title": "TMCTRUCK12",
+          "white_ratio": 0.392,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "tmc_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.tmctrans.com/equipment",
+          "image_url": "https://www.tmctrans.com/webres/Image/TMCTRUCK13.jpg",
+          "title": "TMCTRUCK13",
+          "white_ratio": 0.169,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "tmc_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.tmctrans.com/equipment",
+          "image_url": "https://www.tmctrans.com/webres/Image/TMCTRUCK20.jpg",
+          "title": "TMCTRUCK20",
+          "white_ratio": 0.203,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "hirschbach",
+      "name": "Hirschbach Motor Lines",
+      "website": "https://www.hirschbach.com",
+      "region": "national",
+      "notes": "Reefers; white with red Hirschbach",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Hirschbach Motor Lines",
+        "Hirschbach",
+        "Motor",
+        "Lines",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "paschall",
+      "name": "Paschall Truck Lines",
+      "website": "https://www.ptl-inc.com",
+      "region": "national",
+      "notes": "White dry vans; red PTL",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Paschall Truck Lines",
+        "Paschall",
+        "Truck",
+        "Lines",
+        "red"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "paschall_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.ptl-inc.com/",
+          "image_url": "https://ptl-inc.com/wp-content/uploads/elementor/thumbs/New-trailers-e1658851541206-psc9tjwpjr7t4y2k3qyuac73etiax0o3lc9zo2lxh4.jpg",
+          "title": "New trailers New trailers",
+          "white_ratio": 0.42,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "millis",
+      "name": "Millis Transfer",
+      "website": "https://www.millistransfer.com",
+      "region": "regional",
+      "notes": "Midwest; white trailers",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Millis Transfer",
+        "Millis",
+        "Transfer",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "millis_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.millistransfer.com/",
+          "image_url": "https://res.cloudinary.com/caboose/image/upload/c_scale,f_auto,q_auto:best,w_1400/caboose/media/15131282_4000_huge.jpg",
+          "title": "Truck",
+          "white_ratio": 0.126,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "millis_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.millistransfer.com/",
+          "image_url": "https://res.cloudinary.com/caboose/image/upload/c_scale,f_auto,q_auto:best,w_1400/caboose/media/15131283_img_3044-2_huge.JPG",
+          "title": "Truck",
+          "white_ratio": 0.282,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "epes",
+      "name": "Epes Transport System",
+      "website": "https://www.epestransport.com",
+      "region": "regional",
+      "notes": "Southeast; white with red Epes",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Epes Transport System",
+        "Epes",
+        "Transport",
+        "System",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "epes_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AHurricane-Tropical_Storm_-_Atlanta%2C_Ga._%2C_August_24%2C_2011_--_Empty_trucks_arrive_and_trailers_full_of_supplies_leaves_the_Atlanta_staging_area_to_head_to_a_staging_area_in_North_Car_-_DPLA_-_65e1ecd4b6009cb9d43832f3eb5ad69d.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Hurricane-Tropical_Storm_-_Atlanta%2C_Ga._%2C_August_24%2C_2011_--_Empty_trucks_arrive_and_trailers_full_of_supplies_leaves_the_Atlanta_staging_area_to_head_to_a_staging_area_in_North_Car_-_DPLA_-_65e1ecd4b6009cb9d43832f3eb5ad69d.jpg/960px-thumbnail.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Hurricane-Tropical Storm - Atlanta, Ga. , August 24, 2011 -- Empty trucks arrive and trailers full of supplies leaves the Atlanta staging area to head to a staging area in North Car - DPLA - 65e1ecd4b6009cb9d43832f3eb5ad69d.jpg",
+          "white_ratio": 0.181,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "epes_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWestbound_FL_44_%40_Wildwood_Pilot_Travel_Center.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Westbound_FL_44_%40_Wildwood_Pilot_Travel_Center.JPG/960px-Westbound_FL_44_%40_Wildwood_Pilot_Travel_Center.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Westbound FL 44 @ Wildwood Pilot Travel Center.JPG",
+          "white_ratio": 0.386,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "boydbros",
+      "name": "Boyd Bros Transportation",
+      "website": "https://www.boydbros.com",
+      "region": "national",
+      "notes": "Flatbed; white with red Boyd",
+      "lettering_hint": "red",
+      "priority": "low",
+      "door_text_keywords": [
+        "Boyd Bros Transportation",
+        "Boyd",
+        "Bros",
+        "Transportation",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "boydbros_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.boydbros.com/",
+          "image_url": "https://boydbros.com/images/uploads/BoydBros-Header1.jpg",
+          "title": "Boyd Bros. Transportation power unit parked with door open",
+          "white_ratio": 0.223,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "boydbros_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.boydbros.com/",
+          "image_url": "https://boydbros.com/images/uploads/BoydBros-Header2.jpg",
+          "title": "Boyd Bros. Transportation driver standing in front of cab with arms crossed",
+          "white_ratio": 0.131,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "dart",
+      "name": "Dart Transit Company",
+      "website": "https://www.dart.net",
+      "region": "national",
+      "notes": "White trailers; red Dart lettering",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Dart Transit Company",
+        "Dart",
+        "Transit",
+        "Company",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "transportamerica",
+      "name": "Transport America",
+      "website": "https://www.transportamerica.com",
+      "region": "national",
+      "notes": "White trailers; red/blue Transport America",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Transport America",
+        "Transport",
+        "America",
+        "red"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "transportamerica_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg/960px-1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1450th Transportation Company Theater Operations (9086654).jpg",
+          "white_ratio": 0.519,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "transportamerica_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ABakersfield%2C_%28CA%29_Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bakersfield%2C_%28CA%29_Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza%29.jpg/960px-Bakersfield%2C_%28CA%29_Knight_Transportation_Service_Trucking_at_Flying_J_Travel_Plaza%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Bakersfield, (CA) Knight Transportation Service Trucking at Flying J Travel Plaza).jpg",
+          "white_ratio": 0.207,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "transportamerica_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APenn_Central_Transportation_trailer_in_Colorado_2021-03-22.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Penn_Central_Transportation_trailer_in_Colorado_2021-03-22.jpg/960px-Penn_Central_Transportation_trailer_in_Colorado_2021-03-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Penn Central Transportation trailer in Colorado 2021-03-22.jpg",
+          "white_ratio": 0.255,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "westernflyer",
+      "name": "Western Flyer Xpress",
+      "website": "https://www.wfxpress.com",
+      "region": "regional",
+      "notes": "OKC-based; I-35 corridor; white vans",
+      "lettering_hint": "red/blue",
+      "priority": "high",
+      "door_text_keywords": [
+        "Western Flyer Xpress",
+        "Western",
+        "Flyer",
+        "Xpress",
+        "red/blue"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "westernflyer_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AUnion_Pacific_first_trailers_on_flatcars_from_Denver_1955.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Union_Pacific_first_trailers_on_flatcars_from_Denver_1955.JPG/960px-Union_Pacific_first_trailers_on_flatcars_from_Denver_1955.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Union Pacific first trailers on flatcars from Denver 1955.JPG",
+          "white_ratio": 0.459,
+          "lettering_detected": "unclear",
+          "lettering_note": "red/blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "maytrucking",
+      "name": "May Trucking Company",
+      "website": "https://www.maytrucking.com",
+      "region": "regional",
+      "notes": "West; white trailers; red May",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "May Trucking Company",
+        "May",
+        "Trucking",
+        "Company",
+        "red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "maytrucking_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.maytrucking.com/",
+          "image_url": "https://www.maytrucking.com/assets/images/May-trucking-large-size-92ca1955bd.png",
+          "title": "May Trucking Company",
+          "white_ratio": 0.788,
+          "lettering_detected": "unclear",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "maytrucking_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.maytrucking.com/",
+          "image_url": "https://www.maytrucking.com/assets/images/dlpng_com_15_Usa_map_png_for_free_download_on_mbtskoudsalg_6-2a8da0ed2d.png",
+          "title": "/",
+          "white_ratio": 0.637,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "maytrucking_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.maytrucking.com/services",
+          "image_url": "https://www.maytrucking.com/assets/images/mtc-mayonsideoftruck-c7405e62ad.jpg",
+          "title": "mtc-mayonsideoftruck",
+          "white_ratio": 0.233,
+          "lettering_detected": "unclear",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "maytrucking_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.maytrucking.com/services",
+          "image_url": "https://www.maytrucking.com/assets/images/downloads_v3-5fb588ad50.jpg",
+          "title": "downloads_v3",
+          "white_ratio": 0.519,
+          "lettering_detected": "unclear",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "systemtransport",
+      "name": "System Transport",
+      "website": "https://www.systemtransport.com",
+      "region": "national",
+      "notes": "Flatbed; white with red System",
+      "lettering_hint": "red",
+      "priority": "low",
+      "door_text_keywords": [
+        "System Transport",
+        "System",
+        "Transport",
+        "red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "systemtransport_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1450th_Transportation_Company_Theater_Operations_%289086652%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/1450th_Transportation_Company_Theater_Operations_%289086652%29.jpg/960px-1450th_Transportation_Company_Theater_Operations_%289086652%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1450th Transportation Company Theater Operations (9086652).jpg",
+          "white_ratio": 0.197,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "systemtransport_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg/960px-1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1450th Transportation Company Theater Operations (9086654).jpg",
+          "white_ratio": 0.519,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "systemtransport_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AMAN_eTGX_20.544_4x2_LLS-U_EB_IAA_Transportation_2024_%28DSC04570%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/MAN_eTGX_20.544_4x2_LLS-U_EB_IAA_Transportation_2024_%28DSC04570%29.jpg/960px-MAN_eTGX_20.544_4x2_LLS-U_EB_IAA_Transportation_2024_%28DSC04570%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:MAN eTGX 20.544 4x2 LLS-U EB IAA Transportation 2024 (DSC04570).jpg",
+          "white_ratio": 0.124,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "systemtransport_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APermitted_Longer_Combination_Vehicles_on_the_National_Highway_System_2017_22Oct2018.png",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Permitted_Longer_Combination_Vehicles_on_the_National_Highway_System_2017_22Oct2018.png/960px-Permitted_Longer_Combination_Vehicles_on_the_National_Highway_System_2017_22Oct2018.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Permitted Longer Combination Vehicles on the National Highway System 2017 22Oct2018.png",
+          "white_ratio": 0.946,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "johnchristner",
+      "name": "John Christner Trucking",
+      "website": "https://www.johnchristner.com",
+      "region": "national",
+      "notes": "Reefers; white with blue/red JCT",
+      "lettering_hint": "blue/red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "John Christner Trucking",
+        "John",
+        "Christner",
+        "Trucking",
+        "blue/red"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "johnchristner_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AESM-3_Arrival_at_KSC_%28KSC-20240903-PH-JBS01_0012%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/ESM-3_Arrival_at_KSC_%28KSC-20240903-PH-JBS01_0012%29.jpg/960px-ESM-3_Arrival_at_KSC_%28KSC-20240903-PH-JBS01_0012%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:ESM-3 Arrival at KSC (KSC-20240903-PH-JBS01 0012).jpg",
+          "white_ratio": 0.35,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "johnchristner_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AISS-RapidScat_arrives_at_Kennedy_Space_Center_%28KSC-2014-2504%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/ISS-RapidScat_arrives_at_Kennedy_Space_Center_%28KSC-2014-2504%29.jpg/960px-ISS-RapidScat_arrives_at_Kennedy_Space_Center_%28KSC-2014-2504%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:ISS-RapidScat arrives at Kennedy Space Center (KSC-2014-2504).jpg",
+          "white_ratio": 0.366,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "johnchristner_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATruck_181.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Truck_181.jpg/960px-Truck_181.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Truck 181.jpg",
+          "white_ratio": 0.553,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "pridetransport",
+      "name": "Pride Transport",
+      "website": "https://www.pridetransport.com",
+      "region": "regional",
+      "notes": "West; white reefers",
+      "lettering_hint": "red",
+      "priority": "low",
+      "door_text_keywords": [
+        "Pride Transport",
+        "Pride",
+        "Transport",
+        "red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "pridetransport_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.pridetransport.com/",
+          "image_url": "https://pridetransportation.blob.core.windows.net/uploads/optimized/thumbnail_Poles%20Removed%20Final%20copy-37rdd-2400x1350.jpg",
+          "title": "/",
+          "white_ratio": 0.18,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pridetransport_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.pridetransport.com/",
+          "image_url": "https://pridetransportation.blob.core.windows.net/uploads/optimized/Main%20Hero/Carasoul%20pics%202021-Harley-TRK-5x7xz-2400x1350.jpg",
+          "title": "/",
+          "white_ratio": 0.154,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pridetransport_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.pridetransport.com/",
+          "image_url": "https://pridetransportation.blob.core.windows.net/uploads/optimized/Main%20Hero/IMG_5774%20(1)-7acgq-2400x1600.JPG",
+          "title": "/",
+          "white_ratio": 0.103,
+          "lettering_detected": "unclear",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pridetransport_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.pridetransport.com/",
+          "image_url": "https://pridetransportation.blob.core.windows.net/uploads/optimized/Info%20Card/FamilyPride-8v3yu-992x1717.png",
+          "title": "Pride Transport Freightliner truck",
+          "white_ratio": 0.215,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "centralfreight",
+      "name": "Central Freight Lines",
+      "website": "https://www.centralfreight.com",
+      "region": "texas",
+      "notes": "Waco TX LTL; common on I-35; white trailers",
+      "lettering_hint": "red/blue",
+      "priority": "high",
+      "door_text_keywords": [
+        "Central Freight Lines",
+        "Central",
+        "Freight",
+        "Lines",
+        "red/blue"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "centralfreight_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1450th_Transportation_Company_Theater_Operations_%289086649%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/1450th_Transportation_Company_Theater_Operations_%289086649%29.jpg/960px-1450th_Transportation_Company_Theater_Operations_%289086649%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1450th Transportation Company Theater Operations (9086649).jpg",
+          "white_ratio": 0.238,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "centralfreight_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1450th_Transportation_Company_Theater_Operations_%289086652%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/1450th_Transportation_Company_Theater_Operations_%289086652%29.jpg/960px-1450th_Transportation_Company_Theater_Operations_%289086652%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1450th Transportation Company Theater Operations (9086652).jpg",
+          "white_ratio": 0.197,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "centralfreight_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg/960px-1450th_Transportation_Company_Theater_Operations_%289086654%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:1450th Transportation Company Theater Operations (9086654).jpg",
+          "white_ratio": 0.519,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "centralfreight_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APenn_Central_Transportation_trailer_in_Colorado_2021-03-22.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Penn_Central_Transportation_trailer_in_Colorado_2021-03-22.jpg/960px-Penn_Central_Transportation_trailer_in_Colorado_2021-03-22.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Penn Central Transportation trailer in Colorado 2021-03-22.jpg",
+          "white_ratio": 0.255,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "centralfreight_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATrucks_parked_along_I-5.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Trucks_parked_along_I-5.jpg/960px-Trucks_parked_along_I-5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Trucks parked along I-5.jpg",
+          "white_ratio": 0.131,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "mesillavalley",
+      "name": "Mesilla Valley Transportation",
+      "website": "https://www.m-v-t.com",
+      "region": "regional",
+      "notes": "Southwest; white trailers; red MVT",
+      "lettering_hint": "red",
+      "priority": "high",
+      "door_text_keywords": [
+        "Mesilla Valley Transportation",
+        "Mesilla",
+        "Valley",
+        "Transportation",
+        "red"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "mesillavalley_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.m-v-t.com/fleet",
+          "image_url": "https://m-v-t.com/wp-content/uploads/2021/05/Ken-rod-Thmb.png",
+          "title": "/fleet",
+          "white_ratio": 0.172,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "mercer",
+      "name": "Mercer Transportation",
+      "website": "https://www.mercer-trans.com",
+      "region": "national",
+      "notes": "Owner-ops; varied white trailers",
+      "lettering_hint": "varied",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Mercer Transportation",
+        "Mercer",
+        "Transportation",
+        "varied"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "hubgroup",
+      "name": "Hub Group",
+      "website": "https://www.hubgroup.com",
+      "region": "national",
+      "notes": "Intermodal; white containers/trailers",
+      "lettering_hint": "blue",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Hub Group",
+        "Hub",
+        "Group",
+        "blue"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "hubgroup_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A20000210_15_BNSF_Cicero%2C_IL_%286900392776%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/20000210_15_BNSF_Cicero%2C_IL_%286900392776%29.jpg/960px-20000210_15_BNSF_Cicero%2C_IL_%286900392776%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:20000210 15 BNSF Cicero, IL (6900392776).jpg",
+          "white_ratio": 0.107,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "southeastern",
+      "name": "Southeastern Freight Lines",
+      "website": "https://www.sefl.com",
+      "region": "regional",
+      "notes": "Southeast LTL; white with red SEFL",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Southeastern Freight Lines",
+        "Southeastern",
+        "Freight",
+        "Lines",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "southeastern_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AEB_I-10_Suwannee_Co_Rest_Area%3B_Tandem_Truck_Drive-By.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/EB_I-10_Suwannee_Co_Rest_Area%3B_Tandem_Truck_Drive-By.jpg/960px-EB_I-10_Suwannee_Co_Rest_Area%3B_Tandem_Truck_Drive-By.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:EB I-10 Suwannee Co Rest Area; Tandem Truck Drive-By.jpg",
+          "white_ratio": 0.142,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "southeastern_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASoutheastern_Freight_Lines_truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Southeastern_Freight_Lines_truck.jpg/960px-Southeastern_Freight_Lines_truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Southeastern Freight Lines truck.jpg",
+          "white_ratio": 0.268,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "forwardair",
+      "name": "Forward Air",
+      "website": "https://www.forwardair.com",
+      "region": "national",
+      "notes": "Expedited; white trailers; red/black Forward",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Forward Air",
+        "Forward",
+        "Air",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "forwardair_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AJacknifed_truck_%2810442311795%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Jacknifed_truck_%2810442311795%29.jpg/960px-Jacknifed_truck_%2810442311795%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Jacknifed truck (10442311795).jpg",
+          "white_ratio": 0.644,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "forwardair_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.forwardair.com/",
+          "image_url": "https://cdn.bfldr.com/2YLU38BS/at/79frg9zs7wbv6qw9kqkr9/AdobeStock_303208609.jpg?auto=webp&format=jpg&optimize=high&fit=cover&width=7108&height=4825",
+          "title": "Forward Air semi truck driving down the highway",
+          "white_ratio": 0.149,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "dupre",
+      "name": "Dupre Logistics",
+      "website": "https://www.duprelogistics.com",
+      "region": "regional",
+      "notes": "Gulf/South; white/tank",
+      "lettering_hint": "blue",
+      "priority": "low",
+      "door_text_keywords": [
+        "Dupre Logistics",
+        "Dupre",
+        "Logistics",
+        "blue"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "dupre_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.duprelogistics.com/",
+          "image_url": "https://www.duprelogistics.com/wp-content/uploads/2025/11/truck-hero-1-extended-2-1024x722.jpg",
+          "title": "/",
+          "white_ratio": 0.449,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "acmetruck",
+      "name": "Acme Truck Line",
+      "website": "https://www.acmetruck.com",
+      "region": "regional",
+      "notes": "Gulf Coast; white trailers",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Acme Truck Line",
+        "Acme",
+        "Truck",
+        "Line",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "acmetruck_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.acmetruck.com/",
+          "image_url": "https://www.acmetruck.com/wp-content/themes/acme-wp/images/ACMElogoHeader.png",
+          "title": "/",
+          "white_ratio": 0.161,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "acmetruck_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.acmetruck.com/",
+          "image_url": "https://www.acmetruck.com/wp-content/themes/acme-wp/images/ACMElogoHeaderMobile.png",
+          "title": "/",
+          "white_ratio": 0.238,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "millertrans",
+      "name": "Miller Transporters",
+      "website": "https://www.millert.com",
+      "region": "regional",
+      "notes": "Tank mostly",
+      "lettering_hint": "blue",
+      "priority": "low",
+      "door_text_keywords": [
+        "Miller Transporters",
+        "Miller",
+        "Transporters",
+        "blue"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "millertrans_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ADOT%26PF_Dalton_Tour_%285862035526%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/DOT%26PF_Dalton_Tour_%285862035526%29.jpg/960px-DOT%26PF_Dalton_Tour_%285862035526%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:DOT&PF Dalton Tour (5862035526).jpg",
+          "white_ratio": 0.375,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "roadrunner",
+      "name": "Roadrunner Transportation",
+      "website": "https://www.roadrunner.com",
+      "region": "national",
+      "notes": "LTL/truckload; white with red Roadrunner",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Roadrunner Transportation",
+        "Roadrunner",
+        "Transportation",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "daytonfreight",
+      "name": "Dayton Freight Lines",
+      "website": "https://www.daytonfreight.com",
+      "region": "regional",
+      "notes": "Midwest LTL; white with red Dayton",
+      "lettering_hint": "red",
+      "priority": "low",
+      "door_text_keywords": [
+        "Dayton Freight Lines",
+        "Dayton",
+        "Freight",
+        "Lines",
+        "red"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "daytonfreight_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.daytonfreight.com/",
+          "image_url": "https://daytonfreight.com/wp-content/uploads/2025/03/2026.ServiceCenters.Map_.png",
+          "title": "/",
+          "white_ratio": 0.945,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "daytonfreight_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.daytonfreight.com/",
+          "image_url": "https://daytonfreight.com/wp-content/uploads/2023/02/Our-Commitment-2023.png",
+          "title": "Commitment",
+          "white_ratio": 0.382,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "daytonfreight_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.daytonfreight.com/",
+          "image_url": "https://daytonfreight.com/wp-content/uploads/2023/02/Our-Community-2023.png",
+          "title": "Community",
+          "white_ratio": 0.147,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "pittohio",
+      "name": "PITT OHIO",
+      "website": "https://www.pittohio.com",
+      "region": "regional",
+      "notes": "Northeast LTL",
+      "lettering_hint": "red",
+      "priority": "low",
+      "door_text_keywords": [
+        "PITT OHIO",
+        "PITT",
+        "OHIO",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "walmart",
+      "name": "Walmart Transportation",
+      "website": "https://one.walmart.com",
+      "region": "private",
+      "notes": "Private fleet; white trailers; blue Walmart spark",
+      "lettering_hint": "blue",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Walmart Transportation",
+        "Walmart",
+        "Transportation",
+        "blue"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "walmart_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWalmart_Freightliner_Cascadia_truck_-_Bainbridge%2C_GA_2026.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Walmart_Freightliner_Cascadia_truck_-_Bainbridge%2C_GA_2026.jpg/960px-Walmart_Freightliner_Cascadia_truck_-_Bainbridge%2C_GA_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Walmart Freightliner Cascadia truck - Bainbridge, GA 2026.jpg",
+          "white_ratio": 0.135,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "walmart_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWalmart_box-trailer_semi.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Walmart_box-trailer_semi.jpg/960px-Walmart_box-trailer_semi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Walmart box-trailer semi.jpg",
+          "white_ratio": 0.171,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "walmart_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWalmart%E2%80%99s_Full_Hybrid_Truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Walmart%E2%80%99s_Full_Hybrid_Truck.jpg/960px-Walmart%E2%80%99s_Full_Hybrid_Truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Walmart\u2019s Full Hybrid Truck.jpg",
+          "white_ratio": 0.621,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "walmart_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AWalmart%E2%80%99s_Grease_Fuel_Truck_%282%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Walmart%E2%80%99s_Grease_Fuel_Truck_%282%29.jpg/960px-Walmart%E2%80%99s_Grease_Fuel_Truck_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Walmart\u2019s Grease Fuel Truck (2).jpg",
+          "white_ratio": 0.406,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon Freight / ATG",
+      "website": "https://freight.amazon.com",
+      "region": "private",
+      "notes": "White trailers; black/blue Amazon smile",
+      "lettering_hint": "black/blue",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Amazon Freight / ATG",
+        "Amazon",
+        "Freight",
+        "ATG",
+        "black/blue"
+      ],
+      "image_count": 6,
+      "images": [
+        {
+          "file": "amazon_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AAmazon_truck_in_Oakville%2C_Ontario_20260626.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Amazon_truck_in_Oakville%2C_Ontario_20260626.jpg/960px-Amazon_truck_in_Oakville%2C_Ontario_20260626.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Amazon truck in Oakville, Ontario 20260626.jpg",
+          "white_ratio": 0.23,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "amazon_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ANB_Amazon_Prime_Container_Truck_%40_WPB_Service_Plaza.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/NB_Amazon_Prime_Container_Truck_%40_WPB_Service_Plaza.jpg/960px-NB_Amazon_Prime_Container_Truck_%40_WPB_Service_Plaza.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:NB Amazon Prime Container Truck @ WPB Service Plaza.jpg",
+          "white_ratio": 0.202,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "amazon_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASB_Bedford_Rest_Area%3B_Looking_Back_%40_Truck_Parking_Area.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/SB_Bedford_Rest_Area%3B_Looking_Back_%40_Truck_Parking_Area.jpg/960px-SB_Bedford_Rest_Area%3B_Looking_Back_%40_Truck_Parking_Area.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:SB Bedford Rest Area; Looking Back @ Truck Parking Area.jpg",
+          "white_ratio": 0.39,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "amazon_03.jpg",
+          "source": "company_site",
+          "source_url": "https://freight.amazon.com/",
+          "image_url": "https://cdn.transportation.brightspotcdn.com/dims4/default/6765dae/2147483647/strip/true/crop/4139x2331+34+0/resize/767x432!/format/webp/quality/90/?url=https%3A%2F%2Fshipping-freight-production-ship.s3.us-west-2.amazonaws.com%2Fbrightspot%2Fc0%2F24%2F80c6fc424cc0addf77ac5e8ba541%2Fhomepage-hero-extended-v2.jpg",
+          "title": "Amazon Freight truck driving on highway through mountainous terrain with snow-capped peaks in background",
+          "white_ratio": 0.212,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "amazon_04.jpg",
+          "source": "company_site",
+          "source_url": "https://freight.amazon.com/",
+          "image_url": "https://cdn.transportation.brightspotcdn.com/dims4/default/dc4b998/2147483647/strip/true/crop/1761x990+0+2/resize/500x281!/format/webp/quality/90/?url=https%3A%2F%2Fshipping-freight-production-ship.s3.us-west-2.amazonaws.com%2Fbrightspot%2F3f%2F82%2F51a78d8a40479d6edcf499c6d8f7%2Famazon-reliability.jpg",
+          "title": "driver in tractor",
+          "white_ratio": 0.408,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "amazon_05.jpg",
+          "source": "company_site",
+          "source_url": "https://freight.amazon.com/",
+          "image_url": "https://cdn.transportation.brightspotcdn.com/dims4/default/f5d0d91/2147483647/strip/true/crop/387x217+0+0/resize/500x281!/format/webp/quality/90/?url=https%3A%2F%2Fshipping-freight-production-ship.s3.us-west-2.amazonaws.com%2Fbrightspot%2F53%2F90%2F232bd50e47ff81f6f12963a07467%2Fimages-12.png",
+          "title": "woman using mobile phone",
+          "white_ratio": 0.742,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "sysco",
+      "name": "Sysco",
+      "website": "https://www.sysco.com",
+      "region": "private",
+      "notes": "White reefers; blue Sysco",
+      "lettering_hint": "blue",
+      "priority": "low",
+      "door_text_keywords": [
+        "Sysco",
+        "blue"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "sysco_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ABroomfield_Plaza%2C_Sysco_truck_and_trailer.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Broomfield_Plaza%2C_Sysco_truck_and_trailer.jpg/960px-Broomfield_Plaza%2C_Sysco_truck_and_trailer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Broomfield Plaza, Sysco truck and trailer.jpg",
+          "white_ratio": 0.184,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "sysco_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASYSCO_semi_truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/SYSCO_semi_truck.jpg/960px-SYSCO_semi_truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:SYSCO semi truck.jpg",
+          "white_ratio": 0.157,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "sysco_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASyscoTruck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/SyscoTruck.jpg/960px-SyscoTruck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:SyscoTruck.jpg",
+          "white_ratio": 0.157,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "sysco_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ASysco_Food_Service_Truck_-_Pallet_Delivery_%2849539528381%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Sysco_Food_Service_Truck_-_Pallet_Delivery_%2849539528381%29.jpg/960px-Sysco_Food_Service_Truck_-_Pallet_Delivery_%2849539528381%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Sysco Food Service Truck - Pallet Delivery (49539528381).jpg",
+          "white_ratio": 0.127,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "sysco_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATwo_Sysco_Semi_Trucks.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Two_Sysco_Semi_Trucks.jpg/960px-Two_Sysco_Semi_Trucks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Two Sysco Semi Trucks.jpg",
+          "white_ratio": 0.271,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "usfoods",
+      "name": "US Foods",
+      "website": "https://www.usfoods.com",
+      "region": "private",
+      "notes": "White reefers; red/blue US Foods",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "US Foods",
+        "Foods",
+        "red"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "usfoods_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ADitch_Witch_jt30_pic5.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Ditch_Witch_jt30_pic5.JPG/960px-Ditch_Witch_jt30_pic5.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Ditch Witch jt30 pic5.JPG",
+          "white_ratio": 0.285,
+          "lettering_detected": "green",
+          "lettering_note": "green",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usfoods_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ARobinsons_Ribs_food_truck%2C_Chicago_2015.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Robinsons_Ribs_food_truck%2C_Chicago_2015.jpg/960px-Robinsons_Ribs_food_truck%2C_Chicago_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Robinsons Ribs food truck, Chicago 2015.jpg",
+          "white_ratio": 0.124,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "usfoods_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.usfoods.com/",
+          "image_url": "https://www.usfoods.com/_jcr_content/root/main-par/login_state_containe/logged-in-par/horizontal_scroll_co/par/horizontal_scroll_pa_551209852/rightImage.coreimg.png/1790193414109/1772667656733.png",
+          "title": "/",
+          "white_ratio": 0.304,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "pepsico",
+      "name": "PepsiCo / Frito-Lay",
+      "website": "https://www.pepsico.com",
+      "region": "private",
+      "notes": "White trailers; red/blue Pepsi or Frito-Lay",
+      "lettering_hint": "red/blue",
+      "priority": "medium",
+      "door_text_keywords": [
+        "PepsiCo / Frito-Lay",
+        "PepsiCo",
+        "Frito-Lay",
+        "red/blue"
+      ],
+      "image_count": 9,
+      "images": [
+        {
+          "file": "pepsico_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A2008-08-04_GMC_7500_Pepsi_truck_parked_at_CVS.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/2008-08-04_GMC_7500_Pepsi_truck_parked_at_CVS.jpg/960px-2008-08-04_GMC_7500_Pepsi_truck_parked_at_CVS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:2008-08-04 GMC 7500 Pepsi truck parked at CVS.jpg",
+          "white_ratio": 0.113,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AInternational_DuraStar_Pepsi_truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/International_DuraStar_Pepsi_truck.jpg/960px-International_DuraStar_Pepsi_truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:International DuraStar Pepsi truck.jpg",
+          "white_ratio": 0.265,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APepsi_%284594111641%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Pepsi_%284594111641%29.jpg/960px-Pepsi_%284594111641%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Pepsi (4594111641).jpg",
+          "white_ratio": 0.226,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APepsi_Truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Pepsi_Truck.jpg/960px-Pepsi_Truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Pepsi Truck.jpg",
+          "white_ratio": 0.123,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APepsi_Truck_in_London%2C_Ontario.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Pepsi_Truck_in_London%2C_Ontario.jpg/960px-Pepsi_Truck_in_London%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Pepsi Truck in London, Ontario.jpg",
+          "white_ratio": 0.101,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_05.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AToyota_Walkie_Stacker_Forklift_on_Pepsi_Truck_in_Irvine%2C_FL.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Toyota_Walkie_Stacker_Forklift_on_Pepsi_Truck_in_Irvine%2C_FL.jpg/960px-Toyota_Walkie_Stacker_Forklift_on_Pepsi_Truck_in_Irvine%2C_FL.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Toyota Walkie Stacker Forklift on Pepsi Truck in Irvine, FL.jpg",
+          "white_ratio": 0.182,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_06.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ACami%C3%B3n_de_Sabritas%2C_Mazatl%C3%A1n%2C_28_de_septiembre_de_2022.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Cami%C3%B3n_de_Sabritas%2C_Mazatl%C3%A1n%2C_28_de_septiembre_de_2022.jpg/960px-Cami%C3%B3n_de_Sabritas%2C_Mazatl%C3%A1n%2C_28_de_septiembre_de_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Cami\u00f3n de Sabritas, Mazatl\u00e1n, 28 de septiembre de 2022.jpg",
+          "white_ratio": 0.101,
+          "lettering_detected": "orange",
+          "lettering_note": "orange",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_07.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ADoritos_Truck_%2828531833221%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Doritos_Truck_%2828531833221%29.jpg/960px-Doritos_Truck_%2828531833221%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Doritos Truck (28531833221).jpg",
+          "white_ratio": 0.158,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "pepsico_08.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFrito-Lay_Lay%27s_branded_Ford_E-350_truck_in_Rawlins%2C_Wyoming.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Frito-Lay_Lay%27s_branded_Ford_E-350_truck_in_Rawlins%2C_Wyoming.jpg/960px-Frito-Lay_Lay%27s_branded_Ford_E-350_truck_in_Rawlins%2C_Wyoming.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Frito-Lay Lay's branded Ford E-350 truck in Rawlins, Wyoming.jpg",
+          "white_ratio": 0.114,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "cocacola",
+      "name": "Coca-Cola Consolidated / fleet",
+      "website": "https://www.cokeconsolidated.com",
+      "region": "private",
+      "notes": "White trailers; red Coca-Cola script",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Coca-Cola Consolidated / fleet",
+        "Coca-Cola",
+        "Consolidated",
+        "fleet",
+        "red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "cocacola_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AA_Coca_Cola_Truck_in_London%2C_Ontario.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/A_Coca_Cola_Truck_in_London%2C_Ontario.jpg/960px-A_Coca_Cola_Truck_in_London%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:A Coca Cola Truck in London, Ontario.jpg",
+          "white_ratio": 0.203,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "cocacola_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AAnother_photo_of_a_Coca_Cola_Truck_in_London%2C_Ontario.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Another_photo_of_a_Coca_Cola_Truck_in_London%2C_Ontario.jpg/960px-Another_photo_of_a_Coca_Cola_Truck_in_London%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Another photo of a Coca Cola Truck in London, Ontario.jpg",
+          "white_ratio": 0.256,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "cocacola_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ACoca-Cola_truck%2C_Jefferson_Parish_Louisiana%2C_April_2023.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Coca-Cola_truck%2C_Jefferson_Parish_Louisiana%2C_April_2023.jpg/960px-Coca-Cola_truck%2C_Jefferson_Parish_Louisiana%2C_April_2023.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Coca-Cola truck, Jefferson Parish Louisiana, April 2023.jpg",
+          "white_ratio": 0.3,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "cocacola_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ACoca-Cola_truck_in_Houston.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Coca-Cola_truck_in_Houston.jpg/960px-Coca-Cola_truck_in_Houston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Coca-Cola truck in Houston.jpg",
+          "white_ratio": 0.221,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "penske",
+      "name": "Penske Truck Leasing",
+      "website": "https://www.penske.com",
+      "region": "leasing",
+      "notes": "Yellow/red Penske; many white customer trailers",
+      "lettering_hint": "red/yellow",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Penske Truck Leasing",
+        "Penske",
+        "Truck",
+        "Leasing",
+        "red/yellow"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "penske_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APenske_Hikers_%286885195952%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Penske_Hikers_%286885195952%29.jpg/960px-Penske_Hikers_%286885195952%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Penske Hikers (6885195952).jpg",
+          "white_ratio": 0.29,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "penske_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APenske_Logistics_semi_truck_01.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Penske_Logistics_semi_truck_01.jpg/960px-Penske_Logistics_semi_truck_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Penske Logistics semi truck 01.jpg",
+          "white_ratio": 0.162,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "penske_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3APenske_Truck_Leasing_rental_semi_truck.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Penske_Truck_Leasing_rental_semi_truck.jpg/960px-Penske_Truck_Leasing_rental_semi_truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Penske Truck Leasing rental semi truck.jpg",
+          "white_ratio": 0.128,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "penske_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.penske.com/",
+          "image_url": "https://www.penske.com/-/media/Penske/Content-Cards/Companies/transportation_760x428.webp",
+          "title": "/",
+          "white_ratio": 0.467,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "ryder",
+      "name": "Ryder System",
+      "website": "https://www.ryder.com",
+      "region": "leasing",
+      "notes": "Yellow Ryder; white customer trailers common",
+      "lettering_hint": "yellow",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Ryder System",
+        "Ryder",
+        "System",
+        "yellow"
+      ],
+      "image_count": 11,
+      "images": [
+        {
+          "file": "ryder_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AHTS-30DTF_Hand_Truck_Sentry_System_Ryder_Truck_Freightliner.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/HTS-30DTF_Hand_Truck_Sentry_System_Ryder_Truck_Freightliner.jpg/960px-HTS-30DTF_Hand_Truck_Sentry_System_Ryder_Truck_Freightliner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:HTS-30DTF Hand Truck Sentry System Ryder Truck Freightliner.jpg",
+          "white_ratio": 0.148,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ARyder_Truck_Freightliner_Cascadia_HTS-30DTF_Ultra-Racks.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Ryder_Truck_Freightliner_Cascadia_HTS-30DTF_Ultra-Racks.jpg/960px-Ryder_Truck_Freightliner_Cascadia_HTS-30DTF_Ultra-Racks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Ryder Truck Freightliner Cascadia HTS-30DTF Ultra-Racks.jpg",
+          "white_ratio": 0.275,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ARyder_Truck_HTS_Systems.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Ryder_Truck_HTS_Systems.jpg/960px-Ryder_Truck_HTS_Systems.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Ryder Truck HTS Systems.jpg",
+          "white_ratio": 0.178,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ARyder_Truck_McLane_Distribution.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Ryder_Truck_McLane_Distribution.jpg/960px-Ryder_Truck_McLane_Distribution.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Ryder Truck McLane Distribution.jpg",
+          "white_ratio": 0.348,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_04.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ARyder_Truck_McLane_Distribution_Services.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Ryder_Truck_McLane_Distribution_Services.jpg/960px-Ryder_Truck_McLane_Distribution_Services.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Ryder Truck McLane Distribution Services.jpg",
+          "white_ratio": 0.364,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_05.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ARyder_Truck_Newburgh_Freightliner_Cascadia.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Ryder_Truck_Newburgh_Freightliner_Cascadia.jpg/960px-Ryder_Truck_Newburgh_Freightliner_Cascadia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Ryder Truck Newburgh Freightliner Cascadia.jpg",
+          "white_ratio": 0.261,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_06.jpg",
+          "source": "company_site",
+          "source_url": "https://www.ryder.com/",
+          "image_url": "https://www.ryder.com/globalassets/media/images/transportation-logistics/2024/superhero-transportation-logistics.png?width=900&height=600",
+          "title": "ryder truck on the road ryder truck on the road",
+          "white_ratio": 0.506,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_07.jpg",
+          "source": "company_site",
+          "source_url": "https://www.ryder.com/",
+          "image_url": "https://www.ryder.com/globalassets/media/images/leasing-and-maintenance/seohero-leasing-overview.png?width=900&height=600",
+          "title": "truck fleet leasing and maintenance truck fleet leasing and maintenance",
+          "white_ratio": 0.67,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_08.jpg",
+          "source": "company_site",
+          "source_url": "https://www.ryder.com/",
+          "image_url": "https://www.ryder.com/globalassets/media/images/homepage/refresh/2026/april/mutlimedia-port-to-door-solutions.jpg?width=900&height=600",
+          "title": "A Ryder semi truck fulfilling port to door solutions",
+          "white_ratio": 0.239,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "ryder_09.jpg",
+          "source": "company_site",
+          "source_url": "https://www.ryder.com/",
+          "image_url": "https://www.ryder.com/globalassets/media/images/transportation-logistics/dedicated-transportation/video-dts.jpg",
+          "title": "Dedicated Transportation Solution video thumbnail Dedicated Transportation Solution video thumbnail",
+          "white_ratio": 0.278,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "ryder_10.jpg",
+          "source": "company_site",
+          "source_url": "https://www.ryder.com/",
+          "image_url": "https://www.ryder.com/globalassets/media/images/homepage/refresh/2026/april/multimedia-rydergyde.jpg?width=900&height=600",
+          "title": "A fleet manager using Rydergyde to monitor his vehicles",
+          "white_ratio": 0.345,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "uhaul",
+      "name": "U-Haul",
+      "website": "https://www.uhaul.com",
+      "region": "rental",
+      "notes": "Orange/white; unlikely semi dry van match",
+      "lettering_hint": "orange",
+      "priority": "low",
+      "door_text_keywords": [
+        "U-Haul",
+        "orange"
+      ],
+      "image_count": 8,
+      "images": [
+        {
+          "file": "uhaul_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AFord_U-Haul_Truck_Las_Vegas_Fall_2024.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Ford_U-Haul_Truck_Las_Vegas_Fall_2024.jpg/960px-Ford_U-Haul_Truck_Las_Vegas_Fall_2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Ford U-Haul Truck Las Vegas Fall 2024.jpg",
+          "white_ratio": 0.182,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "uhaul_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AU-Haul_Rental_Truck_%2844601958941%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/U-Haul_Rental_Truck_%2844601958941%29.jpg/960px-U-Haul_Rental_Truck_%2844601958941%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:U-Haul Rental Truck (44601958941).jpg",
+          "white_ratio": 0.189,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "uhaul_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AU-Haul_truck_in_Springvile%2C_Utah%2C_Jul_17.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/U-Haul_truck_in_Springvile%2C_Utah%2C_Jul_17.jpg/960px-U-Haul_truck_in_Springvile%2C_Utah%2C_Jul_17.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:U-Haul truck in Springvile, Utah, Jul 17.jpg",
+          "white_ratio": 0.131,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "uhaul_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.uhaul.com/",
+          "image_url": "https://cdnep-uhaul-uhaulcom-global-p-001-f2eeewccehcfg9c9.z01.azurefd.net/uhaulcom/cdn/Misc/_Theme/Header/nav-dropdown-towing-lg.jpg",
+          "title": "A U-Haul moving truck driving on the highway towing a truck on a U-Haul utility trailer",
+          "white_ratio": 0.265,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "uhaul_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.uhaul.com/",
+          "image_url": "https://cdnep-uhaul-uhaulcom-global-p-001-f2eeewccehcfg9c9.z01.azurefd.net/uhaulcom/cdn/MovingHelpMvc/LandingPages/Providers/Large/who-are-moving-helpers.jpg",
+          "title": "A group of Moving helpers with loaded boxes standing next to a U-Haul moving truck",
+          "white_ratio": 0.181,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "uhaul_05.jpg",
+          "source": "company_site",
+          "source_url": "https://www.uhaul.com/",
+          "image_url": "https://cdnep-uhaul-uhaulcom-global-p-001-f2eeewccehcfg9c9.z01.azurefd.net/uhaulcom/cdn/MovingSuppliesMvc/MovingSupplies/trailer-hitch-install.jpg",
+          "title": "A mechanic installing a trailer hitch.",
+          "white_ratio": 0.15,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "uhaul_06.jpg",
+          "source": "company_site",
+          "source_url": "https://www.uhaul.com/",
+          "image_url": "https://cdnep-uhaul-uhaulcom-global-p-001-f2eeewccehcfg9c9.z01.azurefd.net/uhaulcom/cdn/Misc/Home/Hero/mobile/tm-hero-sm.jpg",
+          "title": "A U-Haul Moving Truck driving on a road in the desert",
+          "white_ratio": 0.406,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "uhaul_07.jpg",
+          "source": "company_site",
+          "source_url": "https://www.uhaul.com/",
+          "image_url": "https://cdnep-uhaul-uhaulcom-global-p-001-f2eeewccehcfg9c9.z01.azurefd.net/uhaulcom/cdn/Misc/Home/Banners/Hero/th-hero-sm.jpg",
+          "title": "U-Haul Truck towing a trailer on a coastal road",
+          "white_ratio": 0.168,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "budget",
+      "name": "Budget Truck Rental",
+      "website": "https://www.budgettruck.com",
+      "region": "rental",
+      "notes": "Orange/white box trucks mostly",
+      "lettering_hint": "orange",
+      "priority": "low",
+      "door_text_keywords": [
+        "Budget Truck Rental",
+        "Budget",
+        "Truck",
+        "Rental",
+        "orange"
+      ],
+      "image_count": 5,
+      "images": [
+        {
+          "file": "budget_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.budgettruck.com/",
+          "image_url": "https://www.budgettruck.com/Portals/BudgetTruck/Images/Banners/Personal/2000x585_home_cargo_van_20dis.webp",
+          "title": "/",
+          "white_ratio": 0.561,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "budget_01.jpg",
+          "source": "company_site",
+          "source_url": "https://www.budgettruck.com/",
+          "image_url": "https://www.budgettruck.com/Portals/BudgetTruck/Images/Banners/Hero-Banners/2000x585-home-business-hero.jpg",
+          "title": "Business Rentals Made Easy Business Rentals Made Easy",
+          "white_ratio": 0.2,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "budget_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.budgettruck.com/",
+          "image_url": "https://www.budgettruck.com/portals/budgettruck/Images/Banners/AARP-New.jpg",
+          "title": "AARP member discount, Save up to 20%",
+          "white_ratio": 0.677,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "budget_03.jpg",
+          "source": "company_site",
+          "source_url": "https://www.budgettruck.com/",
+          "image_url": "https://www.budgettruck.com/portals/budgettruck/Images/Banners/Personal/hireahelper-logo.png",
+          "title": "Don\u2019t lift a thing. Get loading help.",
+          "white_ratio": 0.935,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "budget_04.jpg",
+          "source": "company_site",
+          "source_url": "https://www.budgettruck.com/",
+          "image_url": "https://www.budgettruck.com/portals/budgettruck/Images/Banners/Bottom_Banner_PickUP_Truck.jpg",
+          "title": "Need a Pick-Up Truck?",
+          "white_ratio": 0.285,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "schneiderdedicated",
+      "name": "Schneider Dedicated / private brands",
+      "website": "https://schneider.com",
+      "region": "national",
+      "notes": "Often white trailers for customers",
+      "lettering_hint": "varied",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Schneider Dedicated / private brands",
+        "Schneider",
+        "Dedicated",
+        "private",
+        "brands",
+        "varied"
+      ],
+      "image_count": 3,
+      "images": [
+        {
+          "file": "schneiderdedicated_00.jpg",
+          "source": "company_site",
+          "source_url": "https://schneider.com/",
+          "image_url": "https://images.contentstack.io/v3/assets/bltd6fbf0727eef6ef7/blt8c571bbf38625902/62d6e896181754349ea33dbe/freightpower-shipper-computer-screen.png?width=550?quality=50&auto=webp",
+          "title": "/",
+          "white_ratio": 0.383,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "schneiderdedicated_01.jpg",
+          "source": "company_site",
+          "source_url": "https://schneider.com/",
+          "image_url": "https://images.contentstack.io/v3/assets/bltd6fbf0727eef6ef7/blt5dff92ca9ee44727/609533e5c7224a492fd98bbf/schneider-freightpower-carrier-app-portal.png?width=550?quality=50&auto=webp",
+          "title": "loadboard for carriers",
+          "white_ratio": 0.337,
+          "lettering_detected": "orange",
+          "lettering_note": "orange",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "schneiderdedicated_02.jpg",
+          "source": "company_site",
+          "source_url": "https://schneider.com/",
+          "image_url": "https://images.contentstack.io/v3/assets/bltd6fbf0727eef6ef7/blt2221c18a743996b3/62a234cbaafb955713939220/from_pledge_to_plan_hero-cover.jpg?width=550&quality=70?quality=50&auto=webp",
+          "title": "Truck Icon next to a cloud labeled \"CO2\" from_pledge_to_plan_hero-cover.jpg",
+          "white_ratio": 0.811,
+          "lettering_detected": "orange",
+          "lettering_note": "orange",
+          "is_strong_white": true,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "ffe",
+      "name": "FFE Transportation Services",
+      "website": "https://www.ffeinc.com",
+      "region": "texas",
+      "notes": "Dallas refrigerated; white reefers on I-35",
+      "lettering_hint": "red/blue",
+      "priority": "high",
+      "door_text_keywords": [
+        "FFE Transportation Services",
+        "FFE",
+        "Transportation",
+        "Services",
+        "red/blue"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "ffe_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.ffeinc.com/",
+          "image_url": "https://www.ffeinc.com/assets/images/ffe-truck-6.jpg",
+          "title": "/",
+          "white_ratio": 0.204,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": true
+    },
+    {
+      "id": "lonestar",
+      "name": "Lone Star Transportation",
+      "website": "https://www.lonestar-transport.com",
+      "region": "texas",
+      "notes": "TX heavy-haul/flatbed; check white vans",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Lone Star Transportation",
+        "Lone",
+        "Star",
+        "Transportation",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "brownintegrated",
+      "name": "Brown Integrated Logistics",
+      "website": "https://www.browngls.com",
+      "region": "regional",
+      "notes": "Southeast; white dry vans",
+      "lettering_hint": "brown/red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Brown Integrated Logistics",
+        "Brown",
+        "Integrated",
+        "Logistics",
+        "brown/red"
+      ],
+      "image_count": 4,
+      "images": [
+        {
+          "file": "brownintegrated_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A3rd_MLG_conducts_Bulk_Fuel_Operations_%288931156%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/3rd_MLG_conducts_Bulk_Fuel_Operations_%288931156%29.jpg/960px-3rd_MLG_conducts_Bulk_Fuel_Operations_%288931156%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:3rd MLG conducts Bulk Fuel Operations (8931156).jpg",
+          "white_ratio": 0.213,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "brownintegrated_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3A3rd_MLG_conducts_Bulk_Fuel_Operations_%288931160%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/3rd_MLG_conducts_Bulk_Fuel_Operations_%288931160%29.jpg/960px-3rd_MLG_conducts_Bulk_Fuel_Operations_%288931160%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:3rd MLG conducts Bulk Fuel Operations (8931160).jpg",
+          "white_ratio": 0.207,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "brownintegrated_02.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AIAA_2024_009_travelarz.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/IAA_2024_009_travelarz.jpg/960px-IAA_2024_009_travelarz.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:IAA 2024 009 travelarz.jpg",
+          "white_ratio": 0.177,
+          "lettering_detected": "red",
+          "lettering_note": "red",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "brownintegrated_03.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ATRANSPORTATION_%2820120106-OC-AMW-0789%29.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/TRANSPORTATION_%2820120106-OC-AMW-0789%29.jpg/960px-TRANSPORTATION_%2820120106-OC-AMW-0789%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:TRANSPORTATION (20120106-OC-AMW-0789).jpg",
+          "white_ratio": 0.211,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "papertransport",
+      "name": "Paper Transport",
+      "website": "https://www.papertransport.com",
+      "region": "regional",
+      "notes": "Midwest; white trailers; red Paper",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Paper Transport",
+        "Paper",
+        "Transport",
+        "red"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "papertransport_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3ADiagram_of_truck_loaded_with_paper_rolls.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Diagram_of_truck_loaded_with_paper_rolls.jpg/960px-Diagram_of_truck_loaded_with_paper_rolls.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Diagram of truck loaded with paper rolls.jpg",
+          "white_ratio": 0.824,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        },
+        {
+          "file": "papertransport_02.jpg",
+          "source": "company_site",
+          "source_url": "https://www.papertransport.com/",
+          "image_url": "https://www.papertransport.com/wp-content/uploads/2026/07/AA-Top-25-NA-DCC-3PL-2026-242x300.jpg",
+          "title": "Armstrong and Associates Top 25 Dedicated Contract Carriage 2026",
+          "white_ratio": 0.683,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "anderson",
+      "name": "Anderson Trucking Service (ATS)",
+      "website": "https://www.atsinc.com",
+      "region": "national",
+      "notes": "Flatbed/specialized; some white vans",
+      "lettering_hint": "red",
+      "priority": "low",
+      "door_text_keywords": [
+        "Anderson Trucking Service (ATS)",
+        "Anderson",
+        "Trucking",
+        "Service",
+        "ATS",
+        "red"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "anderson_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.atsinc.com/equipment",
+          "image_url": "https://www.atsinc.com/hs-fs/hubfs/Images/Page%20Images/Asset%20Equipment/Asset-Equipment-Secondary.png?width=1500&name=Asset-Equipment-Secondary.png",
+          "title": "Asset-Equipment-Secondary",
+          "white_ratio": 0.422,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "bennett",
+      "name": "Bennett Motor Express",
+      "website": "https://www.bennettig.com",
+      "region": "national",
+      "notes": "Heavy haul; white trailers with red Bennett",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "door_text_keywords": [
+        "Bennett Motor Express",
+        "Bennett",
+        "Motor",
+        "Express",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "tql",
+      "name": "TQL (broker \u2014 trailers vary)",
+      "website": "https://www.tql.com",
+      "region": "broker",
+      "notes": "Broker; carrier trailers vary \u2014 include for completeness",
+      "lettering_hint": "varied",
+      "priority": "low",
+      "door_text_keywords": [
+        "TQL (broker \u2014 trailers vary)",
+        "TQL",
+        "broker",
+        "trailers",
+        "vary",
+        "varied"
+      ],
+      "image_count": 1,
+      "images": [
+        {
+          "file": "tql_00.jpg",
+          "source": "company_site",
+          "source_url": "https://www.tql.com/about-us",
+          "image_url": "https://www.tql.com/getmedia/ff5ffd86-1315-4e19-8e18-94644ae8b48e/Winning-Principles-Final.png",
+          "title": "1. Pledge integrity, 2. Exceed Expectations, 3. Recognize the Value of Teamwork, 4. Be Forthright About Conflict",
+          "white_ratio": 0.118,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        }
+      ],
+      "has_burgundy_hint": false
+    },
+    {
+      "id": "chrobinson",
+      "name": "C.H. Robinson (broker)",
+      "website": "https://www.chrobinson.com",
+      "region": "broker",
+      "notes": "Broker; Navisphere carriers vary",
+      "lettering_hint": "varied",
+      "priority": "low",
+      "door_text_keywords": [
+        "C.H. Robinson (broker)",
+        "Robinson",
+        "broker",
+        "varied"
+      ],
+      "image_count": 2,
+      "images": [
+        {
+          "file": "chrobinson_00.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AGevara_Truck_in_Switzerland_.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Gevara_Truck_in_Switzerland_.jpg/960px-Gevara_Truck_in_Switzerland_.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Gevara Truck in Switzerland .jpg",
+          "white_ratio": 0.133,
+          "lettering_detected": "blue",
+          "lettering_note": "blue",
+          "is_strong_white": false,
+          "burgundy_candidate": false
+        },
+        {
+          "file": "chrobinson_01.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File%3AUSMC-111214-M-QX735-036.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/USMC-111214-M-QX735-036.jpg/960px-USMC-111214-M-QX735-036.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:USMC-111214-M-QX735-036.jpg",
+          "white_ratio": 0.442,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true
+        }
+      ],
+      "has_burgundy_hint": false
+    }
+  ]
+}
