@@ -2,513 +2,749 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Trailer lineup — Leslie (phone)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="theme-color" content="#0f1419" />
+<title>Trailer lineup — Leslie</title>
 <style>
   :root {
-    --bg: #0f1419;
-    --card: #1a2332;
-    --border: #2d3a4d;
-    --text: #e7ecf3;
-    --muted: #8b9bb4;
-    --accent: #c45c4a;
-    --accent2: #5b8def;
-    --ok: #3d9a6a;
-    --rear: #2a6b4a;
+    --bg:#0f1419; --card:#1a2332; --border:#2d3a4d; --text:#e7ecf3; --muted:#8b9bb4;
+    --accent:#c45c4a; --accent2:#5b8def; --ok:#3d9a6a; --maybe:#c9a227; --no:#8b3a3a;
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
   }
-  * { box-sizing: border-box; }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { height: 100%; }
   body {
-    margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    background: var(--bg); color: var(--text); line-height: 1.45;
+    margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.4;
+    overscroll-behavior: contain;
   }
-  header {
-    padding: .9rem 1rem 1rem; border-bottom: 1px solid var(--border);
-    background: #1a2332; position: relative; z-index: 20;
-  }
-  h1 { margin: 0 0 .25rem; font-size: 1.1rem; font-weight: 650; }
-  .how {
-    background: #243044; border: 1px solid var(--border); border-radius: 10px;
-    padding: .65rem .8rem; font-size: .92rem; margin: .55rem 0 .7rem;
-  }
-  .how strong { color: #fff; }
-  .disclaimer {
-    background: #3a221c; border: 1px solid var(--accent); color: #f0cfc8;
-    padding: .55rem .75rem; border-radius: 8px; font-size: .82rem; margin: 0 0 .75rem;
-  }
-  .search-wrap { display: flex; gap: .5rem; align-items: stretch; }
-  input[type="search"] {
-    flex: 1; background: #0c1016; border: 2px solid var(--accent2); color: var(--text);
-    padding: .85rem .9rem; border-radius: 10px; font-size: 1.1rem; min-width: 0;
-  }
-  input[type="search"]::placeholder { color: #6b7c94; }
-  button.clear-q, button.clear-f {
-    border: 1px solid var(--border); background: #243044; color: var(--text);
-    border-radius: 10px; padding: 0 .85rem; font-size: .9rem; white-space: nowrap; cursor: pointer;
-  }
-  .chips {
-    display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .65rem;
-  }
-  .chips button {
-    border: 1px solid var(--border); background: #0c1016; color: var(--text);
-    border-radius: 999px; padding: .35rem .7rem; font-size: .8rem; cursor: pointer;
-  }
-  .chips button:active { border-color: var(--accent2); }
-  .chips button.active { border-color: var(--accent2); background: #1a3050; }
-  .chips button.leslie-chip { background: #5b2a2e; border: 2px solid #d88478; color: #fff; font-weight: 700; padding: .45rem .8rem; }
-  .chips button.leslie-chip.active { background: #c45c4a; border-color: #ffd1c9; }
-  .chips button.rear-chip { background: #1a3a2a; border: 2px solid #3d9a6a; color: #c8f0d8; font-weight: 700; padding: .45rem .8rem; }
-  .chips button.rear-chip.active { background: #2a6b4a; border-color: #9eecc0; color: #fff; }
-  details.filters {
-    margin-top: .65rem; color: var(--muted); font-size: .88rem;
-  }
-  details.filters summary { cursor: pointer; padding: .25rem 0; }
-  .filter-row {
-    display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .5rem; align-items: center;
-  }
-  select {
-    background: var(--card); border: 1px solid var(--border); color: var(--text);
-    padding: .5rem .65rem; border-radius: 8px; font-size: .95rem;
-  }
-  label.chk { display: flex; gap: .4rem; align-items: center; }
-  .stats { font-size: .85rem; color: var(--muted); margin-top: .45rem; }
-  .empty {
-    margin: 1.25rem 1rem; padding: 1rem; border: 1px dashed var(--border);
-    border-radius: 12px; color: var(--muted); text-align: center;
-  }
-  .empty button {
-    margin-top: .75rem; background: var(--accent2); color: #fff; border: 0;
-    border-radius: 10px; padding: .65rem 1rem; font-size: 1rem; cursor: pointer;
-  }
-  main { padding: .85rem 1rem 3rem; }
-  .company {
-    background: var(--card); border: 1px solid var(--border); border-radius: 12px;
-    margin-bottom: .85rem; overflow: hidden;
-  }
-  .company.eliminated { opacity: .35; }
-  .company.eliminated .gallery { display: none; }
-  .company-head { padding: .85rem 1rem; border-bottom: 1px solid var(--border); }
-  .name-row {
-    display: flex; align-items: center; gap: .65rem; margin-bottom: .35rem;
-  }
-  .logo-thumb {
-    width: 44px; height: 44px; object-fit: contain; background: #fff;
-    border-radius: 8px; border: 1px solid var(--border); flex-shrink: 0;
-  }
-  .logo-thumb.missing {
-    display: flex; align-items: center; justify-content: center;
-    font-size: .65rem; color: var(--muted); background: #0c1016;
-  }
-  .company-head h2 { margin: 0; font-size: 1.15rem; }
-  .badge {
-    font-size: .68rem; text-transform: uppercase; letter-spacing: .04em;
-    padding: .15rem .45rem; border-radius: 999px; border: 1px solid var(--border);
-    color: var(--muted); display: inline-block; margin: 0 .25rem .25rem 0;
-  }
-  .badge.high { border-color: var(--accent); color: #f0a090; }
-  .badge.burgundy { border-color: #8b2942; background: #4a1a28; color: #f0b8c4; }
-  .badge.redhint { border-color: #a33; color: #e88; }
-  .badge.rear-co { border-color: #3d9a6a; background: #1a3a2a; color: #9eecc0; }
-  .notes { color: var(--muted); font-size: .85rem; margin: .35rem 0 .55rem; }
-  .elim { display: flex; gap: .4rem; flex-wrap: wrap; }
-  .elim button {
-    font-size: .85rem; border-radius: 8px; border: 1px solid var(--border);
-    background: #243044; color: var(--text); padding: .45rem .65rem; cursor: pointer;
-  }
-  .elim button.out { background: #3a221c; border-color: var(--accent); color: #f0cfc8; }
-  .elim button.maybe { background: #2a3420; border-color: var(--ok); color: #b8e0c8; }
-  .gallery {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    gap: .55rem; padding: .75rem;
-  }
-  .thumb {
-    background: #0c1016; border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
-    position: relative;
-  }
-  .thumb img {
-    width: 100%; height: 140px; object-fit: cover; background: #111; cursor: zoom-in; display: block;
-  }
-  .thumb .cap { padding: .35rem .45rem; font-size: .7rem; color: var(--muted); }
-  .view-badge {
-    position: absolute; top: .35rem; left: .35rem;
-    font-size: .65rem; font-weight: 700; letter-spacing: .04em;
-    padding: .2rem .4rem; border-radius: 6px; text-transform: uppercase;
-  }
-  .view-badge.rear { background: #2a6b4a; color: #fff; }
-  .view-badge.side { background: #6b4a2a; color: #ffe8d0; }
-  .view-badge.other { background: #333; color: #ccc; }
-  .side-warn { color: #f0cfc8; font-weight: 600; }
-  .noimgs { padding: 1rem; color: var(--muted); font-size: .9rem; font-style: italic; }
-  .lightbox {
-    display: none; position: fixed; inset: 0; background: rgba(0,0,0,.92);
-    z-index: 50; align-items: center; justify-content: center; padding: 1rem;
-  }
-  .lightbox.open { display: flex; }
-  .lightbox img { max-width: 96vw; max-height: 88vh; object-fit: contain; }
-  .lightbox .close {
-    position: absolute; top: 1rem; right: 1rem; background: #333; color: #fff;
-    border: 0; border-radius: 8px; padding: .55rem .85rem; cursor: pointer; font-size: 1rem;
-  }
-  footer { padding: 1rem; color: var(--muted); font-size: .78rem; }
+  button { font: inherit; cursor: pointer; }
   a { color: var(--accent2); }
-  .err { color: #f0a090; padding: 1rem; }
+
+  .screen { display:none; min-height:100%; flex-direction:column; }
+  .screen.active { display:flex; }
+
+  /* —— Start —— */
+  .start-wrap { padding:1rem 1rem 2rem; max-width:560px; margin:0 auto; width:100%; }
+  h1 { font-size:1.25rem; margin:0 0 .5rem; }
+  .disclaimer {
+    background:#3a221c; border:1px solid var(--accent); color:#f0cfc8;
+    padding:.7rem .85rem; border-radius:10px; font-size:.88rem; margin:.6rem 0;
+  }
+  .card {
+    background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:.85rem; margin:.65rem 0;
+  }
+  .card h2 { margin:0 0 .4rem; font-size:1rem; }
+  .muted { color:var(--muted); font-size:.86rem; }
+  .primary {
+    display:block; width:100%; background:var(--accent2); color:#fff; border:0;
+    border-radius:12px; padding:1rem; font-size:1.1rem; font-weight:650; margin-top:.75rem;
+  }
+  .secondary {
+    display:block; width:100%; background:#243044; color:var(--text);
+    border:1px solid var(--border); border-radius:12px; padding:.85rem; font-size:1rem; margin-top:.5rem;
+  }
+  .ghost {
+    background:transparent; border:0; color:var(--accent2); padding:.5rem; font-size:.9rem; margin-top:.35rem;
+  }
+  .chip-row { display:flex; flex-wrap:wrap; gap:.4rem; margin-top:.5rem; }
+  .chip {
+    border:1px solid var(--border); background:#0c1016; color:var(--text);
+    border-radius:999px; padding:.4rem .75rem; font-size:.82rem;
+  }
+  .chip.on { border-color:var(--accent2); background:#1a3050; }
+  .chip.draw-sim { border-color:#8b5a2b; background:#2a1e12; }
+  .chip.draw-sim.on { border-color:#e0a060; background:#4a3218; }
+
+  /* —— Lineup —— */
+  .topbar {
+    padding:.65rem 1rem; border-bottom:1px solid var(--border); background:#1a2332;
+    display:flex; align-items:center; justify-content:space-between; gap:.5rem;
+    position:sticky; top:0; z-index:10;
+  }
+  .topbar .prog { font-size:.82rem; color:var(--muted); }
+  .topbar button.linkish {
+    background:transparent; border:1px solid var(--border); color:var(--text);
+    border-radius:8px; padding:.4rem .65rem; font-size:.82rem;
+  }
+  .photo-stage {
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    padding:.75rem 1rem; min-height:0;
+  }
+  .photo-frame {
+    width:100%; max-width:520px; background:#0c1016; border:1px solid var(--border);
+    border-radius:14px; overflow:hidden; position:relative;
+  }
+  .photo-frame img {
+    width:100%; max-height:58vh; object-fit:contain; background:#111; display:block; margin:0 auto;
+  }
+  .photo-meta {
+    padding:.55rem .75rem; font-size:.78rem; color:var(--muted);
+    border-top:1px solid var(--border);
+  }
+  .blind-badge {
+    position:absolute; top:.5rem; left:.5rem; background:rgba(0,0,0,.72); color:#fff;
+    font-size:.68rem; font-weight:700; letter-spacing:.04em; padding:.25rem .5rem; border-radius:6px;
+  }
+  .actions {
+    padding:.75rem 1rem calc(1rem + var(--safe-bottom));
+    display:grid; grid-template-columns:1fr 1fr 1fr; gap:.5rem;
+    background:linear-gradient(to top, var(--bg) 80%, transparent);
+  }
+  .actions button {
+    border:0; border-radius:12px; padding:1.05rem .4rem; font-weight:700; font-size:1rem;
+    min-height:3.4rem;
+  }
+  .btn-no { background:var(--no); color:#fff; }
+  .btn-maybe { background:var(--maybe); color:#1a1400; }
+  .btn-familiar { background:var(--ok); color:#fff; }
+  .hint-bar {
+    text-align:center; font-size:.78rem; color:var(--muted); padding:0 1rem .35rem;
+  }
+
+  /* —— Modals —— */
+  .modal {
+    display:none; position:fixed; inset:0; background:rgba(0,0,0,.88);
+    z-index:40; padding:1rem; overflow:auto; -webkit-overflow-scrolling:touch;
+  }
+  .modal.open { display:block; }
+  .modal-inner {
+    max-width:560px; margin:0 auto; background:var(--card); border:1px solid var(--border);
+    border-radius:14px; padding:1rem; position:relative;
+  }
+  .modal-inner img { width:100%; border-radius:8px; background:#fff; }
+  .modal .close {
+    position:sticky; top:0; float:right; background:#333; color:#fff; border:0;
+    border-radius:8px; padding:.45rem .75rem; margin-bottom:.5rem;
+  }
+  .quote {
+    background:#243044; border-left:3px solid var(--accent); padding:.65rem .8rem;
+    margin:.6rem 0; font-size:.92rem; font-style:italic;
+  }
+
+  /* —— Review / Admin —— */
+  .list-wrap { padding:1rem; max-width:640px; margin:0 auto; width:100%; padding-bottom:3rem; }
+  .verdict {
+    background:var(--card); border:1px solid var(--border); border-radius:12px;
+    padding:.75rem; margin-bottom:.65rem;
+  }
+  .verdict.familiar { border-color:var(--ok); }
+  .verdict.maybe { border-color:var(--maybe); }
+  .verdict.no { opacity:.55; }
+  .verdict h3 { margin:0 0 .25rem; font-size:1rem; }
+  .thumb-row { display:flex; gap:.5rem; overflow-x:auto; padding:.35rem 0; }
+  .thumb-row img { height:72px; width:96px; object-fit:cover; border-radius:6px; background:#111; flex-shrink:0; }
+  .toolbar { display:flex; flex-wrap:wrap; gap:.4rem; margin:.5rem 0 1rem; }
+  .toolbar button, .toolbar label.chip {
+    border:1px solid var(--border); background:#243044; color:var(--text);
+    border-radius:10px; padding:.55rem .75rem; font-size:.85rem;
+  }
+  .admin-table { width:100%; border-collapse:collapse; font-size:.78rem; }
+  .admin-table th, .admin-table td { border-bottom:1px solid var(--border); padding:.35rem; text-align:left; vertical-align:top; }
+  .export-box {
+    width:100%; min-height:140px; background:#0c1016; color:#cde; border:1px solid var(--border);
+    border-radius:8px; padding:.65rem; font-family:ui-monospace,monospace; font-size:.75rem;
+  }
+  .empty { text-align:center; color:var(--muted); padding:2rem 1rem; }
+  .more-like {
+    display:none; padding:1rem; background:#1a3050; border-top:1px solid var(--accent2);
+  }
+  .more-like.show { display:block; }
+  .more-like button {
+    width:100%; margin-top:.4rem; background:var(--accent2); color:#fff; border:0;
+    border-radius:10px; padding:.85rem; font-weight:650;
+  }
+  .more-like .skip {
+    background:transparent; border:1px solid var(--border); color:var(--muted); margin-top:.35rem;
+  }
 </style>
 </head>
 <body>
-<header>
-  <h1>Trailer lineup for Leslie</h1>
-  <div class="disclaimer"><strong>Lineup only — not an ID.</strong> Flip photos. Eliminate mismatches. Tell police/insurance only what you actually saw.</div>
-  <div class="how">
-    <strong>Don’t type first — scroll the photos.</strong> Prefer <strong>REAR</strong> (back doors) shots — that’s what you saw. Tap a chip only if you want that filter/company. Tap a photo to zoom. Tap Eliminate if it’s not a match.
-    <div style="margin-top:.45rem"><strong>Leslie’s note:</strong> she thought the lettering was sideways, maybe an M — just one of the three shapes, not necessarily all three.</div>
-  </div>
-  <div class="search-wrap">
-    <input type="search" id="q" placeholder="Or type a company name…" enterkeyhint="search" inputmode="search" autocomplete="off" autocorrect="off" spellcheck="false" />
-    <button type="button" class="clear-q" id="clearQ" aria-label="Clear search">Clear</button>
-  </div>
-  <div class="chips" id="chips"></div>
-  <details class="filters" id="filtersBox">
-    <summary>Optional filters (usually leave alone)</summary>
-    <div class="filter-row">
-      <select id="prio">
-        <option value="all" selected>All priorities</option>
-        <option value="high">High priority only</option>
-        <option value="medium">Medium+</option>
-      </select>
-      <select id="letter">
-        <option value="all" selected>Any lettering</option>
-        <option value="burgundy">Burgundy / red hints</option>
-        <option value="white">Has white-ish photo</option>
-      </select>
-      <select id="viewFilter">
-        <option value="rear" selected>Rear views (default)</option>
-        <option value="all">All photo angles</option>
-        <option value="side">Side only</option>
-      </select>
-      <label class="chk"><input type="checkbox" id="hideElim" checked /> Hide eliminated</label>
-      <button type="button" class="clear-f" id="clearFilters">Reset filters</button>
+
+<!-- START -->
+<section id="screen-start" class="screen active">
+  <div class="start-wrap">
+    <h1>Trailer rear-door lineup</h1>
+    <div class="disclaimer">
+      <strong>Lineup only — not an identification.</strong>
+      This helps you eliminate mismatches. It does <em>not</em> prove any company was involved.
+      Tell police or insurance only what you actually remember seeing.
     </div>
-  </details>
-  <div class="stats" id="stats"></div>
-</header>
-<main id="list"><p class="stats" style="padding:1rem">Loading photos…</p></main>
-<footer>
-  Elimination choices stay on this phone only. Data: companies.json · rear doors + logos preferred · public fleet photos.
-</footer>
-<div class="lightbox" id="lb"><button class="close" id="lbClose" type="button">Close</button><img id="lbImg" alt="" /></div>
+    <div class="card">
+      <h2>How this works</h2>
+      <p class="muted" style="margin:0">
+        You’ll see <strong>one photo at a time</strong>. Company names and logos stay hidden while you look.
+        Tap <strong>NO</strong>, <strong>MAYBE</strong>, or <strong>FAMILIAR</strong>.
+        Prefer rear-door photos — that’s the angle from the incident.
+      </p>
+    </div>
+    <div class="card">
+      <h2>Incident context</h2>
+      <p class="muted" style="margin:0">
+        Mon 2026-09-28 ~9:32 AM CT · Selma, TX / I-35 · white trailer ·
+        rear marking small/subtle dark red / maroon / burgundy · simple, maybe script · letter unsure.
+      </p>
+    </div>
+
+    <div class="chip-row" id="start-options">
+      <button type="button" class="chip on" data-opt="rearOnly" id="opt-rear">Rear Doors Only</button>
+      <button type="button" class="chip draw-sim" data-opt="similarOrg" id="opt-similar">Similar to Her Drawing</button>
+    </div>
+    <p class="muted" style="margin:.4rem 0 0;font-size:.78rem">
+      “Similar to Her Drawing” only organizes the search queue (visual similarity tags). It does <strong>not</strong> claim the shapes are specific letters.
+    </p>
+
+    <button type="button" class="secondary" id="btn-drawing">View Her Drawing</button>
+    <button type="button" class="primary" id="btn-start">Start blind lineup</button>
+    <button type="button" class="ghost" id="btn-review">Review saved answers</button>
+    <button type="button" class="ghost" id="btn-admin">Admin / export</button>
+  </div>
+</section>
+
+<!-- LINEUP -->
+<section id="screen-lineup" class="screen">
+  <div class="topbar">
+    <button type="button" class="linkish" id="btn-exit">Exit</button>
+    <div class="prog" id="progress">Photo 0 / 0</div>
+    <button type="button" class="linkish" id="btn-drawing-2">Drawing</button>
+  </div>
+  <div class="hint-bar" id="lineup-hint">Do you recognize this rear marking? Names are hidden.</div>
+  <div class="photo-stage">
+    <div class="photo-frame" id="photo-frame">
+      <span class="blind-badge" id="view-badge">REAR</span>
+      <img id="lineup-img" alt="Trailer photo for lineup — company name hidden" />
+      <div class="photo-meta" id="photo-meta">Loading…</div>
+    </div>
+  </div>
+  <div class="more-like" id="more-like">
+    <div style="font-size:.9rem;margin-bottom:.25rem" id="more-like-text">Show more like this?</div>
+    <button type="button" id="btn-more-yes">Show more like this</button>
+    <button type="button" class="skip" id="btn-more-skip">Continue lineup</button>
+  </div>
+  <div class="actions" id="verdict-actions">
+    <button type="button" class="btn-no" data-v="no">NO</button>
+    <button type="button" class="btn-maybe" data-v="maybe">MAYBE</button>
+    <button type="button" class="btn-familiar" data-v="familiar">FAMILIAR</button>
+  </div>
+</section>
+
+<!-- REVIEW -->
+<section id="screen-review" class="screen">
+  <div class="list-wrap">
+    <h1>Your review</h1>
+    <div class="disclaimer">Names are shown here only after you answered. Still lineup-only — not an ID.</div>
+    <div class="toolbar">
+      <button type="button" id="rev-continue">Continue lineup</button>
+      <button type="button" id="rev-export">Copy export report</button>
+      <button type="button" id="rev-reset">Reset all answers</button>
+      <button type="button" id="rev-home">Home</button>
+    </div>
+    <div id="review-list"></div>
+  </div>
+</section>
+
+<!-- ADMIN -->
+<section id="screen-admin" class="screen">
+  <div class="list-wrap">
+    <h1>Admin</h1>
+    <p class="muted">Company names visible. Pools, metadata, export. For Rick/Nena — not the eyewitness flow.</p>
+    <div class="toolbar">
+      <button type="button" id="adm-home">Home</button>
+      <button type="button" id="adm-export">Export full report</button>
+      <button type="button" id="adm-clear">Clear localStorage</button>
+      <label class="chip"><input type="checkbox" id="adm-rear" checked /> Rear only stats</label>
+    </div>
+    <div class="card"><h2>Evidence notes</h2><div id="adm-evidence" class="muted"></div></div>
+    <div class="card"><h2>Stats</h2><div id="adm-stats" class="muted"></div></div>
+    <textarea class="export-box" id="adm-export-box" readonly></textarea>
+    <div style="overflow:auto;margin-top:1rem">
+      <table class="admin-table" id="adm-table"><thead>
+        <tr><th>Company</th><th>Pool</th><th>Rear</th><th>Similar*</th><th>Corridor</th><th>Style</th></tr>
+      </thead><tbody></tbody></table>
+    </div>
+    <p class="muted" style="font-size:.75rem">*Similar = organizational tag for drawing-similarity search only — not letter ID.</p>
+  </div>
+</section>
+
+<!-- DONE -->
+<section id="screen-done" class="screen">
+  <div class="start-wrap">
+    <h1>Lineup pass complete</h1>
+    <div class="disclaimer">Thanks. Review your MAYBE / FAMILIAR picks. Nothing here identifies a truck by itself.</div>
+    <button type="button" class="primary" id="done-review">Open review</button>
+    <button type="button" class="secondary" id="done-side">Continue with other angles (not rear)</button>
+    <button type="button" class="ghost" id="done-home">Home</button>
+  </div>
+</section>
+
+<!-- Drawing modal -->
+<div class="modal" id="modal-drawing" role="dialog" aria-label="Her Drawing">
+  <div class="modal-inner">
+    <button type="button" class="close" id="drawing-close">Close</button>
+    <h2 style="margin-top:0">Her Drawing</h2>
+    <p class="muted" style="font-size:.82rem;margin:.25rem 0">
+      <strong>ORIGINAL</strong> eyewitness drawing (unaltered). Shapes are <em>not</em> labeled as definite letters.
+    </p>
+    <div class="quote" id="eyewitness-quote">“I’m not sure if these are the correct letters, but they were sideways.”</div>
+    <img src="assets/leslie-drawing-original.png" alt="Leslie’s original drawing from iMessage — shapes not labeled as letters" />
+    <p class="muted" style="font-size:.78rem;margin-top:.65rem">
+      Context: iMessage from Leslie (momma), Screenshot 2026-09-28 at 12.33.29 PM.
+      White trailer; rear marking small/subtle dark red/maroon/burgundy; simple, maybe script; letter unsure — do not force an M reading.
+    </p>
+  </div>
+</div>
+
 <script>
-const elimKey = 'leslie-hitrun-elim-v1';
-const QUICK = ['Swift','Knight','Werner','Roehl','U.S. Xpress','CRST','Crete','Heartland','Paschall','Stevens','Central Freight','FFE'];
-let companies = [];
-let leslieMMode = false;
-let rearMode = true; // default: emphasize rear views
-let elim = {};
-try { elim = JSON.parse(localStorage.getItem(elimKey) || '{}') || {}; } catch(e){ elim = {}; }
+const STORE_KEY = 'leslie-hitrun-lineup-v2';
+const LEGACY_KEY = 'leslie-hitrun-elim-v1';
 
-function saveElim(){ localStorage.setItem(elimKey, JSON.stringify(elim)); }
+const state = {
+  companies: [],
+  evidence: null,
+  incident: null,
+  rearOnly: true,
+  similarOrg: false, // organizes queue only
+  queue: [],
+  idx: 0,
+  responses: [],      // {companyId, file, verdict, ts, branding_group}
+  rejectedBranding: {}, // branding_group -> true after NO
+  seenFiles: {},
+  pendingMore: null,  // company after familiar/maybe
+  includeNonRear: false,
+};
 
-function isLeslieM(c){
-  return c.leslie_m_candidate === true || /m/i.test(c.name || '');
+function loadStore(){
+  try {
+    const raw = JSON.parse(localStorage.getItem(STORE_KEY) || '{}') || {};
+    state.responses = raw.responses || [];
+    state.rejectedBranding = raw.rejectedBranding || {};
+    state.seenFiles = raw.seenFiles || {};
+    state.rearOnly = raw.rearOnly !== false;
+    state.similarOrg = !!raw.similarOrg;
+    state.includeNonRear = !!raw.includeNonRear;
+  } catch(e){}
+  // migrate legacy elim into rejected branding (soft)
+  try {
+    const leg = JSON.parse(localStorage.getItem(LEGACY_KEY) || '{}') || {};
+    for (const [id, v] of Object.entries(leg)){
+      if (v === 'out') state.rejectedBranding[id] = true;
+    }
+  } catch(e){}
+}
+function saveStore(){
+  localStorage.setItem(STORE_KEY, JSON.stringify({
+    responses: state.responses,
+    rejectedBranding: state.rejectedBranding,
+    seenFiles: state.seenFiles,
+    rearOnly: state.rearOnly,
+    similarOrg: state.similarOrg,
+    includeNonRear: state.includeNonRear,
+    savedAt: new Date().toISOString(),
+  }));
 }
 
-function hasBurgundy(c){
-  const hint = (c.lettering_hint||'').toLowerCase();
-  if(/red|burgundy/.test(hint)) return true;
-  return (c.images||[]).some(i =>
-    i.burgundy_candidate ||
-    /burgundy|red/.test(i.lettering_note||'') ||
-    i.lettering_detected === 'burgundy/dark-red'
-  );
+function showScreen(id){
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  window.scrollTo(0,0);
 }
 
-function logoOf(c){
-  return (c.images||[]).find(i => i.view === 'logo');
-}
+function openDrawing(){ document.getElementById('modal-drawing').classList.add('open'); }
+function closeDrawing(){ document.getElementById('modal-drawing').classList.remove('open'); }
 
 function trailerImages(c){
-  return (c.images||[]).filter(i => i.view !== 'logo');
+  return (c.images || []).filter(i => i.view !== 'logo' && !i.lineup_exclude && !i.broken);
 }
-
 function rearImages(c){
   return trailerImages(c).filter(i => i.view === 'rear');
 }
+function branding(c){ return c.branding_group || c.id; }
 
-function hasRear(c){
-  return rearImages(c).length > 0 || (c.rear_image_count||0) > 0;
-}
+function buildQueue(){
+  const items = [];
+  const companies = [...state.companies];
 
-function match(c, q){
-  if(!q) return true;
-  const blob = [
-    c.name, c.id, c.notes, c.lettering_hint, c.region,
-    ...(c.door_text_keywords||[]),
-    ...(c.images||[]).flatMap(i=>[i.title,i.lettering_note,i.lettering_detected,i.view])
-  ].join(' ').toLowerCase();
-  return q.split(/\s+/).filter(Boolean).every(t => blob.includes(t));
-}
-
-async function load(){
-  try {
-    const r = await fetch('companies.json', { cache: 'no-store' });
-    if(!r.ok) throw new Error('HTTP '+r.status);
-    const data = await r.json();
-    companies = data.companies || [];
-    companies.sort((a,b)=>{
-      const score = c => (c.priority==='high'?3:c.priority==='medium'?2:1)
-        + (hasBurgundy(c)?2:0)
-        + (hasRear(c)?3:0)
-        + (c.image_count?0.5:0)
-        + (c.has_logo?0.25:0);
-      return score(b)-score(a);
-    });
-    buildChips();
-    syncRearChip();
-    render();
-    const q = document.getElementById('q');
-    q.blur();
-    setTimeout(()=>q.blur(), 50);
-  } catch(err){
-    document.getElementById('list').innerHTML =
-      `<p class="err">Couldn’t load the photo list (${err.message}). Pull to refresh, or text Rick.</p>`;
-  }
-}
-
-function buildChips(){
-  const root = document.getElementById('chips');
-  root.innerHTML =
-    `<button type="button" class="rear-chip active" data-chip="__rear">Rear views</button>` +
-    `<button type="button" class="leslie-chip" data-chip="__leslie_m">Leslie: M / sideways</button>` +
-    QUICK.map(name => `<button type="button" data-chip="${name}">${name}</button>`).join('');
-}
-
-function syncRearChip(){
-  const b = document.querySelector('#chips button[data-chip="__rear"]');
-  if(b) b.classList.toggle('active', rearMode);
-  const vf = document.getElementById('viewFilter');
-  if(rearMode && vf.value !== 'rear') vf.value = 'rear';
-  if(!rearMode && vf.value === 'rear') vf.value = 'all';
-}
-
-function resetFilters(){
-  document.getElementById('prio').value = 'all';
-  document.getElementById('letter').value = 'all';
-  document.getElementById('viewFilter').value = 'rear';
-  document.getElementById('hideElim').checked = true;
-  rearMode = true;
-  syncRearChip();
-}
-
-function render(){
-  const qEl = document.getElementById('q');
-  const q = qEl.value.trim().toLowerCase();
-  const searching = q.length > 0;
-  let prio = document.getElementById('prio').value;
-  let letter = document.getElementById('letter').value;
-  let viewFilter = document.getElementById('viewFilter').value;
-  if(searching){ prio = 'all'; letter = 'all'; viewFilter = 'all'; }
-  else if(rearMode){ viewFilter = 'rear'; }
-  const hideElim = document.getElementById('hideElim').checked;
-  const root = document.getElementById('list');
-  root.innerHTML = '';
-  let shown=0, imgs=0, rearShown=0;
-  const orderedCompanies = leslieMMode ? [...companies].sort((a,b) =>
-    Number(isLeslieM(b)) - Number(isLeslieM(a))
-  ) : companies;
-
-  for(const c of orderedCompanies){
-    const status = elim[c.id] || '';
-    if(hideElim && status==='out') continue;
-    if(leslieMMode && !isLeslieM(c)) continue;
-    if(!searching){
-      if(prio==='high' && c.priority!=='high') continue;
-      if(prio==='medium' && !(c.priority==='high'||c.priority==='medium')) continue;
-      if(letter==='burgundy' && !hasBurgundy(c)) continue;
-      if(letter==='white' && !(c.images||[]).some(i=>i.white_ratio>=0.1 && i.view!=='logo')) continue;
-      if(viewFilter==='rear' && !hasRear(c) && trailerImages(c).length>0){
-        // Still show side-only companies but we'll badge them — actually for rear filter,
-        // include companies with no rear so Leslie can still review, but sort rear first.
-        // Requirement: default filter "Rear views" — show companies that have rear, PLUS
-        // side-only marked clearly. Keep all so she doesn't miss carriers.
-      }
-      if(viewFilter==='side' && (hasRear(c) || trailerImages(c).every(i=>i.view!=='side'))) {
-        if(!trailerImages(c).some(i=>i.view==='side')) continue;
-      }
-    }
-    if(!match(c,q)) continue;
-
-    shown++;
-    const logo = logoOf(c);
-    let photos = trailerImages(c);
-    // When rear filter on (and not searching), put rear first; optionally hide pure-other
-    if(!searching && (viewFilter==='rear' || rearMode)){
-      const rears = photos.filter(i=>i.view==='rear');
-      const sides = photos.filter(i=>i.view==='side');
-      const rest = photos.filter(i=>i.view!=='rear' && i.view!=='side');
-      if(rears.length){
-        photos = rears.concat(sides.slice(0,1)); // one side for context max
-      } else {
-        photos = sides.concat(rest); // side only — not rear
-      }
-    } else if(!searching && viewFilter==='side'){
-      photos = photos.filter(i=>i.view==='side');
-    }
-    imgs += photos.length;
-    rearShown += photos.filter(i=>i.view==='rear').length;
-
-    const div = document.createElement('section');
-    div.className = 'company' + (status==='out'?' eliminated':'');
-    div.dataset.id = c.id;
-
-    const badges = [];
-    badges.push(`<span class="badge ${c.priority==='high'?'high':''}">${c.priority||'n/a'}</span>`);
-    if(c.region) badges.push(`<span class="badge">${c.region}</span>`);
-    if(hasRear(c)) badges.push('<span class="badge rear-co">has rear</span>');
-    if(/burgundy/i.test(c.lettering_hint||'')) badges.push('<span class="badge burgundy">burgundy hint</span>');
-    else if(/red/i.test(c.lettering_hint||'')) badges.push('<span class="badge redhint">red lettering hint</span>');
-    badges.push(`<span class="badge">${photos.length} photos</span>`);
-
-    let gallery='';
-    if(!photos.length){
-      const hint = c.lettering_hint||'unknown';
-      gallery = `<div class="noimgs">No public trailer photo yet${logo?' (logo only)':''} — eliminate by name/lettering: <strong>${hint}</strong>. ${c.website?`<a href="${c.website}" target="_blank" rel="noopener">company site</a>`:''}</div>`;
-    } else {
-      gallery = '<div class="gallery">' + photos.map(im=>{
-        const tags = [];
-        const view = im.view || 'other';
-        if(im.is_strong_white) tags.push('strong white');
-        if(im.burgundy_candidate) tags.push('burgundy cand.');
-        if(im.lettering_note) tags.push(im.lettering_note);
-        let warn = '';
-        if(view==='side' || im.side_only_note){
-          warn = '<div class="side-warn">side only — not rear</div>';
-        }
-        const vb = view==='rear' ? 'rear' : (view==='side' ? 'side' : 'other');
-        const vlabel = view==='rear' ? 'REAR' : (view==='side' ? 'SIDE' : 'OTHER');
-        return `<div class="thumb">
-          <span class="view-badge ${vb}">${vlabel}</span>
-          <img src="images/${im.file}" alt="${(c.name+' trailer '+vlabel).replace(/"/g,'')}" loading="lazy" data-full="images/${im.file}" />
-          <div class="cap"><strong>${im.source||''}</strong> ${tags.join(' · ')}${warn}</div>
-        </div>`;
-      }).join('') + '</div>';
-    }
-
-    const logoHtml = logo
-      ? `<img class="logo-thumb" src="images/${logo.file}" alt="${(c.name+' logo').replace(/"/g,'')}" loading="lazy" />`
-      : `<div class="logo-thumb missing">logo</div>`;
-
-    div.innerHTML = `
-      <div class="company-head">
-        <div class="name-row">${logoHtml}<h2>${c.name}</h2></div>
-        ${badges.join('')}
-        <p class="notes">${c.notes||''}</p>
-        <div class="elim">
-          <button type="button" data-act="maybe" class="${status==='maybe'?'maybe':''}">Maybe</button>
-          <button type="button" data-act="out" class="${status==='out'?'out':''}">Eliminate</button>
-          <button type="button" data-act="clear">Undo</button>
-        </div>
-      </div>
-      ${gallery}`;
-    root.appendChild(div);
-  }
-
-  if(!shown){
-    root.innerHTML = `<div class="empty">
-      <div>No matches for <strong>${q || 'these filters'}</strong>.</div>
-      <button type="button" id="showAllBtn">Show all companies</button>
-    </div>`;
-    document.getElementById('showAllBtn').onclick = ()=>{
-      qEl.value = '';
-      leslieMMode = false;
-      resetFilters();
-      document.querySelectorAll('#chips button').forEach(x => x.classList.remove('active'));
-      syncRearChip();
-      render();
-      qEl.focus();
+  // Similar-to-drawing organizes priority only (does not filter exclusively unless toggled as primary sort)
+  companies.sort((a,b)=>{
+    const score = c => {
+      let s = 0;
+      if (state.similarOrg && c.similar_to_drawing) s += 50;
+      if (rearImages(c).length) s += 30;
+      if (c.priority === 'high') s += 10;
+      else if (c.priority === 'medium') s += 5;
+      if (c.pool === 'lineup') s += 3;
+      if ((c.lettering_hint||'').match(/burgundy|maroon|dark-red/i)) s += 4;
+      if ((c.lettering_style||'') === 'script' || (c.lettering_style||'') === 'simple') s += 2;
+      return s;
     };
-  }
+    return score(b) - score(a);
+  });
 
-  const mode = leslieMMode ? 'Leslie M / sideways shortlist' :
-    (searching ? 'searching all companies' :
-      (rearMode || viewFilter==='rear') ? 'rear views first (+ side-only marked)' :
-      (letter==='burgundy'?'burgundy/red shortlist':'filtered list'));
-  document.getElementById('stats').textContent =
-    `${shown} companies · ${imgs} photos (${rearShown} rear) · ${mode}`;
+  for (const c of companies){
+    if (c.pool === 'eliminated_pool') continue;
+    const bg = branding(c);
+    if (state.rejectedBranding[bg]) continue; // don't reshuffle rejected identical branding
+
+    let photos = state.rearOnly && !state.includeNonRear
+      ? rearImages(c)
+      : trailerImages(c).filter(i => state.includeNonRear ? true : i.view === 'rear');
+
+    // When rear-only and company has no rear: skip from eyewitness lineup (logo-only already excluded)
+    if (!photos.length) continue;
+
+    for (const im of photos){
+      const key = c.id + '::' + im.file;
+      if (state.seenFiles[key]) continue;
+      // skip broken (img onerror will also mark)
+      items.push({
+        companyId: c.id,
+        name: c.name, // kept in queue object but UI must not show during blind
+        file: im.file,
+        view: im.view || 'other',
+        branding_group: bg,
+        similar_to_drawing: !!c.similar_to_drawing,
+        lettering_style: c.lettering_style || 'unknown',
+        lettering_hint: c.lettering_hint || '',
+        source: im.source || '',
+        title: im.title || '',
+      });
+    }
+  }
+  state.queue = items;
+  state.idx = 0;
 }
 
-document.getElementById('list').addEventListener('click', e=>{
-  const btn = e.target.closest('button[data-act]');
-  if(btn){
-    const sec = btn.closest('.company');
-    const id = sec.dataset.id;
-    const act = btn.dataset.act;
-    if(act==='clear') delete elim[id];
-    else elim[id]=act;
-    saveElim(); render(); return;
-  }
-  const img = e.target.closest('img[data-full]');
-  if(img){
-    document.getElementById('lbImg').src = img.dataset.full;
-    document.getElementById('lb').classList.add('open');
-  }
-});
-document.getElementById('chips').addEventListener('click', e=>{
-  const b = e.target.closest('button[data-chip]');
-  if(!b) return;
-  if(b.dataset.chip === '__rear'){
-    rearMode = !rearMode;
-    document.getElementById('q').value = '';
-    document.getElementById('viewFilter').value = rearMode ? 'rear' : 'all';
-    document.querySelectorAll('#chips button').forEach(x => {
-      if(x.dataset.chip === '__rear') x.classList.toggle('active', rearMode);
-      else if(x.dataset.chip !== '__leslie_m') x.classList.remove('active');
-    });
-    render();
+function current(){ return state.queue[state.idx] || null; }
+
+function renderLineup(){
+  const item = current();
+  const more = document.getElementById('more-like');
+  more.classList.remove('show');
+  document.getElementById('verdict-actions').style.display = '';
+
+  if (!item){
+    showScreen('done');
     return;
   }
-  if(b.dataset.chip === '__leslie_m'){
-    leslieMMode = !leslieMMode;
-    document.getElementById('q').value = '';
-    if(leslieMMode) {
-      // keep rear mode; just reset prio/letter
-      document.getElementById('prio').value = 'all';
-      document.getElementById('letter').value = 'all';
+  document.getElementById('progress').textContent =
+    `Photo ${state.idx+1} / ${state.queue.length}`;
+  const img = document.getElementById('lineup-img');
+  img.onerror = () => {
+    // exclude broken from future + skip
+    markBroken(item);
+    state.seenFiles[item.companyId+'::'+item.file] = 'broken';
+    saveStore();
+    state.idx++;
+    renderLineup();
+  };
+  img.onload = () => { img.onerror = null; };
+  img.src = 'images/' + item.file;
+  document.getElementById('view-badge').textContent =
+    (item.view || 'photo').toUpperCase();
+  // Blind: no company name / logo
+  document.getElementById('photo-meta').textContent =
+    `${item.view === 'rear' ? 'Rear doors' : 'Angle: '+item.view} · public fleet photo · name hidden`;
+  document.getElementById('lineup-hint').textContent =
+    item.view === 'rear'
+      ? 'Rear doors — does this marking feel familiar? Names hidden.'
+      : 'Not a confirmed rear-door shot — use only if helpful. Names hidden.';
+}
+
+function markBroken(item){
+  const c = state.companies.find(x => x.id === item.companyId);
+  if (!c) return;
+  const im = (c.images||[]).find(i => i.file === item.file);
+  if (im){ im.broken = true; im.lineup_exclude = true; }
+}
+
+function recordVerdict(verdict){
+  const item = current();
+  if (!item) return;
+  const key = item.companyId + '::' + item.file;
+  state.seenFiles[key] = verdict;
+  state.responses.push({
+    companyId: item.companyId,
+    file: item.file,
+    view: item.view,
+    verdict,
+    branding_group: item.branding_group,
+    ts: new Date().toISOString(),
+  });
+  if (verdict === 'no'){
+    // Don't reshuffle rejected identical branding
+    state.rejectedBranding[item.branding_group] = true;
+    // Remove remaining queue items with same branding
+    state.queue = state.queue.filter((q,i) =>
+      i <= state.idx || q.branding_group !== item.branding_group
+    );
+  }
+  saveStore();
+
+  if (verdict === 'familiar' || verdict === 'maybe'){
+    state.pendingMore = item;
+    document.getElementById('more-like-text').textContent =
+      verdict === 'familiar'
+        ? 'Marked FAMILIAR. Show more photos with the same branding (still blind)?'
+        : 'Marked MAYBE. Show more photos with the same branding (still blind)?';
+    document.getElementById('more-like').classList.add('show');
+    document.getElementById('verdict-actions').style.display = 'none';
+    return;
+  }
+  advance();
+}
+
+function advance(){
+  state.pendingMore = null;
+  state.idx++;
+  // skip any that became invalid
+  while (state.idx < state.queue.length){
+    const it = state.queue[state.idx];
+    if (state.rejectedBranding[it.branding_group]) { state.idx++; continue; }
+    if (state.seenFiles[it.companyId+'::'+it.file]) { state.idx++; continue; }
+    break;
+  }
+  renderLineup();
+}
+
+function showMoreLike(){
+  const item = state.pendingMore;
+  if (!item) { advance(); return; }
+  const c = state.companies.find(x => x.id === item.companyId);
+  if (!c) { advance(); return; }
+  const extras = trailerImages(c).filter(im => {
+    const key = c.id + '::' + im.file;
+    if (state.seenFiles[key]) return false;
+    if (im.file === item.file) return false;
+    if (state.rearOnly && !state.includeNonRear && im.view !== 'rear') return false;
+    return true;
+  });
+  // Insert right after current
+  const inject = extras.slice(0, 4).map(im => ({
+    companyId: c.id,
+    name: c.name,
+    file: im.file,
+    view: im.view || 'other',
+    branding_group: branding(c),
+    similar_to_drawing: !!c.similar_to_drawing,
+    lettering_style: c.lettering_style || 'unknown',
+    lettering_hint: c.lettering_hint || '',
+    source: im.source || '',
+    title: im.title || '',
+  }));
+  if (inject.length){
+    state.queue.splice(state.idx + 1, 0, ...inject);
+  }
+  advance();
+}
+
+function responsesByVerdict(v){
+  return state.responses.filter(r => r.verdict === v);
+}
+
+function renderReview(){
+  const root = document.getElementById('review-list');
+  const interesting = state.responses.filter(r => r.verdict === 'familiar' || r.verdict === 'maybe');
+  const nos = state.responses.filter(r => r.verdict === 'no');
+  if (!state.responses.length){
+    root.innerHTML = '<div class="empty">No answers saved on this phone yet.</div>';
+    return;
+  }
+  // group by company
+  const byCo = {};
+  for (const r of interesting){
+    (byCo[r.companyId] = byCo[r.companyId] || []).push(r);
+  }
+  let html = `<p class="muted">${interesting.length} MAYBE/FAMILIAR · ${nos.length} NO · ${Object.keys(state.rejectedBranding).length} branding groups skipped</p>`;
+  const order = Object.keys(byCo).sort((a,b)=>{
+    const score = id => byCo[id].some(x=>x.verdict==='familiar') ? 2 : 1;
+    return score(b)-score(a);
+  });
+  for (const id of order){
+    const c = state.companies.find(x => x.id === id);
+    const rs = byCo[id];
+    const best = rs.some(x=>x.verdict==='familiar') ? 'familiar' : 'maybe';
+    html += `<div class="verdict ${best}">
+      <h3>${c ? c.name : id} <span class="muted">(${best.toUpperCase()})</span></h3>
+      <div class="muted">${c ? (c.notes||'') : ''}</div>
+      <div class="muted">Corridor: ${c?c.corridor:''} · Style: ${c?c.lettering_style:''} · ${c&&c.similar_to_drawing?'similar-tag':''}</div>
+      <div class="thumb-row">${rs.map(r=>`<img src="images/${r.file}" alt="" loading="lazy" />`).join('')}</div>
+    </div>`;
+  }
+  if (!order.length){
+    html += '<div class="empty">No MAYBE/FAMILIAR yet — only NO so far.</div>';
+  }
+  root.innerHTML = html;
+}
+
+function buildExport(){
+  const lines = [];
+  lines.push('LESLIE HIT-RUN TRAILER LINEUP REPORT');
+  lines.push('Lineup only — not an identification.');
+  lines.push('Generated: ' + new Date().toISOString());
+  lines.push('Incident: Mon 2026-09-28 ~9:32 AM CT, Selma TX / I-35');
+  lines.push('Eyewitness: "I\'m not sure if these are the correct letters, but they were sideways."');
+  lines.push('');
+  lines.push('=== FAMILIAR ===');
+  for (const r of responsesByVerdict('familiar')){
+    const c = state.companies.find(x=>x.id===r.companyId);
+    lines.push(`- ${c?c.name:r.companyId} · ${r.file} · ${r.view} · ${r.ts}`);
+  }
+  lines.push('');
+  lines.push('=== MAYBE ===');
+  for (const r of responsesByVerdict('maybe')){
+    const c = state.companies.find(x=>x.id===r.companyId);
+    lines.push(`- ${c?c.name:r.companyId} · ${r.file} · ${r.view} · ${r.ts}`);
+  }
+  lines.push('');
+  lines.push('=== NO (branding skipped) ===');
+  for (const r of responsesByVerdict('no')){
+    const c = state.companies.find(x=>x.id===r.companyId);
+    lines.push(`- ${c?c.name:r.companyId} · ${r.file} · branding=${r.branding_group}`);
+  }
+  lines.push('');
+  lines.push('Rejected branding groups: ' + Object.keys(state.rejectedBranding).join(', '));
+  lines.push('');
+  lines.push('Counts: companies=' + state.companies.length +
+    ' rear_photos=' + state.companies.reduce((n,c)=>n+rearImages(c).length,0) +
+    ' responses=' + state.responses.length);
+  return lines.join('\n');
+}
+
+function renderAdmin(){
+  const ev = state.evidence || {};
+  const d = ev.drawing || {};
+  document.getElementById('adm-evidence').innerHTML = `
+    <div><strong>ORIGINAL drawing:</strong> ${d.file || 'assets/leslie-drawing-original.png'}</div>
+    <div>Statement: “${d.eyewitness_statement_exact || '' }”</div>
+    <div>Policy: ${d.shapes_policy || ''}</div>
+    <div style="margin-top:.4rem"><strong>AFTER:</strong> ${(ev.after||[]).length ? JSON.stringify(ev.after) : '(none — original unaltered)'}</div>
+  `;
+  const rearN = state.companies.reduce((n,c)=>n+rearImages(c).length,0);
+  const logoOnly = state.companies.filter(c => trailerImages(c).length===0).length;
+  const similarN = state.companies.filter(c=>c.similar_to_drawing).length;
+  document.getElementById('adm-stats').textContent =
+    `${state.companies.length} companies · ${rearN} verified rear photos · ${logoOnly} logo/metadata-only · ${similarN} similar-to-drawing tags · responses ${state.responses.length}`;
+  document.getElementById('adm-export-box').value = buildExport();
+  const tb = document.querySelector('#adm-table tbody');
+  tb.innerHTML = state.companies.map(c => `<tr>
+    <td>${c.name}<div class="muted">${c.id}</div></td>
+    <td>${c.pool||''}</td>
+    <td>${rearImages(c).length}</td>
+    <td>${c.similar_to_drawing?'yes':''}</td>
+    <td>${c.corridor||''}</td>
+    <td>${c.lettering_style||''}</td>
+  </tr>`).join('');
+}
+
+async function boot(){
+  loadStore();
+  document.getElementById('opt-rear').classList.toggle('on', state.rearOnly);
+  document.getElementById('opt-similar').classList.toggle('on', state.similarOrg);
+  try {
+    const r = await fetch('companies.json', { cache:'no-store' });
+    if (!r.ok) throw new Error('HTTP '+r.status);
+    const data = await r.json();
+    state.companies = data.companies || [];
+    state.evidence = data.evidence || null;
+    state.incident = data.incident || null;
+    if (state.incident && state.incident.eyewitness_statement_exact){
+      document.getElementById('eyewitness-quote').textContent =
+        '“' + state.incident.eyewitness_statement_exact + '”';
     }
-    document.querySelectorAll('#chips button').forEach(x => {
-      if(x.dataset.chip === '__leslie_m') x.classList.toggle('active', leslieMMode);
-      else if(x.dataset.chip !== '__rear') x.classList.remove('active');
-    });
-    render();
+  } catch(err){
+    document.querySelector('#screen-start .start-wrap').insertAdjacentHTML('afterbegin',
+      `<div class="disclaimer">Couldn’t load companies.json (${err.message}).</div>`);
+  }
+}
+
+// Events
+document.getElementById('opt-rear').onclick = (e)=>{
+  state.rearOnly = !state.rearOnly;
+  e.currentTarget.classList.toggle('on', state.rearOnly);
+  saveStore();
+};
+document.getElementById('opt-similar').onclick = (e)=>{
+  state.similarOrg = !state.similarOrg;
+  e.currentTarget.classList.toggle('on', state.similarOrg);
+  saveStore();
+};
+document.getElementById('btn-drawing').onclick = openDrawing;
+document.getElementById('btn-drawing-2').onclick = openDrawing;
+document.getElementById('drawing-close').onclick = closeDrawing;
+document.getElementById('modal-drawing').onclick = (e)=>{ if(e.target.id==='modal-drawing') closeDrawing(); };
+
+document.getElementById('btn-start').onclick = ()=>{
+  state.includeNonRear = false;
+  buildQueue();
+  if (!state.queue.length){
+    alert('No rear-door photos available in the lineup yet. Try Admin, or continue later after more rears are added.');
     return;
   }
-  leslieMMode = false;
-  document.querySelectorAll('#chips button').forEach(x => {
-    if(x.dataset.chip !== '__rear') x.classList.remove('active');
-  });
-  document.getElementById('q').value = b.dataset.chip;
-  render();
-  document.getElementById('q').focus();
-});
-document.getElementById('lbClose').onclick = ()=> document.getElementById('lb').classList.remove('open');
-document.getElementById('lb').onclick = e=>{ if(e.target.id==='lb') e.currentTarget.classList.remove('open'); };
-document.getElementById('clearQ').onclick = ()=>{
-  document.getElementById('q').value='';
-  leslieMMode=false;
-  document.querySelectorAll('#chips button').forEach(x => {
-    if(x.dataset.chip !== '__rear') x.classList.remove('active');
-  });
-  render();
-  document.getElementById('q').focus();
+  showScreen('lineup');
+  renderLineup();
 };
-document.getElementById('clearFilters').onclick = ()=>{ resetFilters(); render(); };
-document.getElementById('viewFilter').addEventListener('change', ()=>{
-  rearMode = document.getElementById('viewFilter').value === 'rear';
-  syncRearChip();
-  render();
-});
-['q','prio','letter','hideElim'].forEach(id=>{
-  document.getElementById(id).addEventListener('input', render);
-  document.getElementById(id).addEventListener('change', render);
-});
-load();
+document.getElementById('btn-exit').onclick = ()=> showScreen('start');
+document.getElementById('btn-review').onclick = ()=>{ renderReview(); showScreen('review'); };
+document.getElementById('btn-admin').onclick = ()=>{ renderAdmin(); showScreen('admin'); };
+
+document.getElementById('verdict-actions').onclick = (e)=>{
+  const b = e.target.closest('button[data-v]');
+  if (!b) return;
+  recordVerdict(b.dataset.v);
+};
+document.getElementById('btn-more-yes').onclick = showMoreLike;
+document.getElementById('btn-more-skip').onclick = advance;
+
+document.getElementById('rev-continue').onclick = ()=>{
+  buildQueue();
+  showScreen(state.queue.length ? 'lineup' : 'done');
+  if (state.queue.length) renderLineup();
+};
+document.getElementById('rev-export').onclick = async ()=>{
+  const t = buildExport();
+  try { await navigator.clipboard.writeText(t); alert('Report copied.'); }
+  catch(e){ prompt('Copy report:', t); }
+};
+document.getElementById('rev-reset').onclick = ()=>{
+  if (!confirm('Clear all lineup answers on this phone?')) return;
+  state.responses = [];
+  state.rejectedBranding = {};
+  state.seenFiles = {};
+  saveStore();
+  renderReview();
+};
+document.getElementById('rev-home').onclick = ()=> showScreen('start');
+
+document.getElementById('adm-home').onclick = ()=> showScreen('start');
+document.getElementById('adm-export').onclick = async ()=>{
+  renderAdmin();
+  const t = document.getElementById('adm-export-box').value;
+  try { await navigator.clipboard.writeText(t); alert('Copied.'); }
+  catch(e){ /* shown in textarea */ }
+};
+document.getElementById('adm-clear').onclick = ()=>{
+  if (!confirm('Clear lineup localStorage?')) return;
+  localStorage.removeItem(STORE_KEY);
+  state.responses=[]; state.rejectedBranding={}; state.seenFiles={};
+  renderAdmin();
+};
+
+document.getElementById('done-review').onclick = ()=>{ renderReview(); showScreen('review'); };
+document.getElementById('done-home').onclick = ()=> showScreen('start');
+document.getElementById('done-side').onclick = ()=>{
+  state.includeNonRear = true;
+  state.rearOnly = false;
+  document.getElementById('opt-rear').classList.remove('on');
+  saveStore();
+  buildQueue();
+  if (!state.queue.length){ alert('No more unseen photos.'); return; }
+  showScreen('lineup');
+  renderLineup();
+};
+
+boot();
 </script>
 </body>
 </html>

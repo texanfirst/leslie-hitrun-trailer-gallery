@@ -3,13 +3,14 @@
     "date": "2026-09-28",
     "approx_time": "9:32 AM CT",
     "location": "Selma, TX \u2014 I-35",
-    "description": "White semi trailer; rear-door writing believed burgundy/dark red. Lineup only \u2014 not an identification."
+    "description": "White semi trailer; rear-door writing believed small/subtle burgundy/dark red/maroon; simple maybe script. Lineup only \u2014 not an identification.",
+    "eyewitness_statement_exact": "I'm not sure if these are the correct letters, but they were sideways."
   },
-  "generated_at": "2026-09-29 11:24:01 CDT",
-  "rebuild": "rear_and_logos",
-  "company_count": 75,
-  "image_count": 154,
-  "rear_image_count": 4,
+  "generated_at": "2026-09-29 12:13:28 CDT",
+  "rebuild": "blind_lineup_v1",
+  "company_count": 115,
+  "image_count": 161,
+  "rear_image_count": 5,
   "logo_count": 75,
   "companies": [
     {
@@ -26,7 +27,7 @@
         "Transportation",
         "red/burgundy"
       ],
-      "image_count": 2,
+      "image_count": 4,
       "images": [
         {
           "file": "swift_logo.png",
@@ -39,7 +40,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red/burgundy",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "swift",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "swift_05.jpg",
@@ -53,7 +57,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "swift",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "swift_02.jpg",
@@ -67,13 +74,58 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "swift",
+          "broken": false,
+          "lineup_exclude": false
+        },
+        {
+          "file": "swift_06.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Not_so_Swift_Truck_1.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Not_so_Swift_Truck_1.jpg/960px-Not_so_Swift_Truck_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Not so Swift Truck 1.jpg",
+          "view": "side",
+          "white_ratio": 0.046,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true,
+          "branding_group": "swift",
+          "broken": false,
+          "lineup_exclude": false,
+          "side_only_note": "side only \u2014 not rear"
+        },
+        {
+          "file": "swift_07.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Not_so_Swift_Truck_2.jpg",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Not_so_Swift_Truck_2.jpg/960px-Not_so_Swift_Truck_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Not so Swift Truck 2.jpg",
+          "view": "side",
+          "white_ratio": 0.194,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true,
+          "branding_group": "swift",
+          "broken": false,
+          "lineup_exclude": false,
           "side_only_note": "side only \u2014 not rear"
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "swift",
+      "lettering_style": "simple",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "werner",
@@ -89,7 +141,7 @@
         "Enterprises",
         "red"
       ],
-      "image_count": 4,
+      "image_count": 5,
       "images": [
         {
           "file": "werner_logo.png",
@@ -102,7 +154,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "werner",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "werner_01.jpg",
@@ -116,7 +171,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "werner",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "werner_00.jpg",
@@ -130,7 +188,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "werner",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "werner_06.jpg",
@@ -144,7 +205,10 @@
           "lettering_note": "red",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "werner",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "werner_07.jpg",
@@ -158,13 +222,41 @@
           "lettering_note": "red",
           "is_strong_white": false,
           "burgundy_candidate": false,
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "werner",
+          "broken": false,
+          "lineup_exclude": false
+        },
+        {
+          "file": "werner_08.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Werner_trailer_dayton.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Werner_trailer_dayton.JPG/960px-Werner_trailer_dayton.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Werner trailer dayton.JPG",
+          "view": "side",
+          "white_ratio": 0.553,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true,
+          "branding_group": "werner",
+          "broken": false,
+          "lineup_exclude": false,
           "side_only_note": "side only \u2014 not rear"
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "werner",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "jbhunt",
@@ -193,7 +285,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "orange",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "jbhunt",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "jbhunt_00.jpg",
@@ -207,7 +302,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "jbhunt",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "jbhunt_01.jpg",
@@ -221,7 +319,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "jbhunt",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "jbhunt_03.jpg",
@@ -235,7 +336,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "jbhunt",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "jbhunt_04.jpg",
@@ -249,13 +353,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "jbhunt",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "jbhunt",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "schneider",
@@ -271,7 +386,7 @@
         "National",
         "orange"
       ],
-      "image_count": 3,
+      "image_count": 4,
       "images": [
         {
           "file": "schneider_logo.png",
@@ -284,7 +399,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "orange",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "schneider",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "schneider_01.jpg",
@@ -298,7 +416,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "schneider",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "schneider_04.jpg",
@@ -312,7 +433,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "schneider",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "schneider_00.jpg",
@@ -326,13 +450,40 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "schneider",
+          "broken": false,
+          "lineup_exclude": false
+        },
+        {
+          "file": "schneider_05.jpg",
+          "source": "wikimedia_commons",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Schneider_national_truck_rear_view.JPG",
+          "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Schneider_national_truck_rear_view.JPG/960px-Schneider_national_truck_rear_view.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "title": "File:Schneider national truck rear view.JPG",
+          "view": "rear",
+          "white_ratio": 0.044,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": false,
+          "burgundy_candidate": true,
+          "branding_group": "schneider",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
-      "rear_image_count": 0,
-      "has_logo": true
+      "rear_image_count": 1,
+      "has_logo": true,
+      "branding_group": "schneider",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": true,
+      "evidence_notes": []
     },
     {
       "id": "knight",
@@ -361,7 +512,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "knight",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "knight_04.jpg",
@@ -374,7 +528,10 @@
           "lettering_detected": "blue",
           "lettering_note": "blue",
           "is_strong_white": false,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "knight",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "knight_01.jpg",
@@ -388,7 +545,10 @@
           "is_strong_white": false,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "knight",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "knight_02.jpg",
@@ -402,13 +562,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "knight",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 1,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "knight",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": true,
+      "evidence_notes": []
     },
     {
       "id": "prime",
@@ -424,7 +595,7 @@
         "Inc",
         "blue"
       ],
-      "image_count": 4,
+      "image_count": 5,
       "images": [
         {
           "file": "prime_logo.png",
@@ -437,7 +608,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "prime",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "prime_01.jpg",
@@ -451,7 +625,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "prime",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "prime_02.jpg",
@@ -465,7 +642,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "prime",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "prime_03.jpg",
@@ -479,7 +659,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "prime",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "prime_04.jpg",
@@ -493,6 +676,31 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "prime",
+          "broken": false,
+          "lineup_exclude": false
+        },
+        {
+          "file": "prime_06.jpg",
+          "source": "openverse",
+          "source_url": "https://commons.wikimedia.org/w/index.php?curid=149805557",
+          "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/PRIME_Inc_-_Peterbilt_Refrigerated_Semi-trailer_truck_-_I-90_Spokane%2C_WA.jpg",
+          "title": "PRIME Inc - Peterbilt Refrigerated Semi-trailer truck - I-90 Spokane, WA",
+          "view": "side",
+          "white_ratio": 0.409,
+          "lettering_detected": "unclear",
+          "lettering_note": "unclear",
+          "is_strong_white": true,
+          "burgundy_candidate": false,
+          "branding_group": "prime",
+          "broken": false,
+          "lineup_exclude": false,
+          "qa": {
+            "rear_score": 0.73,
+            "seam": 0.0,
+            "aspect": 1.78
+          },
           "side_only_note": "side only \u2014 not rear"
         }
       ],
@@ -500,7 +708,15 @@
       "leslie_m_candidate": true,
       "leslie_m_reason": "M-shaped/initial clue is possible only as a loose fallback; white vans but blue/black Prime mark",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "prime",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": true,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "crst",
@@ -531,7 +747,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "crst",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "crst_01.jpg",
@@ -545,7 +764,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "crst",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "crst_00.jpg",
@@ -559,13 +781,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "crst",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "crst",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "crete",
@@ -594,7 +827,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "crete",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "crete_00.jpg",
@@ -608,7 +844,10 @@
           "lettering_note": "blue",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "crete",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "crete_01.jpg",
@@ -622,7 +861,10 @@
           "lettering_note": "red",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "crete",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "crete_02.jpg",
@@ -636,13 +878,24 @@
           "lettering_note": "red",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "crete",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "crete",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "roehl",
@@ -671,7 +924,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "roehl",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "roehl_01.jpg",
@@ -685,7 +941,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "roehl",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "roehl_04.jpg",
@@ -699,7 +958,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "roehl",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "roehl_00.jpg",
@@ -713,7 +975,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "roehl",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "roehl_02.jpg",
@@ -727,13 +992,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "roehl",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "roehl",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "covenant",
@@ -762,7 +1038,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue/red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "covenant",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "covenant_04.jpg",
@@ -776,7 +1055,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "covenant",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "covenant_01.jpg",
@@ -790,7 +1072,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "covenant",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "covenant_02.jpg",
@@ -804,13 +1089,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "covenant",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "covenant",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "usxpress",
@@ -838,7 +1134,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "usxpress",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "usxpress_00.jpg",
@@ -852,7 +1151,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "usxpress",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "usxpress_01.jpg",
@@ -866,13 +1168,24 @@
           "is_strong_white": false,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "usxpress",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "usxpress",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "heartland",
@@ -901,7 +1214,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "heartland",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "heartland_00.jpg",
@@ -915,7 +1231,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "heartland",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "heartland_01.jpg",
@@ -930,13 +1249,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "side_only_note": "side only \u2014 not rear",
-          "license": "by-nc-nd"
+          "license": "by-nc-nd",
+          "branding_group": "heartland",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "heartland",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "marten",
@@ -965,7 +1295,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "marten",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "marten_01.jpg",
@@ -978,14 +1311,25 @@
           "lettering_detected": "blue",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "marten",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": true,
       "leslie_m_reason": "M-name white reefer carrier; official mark is blue bird/wordmark, not red",
       "rear_image_count": 1,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "marten",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": true,
+      "pool": "lineup",
+      "lineup_eligible": true,
+      "evidence_notes": []
     },
     {
       "id": "kllm",
@@ -1015,7 +1359,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "kllm",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "kllm_01.jpg",
@@ -1029,7 +1376,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "kllm",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "kllm_02.jpg",
@@ -1043,7 +1393,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "kllm",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "kllm_03.jpg",
@@ -1057,7 +1410,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "kllm",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "kllm_04.jpg",
@@ -1071,13 +1427,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "kllm",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "kllm",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "stevens",
@@ -1106,7 +1473,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "stevens",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "stevens_01.jpg",
@@ -1120,7 +1490,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "stevens",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "stevens_02.jpg",
@@ -1134,7 +1507,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "stevens",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "stevens_00.jpg",
@@ -1148,7 +1524,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "stevens",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "stevens_04.jpg",
@@ -1162,13 +1541,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "stevens",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "stevens",
+      "lettering_style": "block",
+      "corridor": "texas",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "pam",
@@ -1200,7 +1590,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "pam",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "pam_00.jpg",
@@ -1214,7 +1607,10 @@
           "lettering_note": "red",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pam",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "pam_01.jpg",
@@ -1228,14 +1624,25 @@
           "lettering_note": "red",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pam",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": true,
       "leslie_m_reason": "red PAM wordmark on white equipment; national carrier and M-shaped letter possibility",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "pam",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": true,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "usatruck",
@@ -1264,7 +1671,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "usatruck",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "usatruck_00.jpg",
@@ -1278,7 +1688,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "usatruck",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "usatruck_03.jpg",
@@ -1292,13 +1705,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "usatruck",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "usatruck",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "averitt",
@@ -1327,13 +1751,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "averitt",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "averitt",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "estes",
@@ -1363,7 +1798,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "green",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "estes",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "estes_00.jpg",
@@ -1377,7 +1815,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "estes",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "estes_01.jpg",
@@ -1391,7 +1832,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "estes",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "estes_02.jpg",
@@ -1405,13 +1849,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "estes",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "estes",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "odfl",
@@ -1429,7 +1884,7 @@
         "Line",
         "green"
       ],
-      "image_count": 4,
+      "image_count": 5,
       "images": [
         {
           "file": "odfl_logo.png",
@@ -1442,7 +1897,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "green",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "odfl",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "odfl_00.jpg",
@@ -1456,7 +1914,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "odfl",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "odfl_01.jpg",
@@ -1470,7 +1931,10 @@
           "is_strong_white": false,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "odfl",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "odfl_02.jpg",
@@ -1484,7 +1948,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "odfl",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "odfl_05.jpg",
@@ -1498,13 +1965,46 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "odfl",
+          "broken": false,
+          "lineup_exclude": false
+        },
+        {
+          "file": "odfl_06.jpg",
+          "source": "openverse",
+          "source_url": "https://www.flickr.com/photos/44034115@N08/14855155458",
+          "image_url": "https://live.staticflickr.com/3903/14855155458_e1ab408a82_b.jpg",
+          "title": "Power of OD on Conservation Rd",
+          "view": "side",
+          "white_ratio": 0.293,
+          "lettering_detected": "burgundy/dark-red",
+          "lettering_note": "burgundy/dark-red",
+          "is_strong_white": true,
+          "burgundy_candidate": true,
+          "branding_group": "odfl",
+          "broken": false,
+          "lineup_exclude": false,
+          "qa": {
+            "rear_score": 0.977,
+            "seam": 15.7,
+            "aspect": 1.33
+          },
           "side_only_note": "side only \u2014 not rear"
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "odfl",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "saia",
@@ -1534,7 +2034,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "orange",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "saia",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "saia_00.jpg",
@@ -1548,13 +2051,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "saia",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "saia",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "rlcarriers",
@@ -1583,7 +2097,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "rlcarriers",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "rlcarriers_01.jpg",
@@ -1596,7 +2113,10 @@
           "lettering_note": "green",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "view": "rear"
+          "view": "rear",
+          "branding_group": "rlcarriers",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "rlcarriers_05.jpg",
@@ -1610,7 +2130,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "rlcarriers",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "rlcarriers_02.jpg",
@@ -1624,13 +2147,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "rlcarriers",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 1,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "rlcarriers",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": true,
+      "evidence_notes": []
     },
     {
       "id": "xpo",
@@ -1659,7 +2193,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "xpo",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "xpo_01.jpg",
@@ -1673,7 +2210,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "xpo",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "xpo_00.jpg",
@@ -1687,7 +2227,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "xpo",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "xpo_02.jpg",
@@ -1701,13 +2244,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "xpo",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "xpo",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "abf",
@@ -1736,7 +2290,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "green",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "abf",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "abf_00.jpg",
@@ -1750,7 +2307,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "abf",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "abf_03.jpg",
@@ -1764,7 +2324,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "abf",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "abf_01.jpg",
@@ -1778,13 +2341,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "abf",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "abf",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "tforce",
@@ -1813,7 +2387,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "brown",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "tforce",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "tforce_01.jpg",
@@ -1827,7 +2404,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "tforce",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "tforce_00.jpg",
@@ -1841,7 +2421,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "tforce",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "tforce_02.jpg",
@@ -1855,13 +2438,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "tforce",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "tforce",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "fedexfreight",
@@ -1890,7 +2484,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "purple",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "fedexfreight",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "fedexfreight_00.jpg",
@@ -1904,7 +2501,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "fedexfreight",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "fedexfreight_02.jpg",
@@ -1918,7 +2518,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "fedexfreight",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "fedexfreight_01.jpg",
@@ -1932,13 +2535,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "fedexfreight",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "fedexfreight",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "landstar",
@@ -1967,7 +2581,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue/red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "landstar",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "landstar_00.jpg",
@@ -1981,7 +2598,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "landstar",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "landstar_03.jpg",
@@ -1995,7 +2615,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "landstar",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "landstar_01.jpg",
@@ -2009,13 +2632,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "landstar",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "landstar",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "nfi",
@@ -2044,7 +2678,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "nfi",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "nfi_00.jpg",
@@ -2058,13 +2695,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "nfi",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "nfi",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "crengland",
@@ -2092,7 +2740,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "crengland",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "crengland_01.jpg",
@@ -2105,7 +2756,10 @@
           "lettering_note": "red",
           "is_strong_white": true,
           "burgundy_candidate": true,
-          "view": "rear"
+          "view": "rear",
+          "branding_group": "crengland",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "crengland_02.jpg",
@@ -2119,13 +2773,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "crengland",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 1,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "crengland",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": true,
+      "evidence_notes": []
     },
     {
       "id": "melton",
@@ -2157,14 +2822,25 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "melton",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": true,
       "leslie_m_reason": "M-name carrier with historical red hint; current fleet is mostly blue flatbed",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "melton",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "maverick",
@@ -2195,7 +2871,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "maverick",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "maverick_00.jpg",
@@ -2209,14 +2888,25 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "maverick",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": true,
       "leslie_m_reason": "red Maverick branding and M-name; mostly flatbed/glass, so rear-door fit is weak",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "maverick",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": true,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "tmc",
@@ -2245,7 +2935,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "tmc",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "tmc_00.jpg",
@@ -2259,7 +2952,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "tmc",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "tmc_01.jpg",
@@ -2273,7 +2969,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "tmc",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "tmc_02.jpg",
@@ -2287,13 +2986,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "tmc",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "tmc",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "hirschbach",
@@ -2323,13 +3033,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "hirschbach",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "hirschbach",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "paschall",
@@ -2359,7 +3080,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "paschall",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "paschall_00.jpg",
@@ -2373,13 +3097,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "paschall",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "paschall",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "millis",
@@ -2412,7 +3147,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "millis",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "millis_00.jpg",
@@ -2426,7 +3164,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "millis",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "millis_01.jpg",
@@ -2440,14 +3181,25 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "millis",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": true,
       "leslie_m_reason": "maroon/white fleet; Alvarado TX facility; M-name and red rear-lettering fit",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "millis",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": true,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "epes",
@@ -2477,7 +3229,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "epes",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "epes_01.jpg",
@@ -2491,7 +3246,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "epes",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "epes_00.jpg",
@@ -2505,13 +3263,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "epes",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "epes",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "boydbros",
@@ -2541,7 +3310,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "boydbros",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "boydbros_00.jpg",
@@ -2555,7 +3327,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "boydbros",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "boydbros_01.jpg",
@@ -2569,13 +3344,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "boydbros",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "boydbros",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "dart",
@@ -2605,13 +3391,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "dart",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "dart",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "transportamerica",
@@ -2640,13 +3437,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "transportamerica",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "transportamerica",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "westernflyer",
@@ -2676,13 +3484,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red/blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "westernflyer",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "westernflyer",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "maytrucking",
@@ -2715,7 +3534,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "maytrucking",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "maytrucking_00.jpg",
@@ -2729,7 +3551,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "maytrucking",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "maytrucking_02.jpg",
@@ -2743,7 +3568,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "maytrucking",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "maytrucking_01.jpg",
@@ -2757,14 +3585,25 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "maytrucking",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": true,
       "leslie_m_reason": "red May branding on white vans; Dallas terminal and Texas relevance",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "maytrucking",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": true,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "systemtransport",
@@ -2793,7 +3632,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "systemtransport",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "systemtransport_02.jpg",
@@ -2807,13 +3649,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "systemtransport",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "systemtransport",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "johnchristner",
@@ -2843,7 +3696,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue/red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "johnchristner",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "johnchristner_02.jpg",
@@ -2857,7 +3713,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "johnchristner",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "johnchristner_00.jpg",
@@ -2871,7 +3730,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "johnchristner",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "johnchristner_01.jpg",
@@ -2885,13 +3747,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "johnchristner",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "johnchristner",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "pridetransport",
@@ -2920,7 +3793,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "pridetransport",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "pridetransport_01.jpg",
@@ -2934,7 +3810,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pridetransport",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "pridetransport_02.jpg",
@@ -2948,7 +3827,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pridetransport",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "pridetransport_03.jpg",
@@ -2962,7 +3844,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pridetransport",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "pridetransport_04.jpg",
@@ -2976,13 +3861,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pridetransport",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "pridetransport",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "centralfreight",
@@ -3012,13 +3908,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red/blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "centralfreight",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "centralfreight",
+      "lettering_style": "block",
+      "corridor": "texas",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "mesillavalley",
@@ -3052,7 +3959,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "mesillavalley",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "mesillavalley_00.jpg",
@@ -3066,14 +3976,25 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "mesillavalley",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": true,
       "leslie_m_reason": "MVT globe/initials logo uses red; El Paso/Laredo and Southwest relevance",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "mesillavalley",
+      "lettering_style": "block",
+      "corridor": "laredo",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": true,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "mercer",
@@ -3104,14 +4025,25 @@
           "lettering_detected": "n/a",
           "lettering_note": "varied",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "mercer",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": true,
       "leslie_m_reason": "M-name national carrier; white/varied trailer branding, but red evidence is weak",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "mercer",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "hubgroup",
@@ -3140,7 +4072,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "hubgroup",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "hubgroup_00.jpg",
@@ -3154,13 +4089,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "hubgroup",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "hubgroup",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "southeastern",
@@ -3190,7 +4136,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "southeastern",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "southeastern_00.jpg",
@@ -3204,13 +4153,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "southeastern",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "southeastern",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "forwardair",
@@ -3239,7 +4199,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "forwardair",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "forwardair_00.jpg",
@@ -3253,7 +4216,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "forwardair",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "forwardair_01.jpg",
@@ -3267,13 +4233,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "forwardair",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "forwardair",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "dupre",
@@ -3302,7 +4279,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "dupre",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "dupre_00.jpg",
@@ -3316,13 +4296,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "dupre",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "dupre",
+      "lettering_style": "unknown",
+      "corridor": "regional",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "acmetruck",
@@ -3352,7 +4343,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "acmetruck",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "acmetruck_01.jpg",
@@ -3366,13 +4360,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "acmetruck",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "acmetruck",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "millertrans",
@@ -3401,7 +4406,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "millertrans",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "millertrans_00.jpg",
@@ -3415,14 +4423,25 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "millertrans",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": true,
       "leslie_m_reason": "M-name regional carrier, but blue branding and tank fleet make rear-door match weak",
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "millertrans",
+      "lettering_style": "unknown",
+      "corridor": "regional",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "roadrunner",
@@ -3451,13 +4470,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "roadrunner",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "roadrunner",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "daytonfreight",
@@ -3487,7 +4517,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "daytonfreight",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "daytonfreight_01.jpg",
@@ -3501,7 +4534,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "daytonfreight",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "daytonfreight_02.jpg",
@@ -3515,7 +4551,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "daytonfreight",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "daytonfreight_03.jpg",
@@ -3529,13 +4568,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "daytonfreight",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "daytonfreight",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "pittohio",
@@ -3564,13 +4614,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "pittohio",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "pittohio",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "walmart",
@@ -3586,7 +4647,7 @@
         "Transportation",
         "blue"
       ],
-      "image_count": 3,
+      "image_count": 4,
       "images": [
         {
           "file": "walmart_logo.png",
@@ -3599,7 +4660,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "walmart",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "walmart_02.jpg",
@@ -3613,7 +4677,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "walmart",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "walmart_01.jpg",
@@ -3627,7 +4694,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "walmart",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "walmart_03.jpg",
@@ -3641,13 +4711,46 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "walmart",
+          "broken": false,
+          "lineup_exclude": false
+        },
+        {
+          "file": "walmart_04.jpg",
+          "source": "openverse",
+          "source_url": "https://www.flickr.com/photos/50128414@N05/5261664654",
+          "image_url": "https://live.staticflickr.com/5202/5261664654_43f6c430c9_b.jpg",
+          "title": "Walmart\u2019s Aerodynamic Trucks",
+          "view": "side",
+          "white_ratio": 0.124,
+          "lettering_detected": "unclear",
+          "lettering_note": "unclear",
+          "is_strong_white": false,
+          "burgundy_candidate": false,
+          "branding_group": "walmart",
+          "broken": false,
+          "lineup_exclude": false,
+          "qa": {
+            "rear_score": 0.505,
+            "seam": 10.3,
+            "aspect": 0.66
+          },
           "side_only_note": "side only \u2014 not rear"
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "walmart",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "amazon",
@@ -3677,7 +4780,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "black/blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "amazon",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "amazon_02.jpg",
@@ -3691,7 +4797,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "amazon",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "amazon_03.jpg",
@@ -3705,7 +4814,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "amazon",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "amazon_04.jpg",
@@ -3719,13 +4831,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "amazon",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "amazon",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "sysco",
@@ -3752,7 +4875,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "sysco",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "sysco_00.jpg",
@@ -3766,7 +4892,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "sysco",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "sysco_01.jpg",
@@ -3780,7 +4909,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "sysco",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "sysco_02.jpg",
@@ -3794,7 +4926,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "sysco",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "sysco_03.jpg",
@@ -3808,13 +4943,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "sysco",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "sysco",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "usfoods",
@@ -3842,7 +4988,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "usfoods",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "usfoods_02.jpg",
@@ -3856,13 +5005,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "usfoods",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "usfoods",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "pepsico",
@@ -3891,7 +5051,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red/blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "pepsico",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "pepsico_00.jpg",
@@ -3905,7 +5068,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pepsico",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "pepsico_01.jpg",
@@ -3919,7 +5085,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pepsico",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "pepsico_02.jpg",
@@ -3933,7 +5102,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pepsico",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "pepsico_03.jpg",
@@ -3947,13 +5119,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "pepsico",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "pepsico",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "cocacola",
@@ -3983,7 +5166,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "cocacola",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "cocacola_02.jpg",
@@ -3997,7 +5183,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "cocacola",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "cocacola_00.jpg",
@@ -4011,13 +5200,24 @@
           "is_strong_white": false,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "cocacola",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "cocacola",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "penske",
@@ -4047,7 +5247,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red/yellow",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "penske",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "penske_00.jpg",
@@ -4061,7 +5264,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "penske",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "penske_01.jpg",
@@ -4075,7 +5281,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "penske",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "penske_02.jpg",
@@ -4089,7 +5298,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "penske",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "penske_03.jpg",
@@ -4103,13 +5315,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "penske",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "penske",
+      "lettering_style": "block",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "ryder",
@@ -4138,7 +5361,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "yellow",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "ryder",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "ryder_01.jpg",
@@ -4152,7 +5378,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "ryder",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "ryder_04.jpg",
@@ -4166,7 +5395,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "ryder",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "ryder_06.jpg",
@@ -4180,7 +5412,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "ryder",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "ryder_07.jpg",
@@ -4194,13 +5429,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "ryder",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "ryder",
+      "lettering_style": "unknown",
+      "corridor": "i35",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "uhaul",
@@ -4227,7 +5473,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "orange",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "uhaul",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "uhaul_06.jpg",
@@ -4241,7 +5490,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "uhaul",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "uhaul_01.jpg",
@@ -4255,7 +5507,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "uhaul",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "uhaul_03.jpg",
@@ -4269,13 +5524,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "uhaul",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "uhaul",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "budget",
@@ -4305,7 +5571,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "orange",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "budget",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "budget_00.jpg",
@@ -4319,7 +5588,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "budget",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "budget_01.jpg",
@@ -4333,7 +5605,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "budget",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "budget_02.jpg",
@@ -4347,7 +5622,10 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "budget",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "budget_03.jpg",
@@ -4361,13 +5639,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "budget",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "budget",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "schneiderdedicated",
@@ -4398,7 +5687,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "varied",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "schneiderdedicated",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "schneiderdedicated_00.jpg",
@@ -4412,7 +5704,10 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "schneiderdedicated",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "schneiderdedicated_01.jpg",
@@ -4426,13 +5721,24 @@
           "is_strong_white": true,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "schneiderdedicated",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "schneiderdedicated",
+      "lettering_style": "unknown",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "ffe",
@@ -4462,7 +5768,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red/blue",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "ffe",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "ffe_00.jpg",
@@ -4476,7 +5785,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "ffe",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "ffe_01.jpg",
@@ -4490,7 +5802,10 @@
           "lettering_note": "red/blue",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "ffe",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "ffe_02.jpg",
@@ -4504,13 +5819,24 @@
           "lettering_note": "red/blue",
           "is_strong_white": false,
           "burgundy_candidate": false,
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "ffe",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "ffe",
+      "lettering_style": "block",
+      "corridor": "texas",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "lonestar",
@@ -4540,13 +5866,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "lonestar",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "lonestar",
+      "lettering_style": "block",
+      "corridor": "texas",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "brownintegrated",
@@ -4576,7 +5913,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "brown/red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "brownintegrated",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "brownintegrated_02.jpg",
@@ -4590,7 +5930,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "brownintegrated",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "brownintegrated_00.jpg",
@@ -4604,7 +5947,10 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "brownintegrated",
+          "broken": false,
+          "lineup_exclude": false
         },
         {
           "file": "brownintegrated_01.jpg",
@@ -4618,13 +5964,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "brownintegrated",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "brownintegrated",
+      "lettering_style": "block",
+      "corridor": "texas",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "papertransport",
@@ -4653,7 +6010,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "papertransport",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "papertransport_00.jpg",
@@ -4667,13 +6027,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "papertransport",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "papertransport",
+      "lettering_style": "block",
+      "corridor": "regional",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "lineup",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "anderson",
@@ -4704,7 +6075,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "anderson",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "anderson_00.jpg",
@@ -4718,13 +6092,24 @@
           "is_strong_white": true,
           "burgundy_candidate": true,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "anderson",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "anderson",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": true,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "bennett",
@@ -4754,13 +6139,24 @@
           "lettering_detected": "n/a",
           "lettering_note": "red",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "bennett",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": true,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "bennett",
+      "lettering_style": "block",
+      "corridor": "national",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "tql",
@@ -4791,7 +6187,10 @@
           "lettering_detected": "n/a",
           "lettering_note": "varied",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "tql",
+          "broken": false,
+          "lineup_exclude": true
         },
         {
           "file": "tql_00.jpg",
@@ -4805,13 +6204,24 @@
           "is_strong_white": false,
           "burgundy_candidate": false,
           "view": "side",
-          "side_only_note": "side only \u2014 not rear"
+          "side_only_note": "side only \u2014 not rear",
+          "branding_group": "tql",
+          "broken": false,
+          "lineup_exclude": false
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "tql",
+      "lettering_style": "unknown",
+      "corridor": "broker",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
     },
     {
       "id": "chrobinson",
@@ -4840,13 +6250,1396 @@
           "lettering_detected": "n/a",
           "lettering_note": "varied",
           "is_strong_white": true,
-          "burgundy_candidate": false
+          "burgundy_candidate": false,
+          "branding_group": "chrobinson",
+          "broken": false,
+          "lineup_exclude": true
         }
       ],
       "has_burgundy_hint": false,
       "leslie_m_candidate": false,
       "rear_image_count": 0,
-      "has_logo": true
+      "has_logo": true,
+      "branding_group": "chrobinson",
+      "lettering_style": "unknown",
+      "corridor": "broker",
+      "similar_to_drawing": false,
+      "legacy_m_shortlist": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": []
+    },
+    {
+      "id": "heb",
+      "name": "H-E-B",
+      "website": "https://www.heb.com",
+      "region": "texas",
+      "corridor": "sa_i35",
+      "notes": "San Antonio\u2013based private fleet; white trailers common on I-35 / SA metro",
+      "lettering_hint": "red/black",
+      "priority": "high",
+      "branding_group": "heb",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "H-E-B",
+        "heb",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "target",
+      "name": "Target (private fleet)",
+      "website": "https://corporate.target.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "White/red Target trailers; common on I-35",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "branding_group": "target",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Target (private fleet)",
+        "target",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "costco",
+      "name": "Costco (private fleet)",
+      "website": "https://www.costco.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "White Costco trailers",
+      "lettering_hint": "red/black",
+      "priority": "medium",
+      "branding_group": "costco",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Costco (private fleet)",
+        "costco",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "homedepot",
+      "name": "The Home Depot (private fleet)",
+      "website": "https://www.homedepot.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "Orange branding dominant \u2014 often eliminate on color",
+      "lettering_hint": "orange",
+      "priority": "low",
+      "branding_group": "homedepot",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "The Home Depot (private fleet)",
+        "homedepot",
+        "orange"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "lowes",
+      "name": "Lowe's (private fleet)",
+      "website": "https://www.lowes.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "Blue branding dominant \u2014 often eliminate on color",
+      "lettering_hint": "blue",
+      "priority": "low",
+      "branding_group": "lowes",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Lowe's (private fleet)",
+        "lowes",
+        "blue"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "dollargeneral",
+      "name": "Dollar General (private fleet)",
+      "website": "https://www.dollargeneral.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "Yellow/black branding often",
+      "lettering_hint": "yellow/black",
+      "priority": "low",
+      "branding_group": "dollargeneral",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Dollar General (private fleet)",
+        "dollargeneral",
+        "yellow/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "cfi",
+      "name": "CFI (Contract Freighters Inc.)",
+      "website": "https://www.cfidrive.com",
+      "region": "national",
+      "corridor": "i35",
+      "notes": "Joplin-based; heavy I-35 corridor dry van",
+      "lettering_hint": "red/black",
+      "priority": "high",
+      "branding_group": "cfi",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "CFI (Contract Freighters Inc.)",
+        "cfi",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "westernexpress",
+      "name": "Western Express",
+      "website": "https://www.westernexp.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "Nashville; white dry vans nationwide",
+      "lettering_hint": "red/black",
+      "priority": "medium",
+      "branding_group": "westernexpress",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Western Express",
+        "westernexpress",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "nussbaum",
+      "name": "Nussbaum Transportation",
+      "website": "https://www.nussbaum.com",
+      "region": "regional",
+      "corridor": "national",
+      "notes": "White trailers; Illinois-based regional/national",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "branding_group": "nussbaum",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "Nussbaum Transportation",
+        "nussbaum",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "decker",
+      "name": "Decker Truck Line",
+      "website": "https://www.deckertrucks.com",
+      "region": "regional",
+      "corridor": "national",
+      "notes": "Iowa; dry van / refrigerated",
+      "lettering_hint": "red/black",
+      "priority": "medium",
+      "branding_group": "decker",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Decker Truck Line",
+        "decker",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "freymiller",
+      "name": "Freymiller",
+      "website": "https://www.freymiller.com",
+      "region": "national",
+      "corridor": "i35",
+      "notes": "Oklahoma City; temperature-controlled; I-35 corridor",
+      "lettering_hint": "red/blue",
+      "priority": "medium",
+      "branding_group": "freymiller",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "Freymiller",
+        "freymiller",
+        "red/blue"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "navajo",
+      "name": "Navajo Express",
+      "website": "https://www.navajoexpress.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "Denver; refrigerated / dry",
+      "lettering_hint": "red/black",
+      "priority": "medium",
+      "branding_group": "navajo",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Navajo Express",
+        "navajo",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "hogan",
+      "name": "Hogan Transportation",
+      "website": "https://www.hogan1.com",
+      "region": "national",
+      "corridor": "i35",
+      "notes": "St. Louis; dry van common on central corridors",
+      "lettering_hint": "red/black",
+      "priority": "medium",
+      "branding_group": "hogan",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Hogan Transportation",
+        "hogan",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "interstate",
+      "name": "Interstate Distributor Co.",
+      "website": "https://www.intd.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "Tacoma; dedicated / dry van",
+      "lettering_hint": "blue/red",
+      "priority": "low",
+      "branding_group": "interstate",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Interstate Distributor Co.",
+        "interstate",
+        "blue/red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "challenger",
+      "name": "Challenger Motor Freight",
+      "website": "https://www.challenger.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "Canadian carrier operating into US",
+      "lettering_hint": "red/black",
+      "priority": "low",
+      "branding_group": "challenger",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Challenger Motor Freight",
+        "challenger",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "bison",
+      "name": "Bison Transport",
+      "website": "https://www.bisontransport.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "Canadian; cross-border dry van",
+      "lettering_hint": "red/black",
+      "priority": "low",
+      "branding_group": "bison",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Bison Transport",
+        "bison",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "cowan",
+      "name": "Cowan Systems",
+      "website": "https://www.cowan.fr",
+      "region": "regional",
+      "corridor": "national",
+      "notes": "Baltimore regional / dedicated",
+      "lettering_hint": "red",
+      "priority": "low",
+      "branding_group": "cowan",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Cowan Systems",
+        "cowan",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "wilsonlogistics",
+      "name": "Wilson Logistics",
+      "website": "https://www.wilsonlogistics.com",
+      "region": "regional",
+      "corridor": "national",
+      "notes": "Oregon; dry van",
+      "lettering_hint": "green/black",
+      "priority": "low",
+      "branding_group": "wilsonlogistics",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Wilson Logistics",
+        "wilsonlogistics",
+        "green/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "armstrong",
+      "name": "Armstrong Transport Group",
+      "website": "https://www.armstrongtransport.com",
+      "region": "broker",
+      "corridor": "national",
+      "notes": "Broker \u2014 equipment varies; low ID value",
+      "lettering_hint": "unknown",
+      "priority": "low",
+      "branding_group": "armstrong",
+      "lettering_style": "unknown",
+      "door_text_keywords": [
+        "Armstrong Transport Group",
+        "armstrong",
+        "unknown"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "redclassic",
+      "name": "Red Classic",
+      "website": "https://www.redclassic.com",
+      "region": "regional",
+      "corridor": "i35",
+      "notes": "Charlotte; refrigerated; southeast/central",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "branding_group": "redclassic",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "Red Classic",
+        "redclassic",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "gulfwinds",
+      "name": "Gulf Winds International",
+      "website": "https://www.gulfwinds.com",
+      "region": "texas",
+      "corridor": "laredo",
+      "notes": "Houston / border freight; TX\u2013Mexico corridor",
+      "lettering_hint": "blue/red",
+      "priority": "high",
+      "branding_group": "gulfwinds",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "Gulf Winds International",
+        "gulfwinds",
+        "blue/red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": true,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "alamotransport",
+      "name": "Alamo Transportation (TX regional)",
+      "website": "https://www.google.com/search?q=Alamo+Transportation+Texas+trucking",
+      "region": "texas",
+      "corridor": "sa_i35",
+      "notes": "SA-area regional name pool \u2014 verify branding before relying",
+      "lettering_hint": "unknown",
+      "priority": "medium",
+      "branding_group": "alamotransport",
+      "lettering_style": "unknown",
+      "door_text_keywords": [
+        "Alamo Transportation (TX regional)",
+        "alamotransport",
+        "unknown"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "borderfreight",
+      "name": "Border freight / Laredo pool (generic)",
+      "website": "https://www.google.com/search?q=Laredo+TX+trucking+companies+white+trailer",
+      "region": "texas",
+      "corridor": "laredo",
+      "notes": "Placeholder pool for Laredo white dry vans with small rear marks \u2014 photos TBD",
+      "lettering_hint": "burgundy/dark-red possible",
+      "priority": "medium",
+      "branding_group": "borderfreight",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "Border freight / Laredo pool (generic)",
+        "borderfreight",
+        "burgundy/dark-red possible"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "transportescastores",
+      "name": "Transportes Castores",
+      "website": "https://www.castores.com.mx",
+      "region": "regional",
+      "corridor": "laredo",
+      "notes": "Major MX carrier; Laredo/border crossings common",
+      "lettering_hint": "red/yellow",
+      "priority": "medium",
+      "branding_group": "castores",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Transportes Castores",
+        "transportescastores",
+        "red/yellow"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "ceva",
+      "name": "CEVA Logistics",
+      "website": "https://www.cevalogistics.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "3PL; varied equipment",
+      "lettering_hint": "red/black",
+      "priority": "low",
+      "branding_group": "ceva",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "CEVA Logistics",
+        "ceva",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "dbschenker",
+      "name": "DB Schenker",
+      "website": "https://www.dbschenker.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "Global 3PL; white trailers with Schenker marks",
+      "lettering_hint": "magenta/pink",
+      "priority": "low",
+      "branding_group": "dbschenker",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "DB Schenker",
+        "dbschenker",
+        "magenta/pink"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "dhlsupply",
+      "name": "DHL Supply Chain",
+      "website": "https://www.dhl.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "Yellow/red DHL branding often distinctive",
+      "lettering_hint": "yellow/red",
+      "priority": "low",
+      "branding_group": "dhl",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "DHL Supply Chain",
+        "dhlsupply",
+        "yellow/red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "martinsystems",
+      "name": "Martin Transportation Systems",
+      "website": "https://www.martinstrans.com",
+      "region": "regional",
+      "corridor": "national",
+      "notes": "Michigan; automotive / dry van",
+      "lettering_hint": "red/black",
+      "priority": "low",
+      "branding_group": "martinsystems",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Martin Transportation Systems",
+        "martinsystems",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "tysonfoods",
+      "name": "Tyson Foods (private fleet)",
+      "website": "https://www.tysonfoods.com",
+      "region": "private",
+      "corridor": "i35",
+      "notes": "Refrigerated food fleet; I-35 relevant",
+      "lettering_hint": "red/black",
+      "priority": "medium",
+      "branding_group": "tyson",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Tyson Foods (private fleet)",
+        "tysonfoods",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "cargill",
+      "name": "Cargill (private fleet)",
+      "website": "https://www.cargill.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "Private fleet; varied trailers",
+      "lettering_hint": "black/green",
+      "priority": "low",
+      "branding_group": "cargill",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Cargill (private fleet)",
+        "cargill",
+        "black/green"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "kehe",
+      "name": "KeHE Distributors",
+      "website": "https://www.kehe.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "Grocery distributor trailers",
+      "lettering_hint": "blue/green",
+      "priority": "low",
+      "branding_group": "kehe",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "KeHE Distributors",
+        "kehe",
+        "blue/green"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "centraltransport",
+      "name": "Central Transport (LTL)",
+      "website": "https://www.centraltransport.com",
+      "region": "national",
+      "corridor": "national",
+      "notes": "LTL; not Central Freight Lines (TX) \u2014 different company",
+      "lettering_hint": "green/black",
+      "priority": "low",
+      "branding_group": "centraltransport",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Central Transport (LTL)",
+        "centraltransport",
+        "green/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "dotfoods",
+      "name": "Dot Transportation / Dot Foods",
+      "website": "https://www.dotfoods.com",
+      "region": "private",
+      "corridor": "national",
+      "notes": "Foodservice redistributor fleet",
+      "lettering_hint": "red/black",
+      "priority": "medium",
+      "branding_group": "dotfoods",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Dot Transportation / Dot Foods",
+        "dotfoods",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "shaffer",
+      "name": "Shaffer Trucking",
+      "website": "https://www.shaffertrucking.com",
+      "region": "regional",
+      "corridor": "national",
+      "notes": "Refrigerated; part of Crete family historically",
+      "lettering_hint": "red",
+      "priority": "medium",
+      "branding_group": "crete_family",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Shaffer Trucking",
+        "shaffer",
+        "red"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "hunttransport",
+      "name": "Hunt Transportation",
+      "website": "https://www.hunttransportation.com",
+      "region": "regional",
+      "corridor": "national",
+      "notes": "Flatbed-heavy \u2014 weak dry-van rear-door fit",
+      "lettering_hint": "red/black",
+      "priority": "low",
+      "branding_group": "hunttransport",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Hunt Transportation",
+        "hunttransport",
+        "red/black"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "rivercitytx",
+      "name": "River City / SA metro carriers pool",
+      "website": "https://www.google.com/search?q=San+Antonio+TX+trucking+companies+dry+van",
+      "region": "texas",
+      "corridor": "sa_i35",
+      "notes": "SA metro dry-van pool for further photo collection",
+      "lettering_hint": "unknown",
+      "priority": "medium",
+      "branding_group": "rivercitytx",
+      "lettering_style": "unknown",
+      "door_text_keywords": [
+        "River City / SA metro carriers pool",
+        "rivercitytx",
+        "unknown"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "i35corridor",
+      "name": "I-35 corridor regional pool",
+      "website": "https://www.google.com/search?q=I-35+Texas+trucking+white+trailer+burgundy",
+      "region": "texas",
+      "corridor": "i35",
+      "notes": "Catch-all for additional I-35 white trailers with subtle dark-red rear marks",
+      "lettering_hint": "burgundy/dark-red possible",
+      "priority": "medium",
+      "branding_group": "i35corridor",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "I-35 corridor regional pool",
+        "i35corridor",
+        "burgundy/dark-red possible"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "laredoline",
+      "name": "Laredo line-haul carriers pool",
+      "website": "https://www.google.com/search?q=Laredo+TX+line+haul+truck+trailer",
+      "region": "texas",
+      "corridor": "laredo",
+      "notes": "Laredo line-haul white dry vans \u2014 photos TBD from public sources",
+      "lettering_hint": "unknown",
+      "priority": "medium",
+      "branding_group": "laredoline",
+      "lettering_style": "simple",
+      "door_text_keywords": [
+        "Laredo line-haul carriers pool",
+        "laredoline",
+        "unknown"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "sgt",
+      "name": "SGT / Southwest freight (TX\u2013MX)",
+      "website": "https://www.google.com/search?q=Southwest+freight+Laredo+trucking",
+      "region": "texas",
+      "corridor": "laredo",
+      "notes": "Border Southwest freight names \u2014 verify before treating as ID",
+      "lettering_hint": "unknown",
+      "priority": "low",
+      "branding_group": "sgt",
+      "lettering_style": "unknown",
+      "door_text_keywords": [
+        "SGT / Southwest freight (TX\u2013MX)",
+        "sgt",
+        "unknown"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
+    },
+    {
+      "id": "whataburgerdist",
+      "name": "Whataburger distribution (private)",
+      "website": "https://www.whataburger.com",
+      "region": "texas",
+      "corridor": "sa_i35",
+      "notes": "TX brand; distribution trailers may appear locally",
+      "lettering_hint": "orange/white",
+      "priority": "low",
+      "branding_group": "whataburger",
+      "lettering_style": "block",
+      "door_text_keywords": [
+        "Whataburger distribution (private)",
+        "whataburgerdist",
+        "orange/white"
+      ],
+      "image_count": 0,
+      "images": [],
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false,
+      "legacy_m_shortlist": false,
+      "rear_image_count": 0,
+      "has_logo": false,
+      "similar_to_drawing": false,
+      "pool": "low_priority",
+      "lineup_eligible": false,
+      "evidence_notes": [
+        {
+          "kind": "ORIGINAL",
+          "text": "Carrier added in lineup expansion (metadata only; photos pending public rear sources).",
+          "at": "2026-09-29T12:05:19-05:00"
+        }
+      ]
     }
-  ]
+  ],
+  "evidence": {
+    "drawing": {
+      "file": "assets/leslie-drawing-original.png",
+      "kind": "ORIGINAL",
+      "note": "Unaltered iMessage screenshot from Leslie (momma). Do not alter pixels.",
+      "eyewitness_statement_exact": "I'm not sure if these are the correct letters, but they were sideways.",
+      "shapes_policy": "Do NOT label drawing shapes as definite letters. Use only as visual similarity reference.",
+      "context": "iMessage Screenshot 2026-09-28 at 12.33.29 PM after Selma/I-35 hit-and-run Mon 2026-09-28 ~9:32 AM CT. White trailer; rear marking small/subtle dark red/maroon/burgundy; simple maybe script; company name possible; letter unsure (not force M)."
+    },
+    "after": []
+  },
+  "lineup_photo_count": 5
 }
