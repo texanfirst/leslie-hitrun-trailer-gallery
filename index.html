@@ -14,6 +14,7 @@
     --accent: #c45c4a;
     --accent2: #5b8def;
     --ok: #3d9a6a;
+    --rear: #2a6b4a;
   }
   * { box-sizing: border-box; }
   body {
@@ -52,8 +53,11 @@
     border-radius: 999px; padding: .35rem .7rem; font-size: .8rem; cursor: pointer;
   }
   .chips button:active { border-color: var(--accent2); }
+  .chips button.active { border-color: var(--accent2); background: #1a3050; }
   .chips button.leslie-chip { background: #5b2a2e; border: 2px solid #d88478; color: #fff; font-weight: 700; padding: .45rem .8rem; }
   .chips button.leslie-chip.active { background: #c45c4a; border-color: #ffd1c9; }
+  .chips button.rear-chip { background: #1a3a2a; border: 2px solid #3d9a6a; color: #c8f0d8; font-weight: 700; padding: .45rem .8rem; }
+  .chips button.rear-chip.active { background: #2a6b4a; border-color: #9eecc0; color: #fff; }
   details.filters {
     margin-top: .65rem; color: var(--muted); font-size: .88rem;
   }
@@ -83,7 +87,18 @@
   .company.eliminated { opacity: .35; }
   .company.eliminated .gallery { display: none; }
   .company-head { padding: .85rem 1rem; border-bottom: 1px solid var(--border); }
-  .company-head h2 { margin: 0 0 .35rem; font-size: 1.15rem; }
+  .name-row {
+    display: flex; align-items: center; gap: .65rem; margin-bottom: .35rem;
+  }
+  .logo-thumb {
+    width: 44px; height: 44px; object-fit: contain; background: #fff;
+    border-radius: 8px; border: 1px solid var(--border); flex-shrink: 0;
+  }
+  .logo-thumb.missing {
+    display: flex; align-items: center; justify-content: center;
+    font-size: .65rem; color: var(--muted); background: #0c1016;
+  }
+  .company-head h2 { margin: 0; font-size: 1.15rem; }
   .badge {
     font-size: .68rem; text-transform: uppercase; letter-spacing: .04em;
     padding: .15rem .45rem; border-radius: 999px; border: 1px solid var(--border);
@@ -92,6 +107,7 @@
   .badge.high { border-color: var(--accent); color: #f0a090; }
   .badge.burgundy { border-color: #8b2942; background: #4a1a28; color: #f0b8c4; }
   .badge.redhint { border-color: #a33; color: #e88; }
+  .badge.rear-co { border-color: #3d9a6a; background: #1a3a2a; color: #9eecc0; }
   .notes { color: var(--muted); font-size: .85rem; margin: .35rem 0 .55rem; }
   .elim { display: flex; gap: .4rem; flex-wrap: wrap; }
   .elim button {
@@ -106,11 +122,21 @@
   }
   .thumb {
     background: #0c1016; border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
+    position: relative;
   }
   .thumb img {
     width: 100%; height: 140px; object-fit: cover; background: #111; cursor: zoom-in; display: block;
   }
   .thumb .cap { padding: .35rem .45rem; font-size: .7rem; color: var(--muted); }
+  .view-badge {
+    position: absolute; top: .35rem; left: .35rem;
+    font-size: .65rem; font-weight: 700; letter-spacing: .04em;
+    padding: .2rem .4rem; border-radius: 6px; text-transform: uppercase;
+  }
+  .view-badge.rear { background: #2a6b4a; color: #fff; }
+  .view-badge.side { background: #6b4a2a; color: #ffe8d0; }
+  .view-badge.other { background: #333; color: #ccc; }
+  .side-warn { color: #f0cfc8; font-weight: 600; }
   .noimgs { padding: 1rem; color: var(--muted); font-size: .9rem; font-style: italic; }
   .lightbox {
     display: none; position: fixed; inset: 0; background: rgba(0,0,0,.92);
@@ -132,7 +158,7 @@
   <h1>Trailer lineup for Leslie</h1>
   <div class="disclaimer"><strong>Lineup only — not an ID.</strong> Flip photos. Eliminate mismatches. Tell police/insurance only what you actually saw.</div>
   <div class="how">
-    <strong>Don’t type first — scroll the photos.</strong> Tap a chip (Swift, Knight…) only if you want that company. Tap a photo to zoom. Tap Eliminate if it’s not a match.
+    <strong>Don’t type first — scroll the photos.</strong> Prefer <strong>REAR</strong> (back doors) shots — that’s what you saw. Tap a chip only if you want that filter/company. Tap a photo to zoom. Tap Eliminate if it’s not a match.
     <div style="margin-top:.45rem"><strong>Leslie’s note:</strong> she thought the lettering was sideways, maybe an M — just one of the three shapes, not necessarily all three.</div>
   </div>
   <div class="search-wrap">
@@ -149,9 +175,14 @@
         <option value="medium">Medium+</option>
       </select>
       <select id="letter">
-        <option value="all">Any lettering</option>
-        <option value="burgundy" selected>Burgundy / red hints</option>
+        <option value="all" selected>Any lettering</option>
+        <option value="burgundy">Burgundy / red hints</option>
         <option value="white">Has white-ish photo</option>
+      </select>
+      <select id="viewFilter">
+        <option value="rear" selected>Rear views (default)</option>
+        <option value="all">All photo angles</option>
+        <option value="side">Side only</option>
       </select>
       <label class="chk"><input type="checkbox" id="hideElim" checked /> Hide eliminated</label>
       <button type="button" class="clear-f" id="clearFilters">Reset filters</button>
@@ -161,7 +192,7 @@
 </header>
 <main id="list"><p class="stats" style="padding:1rem">Loading photos…</p></main>
 <footer>
-  Elimination choices stay on this phone only. Data: companies.json · public fleet photos.
+  Elimination choices stay on this phone only. Data: companies.json · rear doors + logos preferred · public fleet photos.
 </footer>
 <div class="lightbox" id="lb"><button class="close" id="lbClose" type="button">Close</button><img id="lbImg" alt="" /></div>
 <script>
@@ -169,14 +200,13 @@ const elimKey = 'leslie-hitrun-elim-v1';
 const QUICK = ['Swift','Knight','Werner','Roehl','U.S. Xpress','CRST','Crete','Heartland','Paschall','Stevens','Central Freight','FFE'];
 let companies = [];
 let leslieMMode = false;
+let rearMode = true; // default: emphasize rear views
 let elim = {};
 try { elim = JSON.parse(localStorage.getItem(elimKey) || '{}') || {}; } catch(e){ elim = {}; }
 
 function saveElim(){ localStorage.setItem(elimKey, JSON.stringify(elim)); }
 
 function isLeslieM(c){
-  // Metadata is preferred; name fallback keeps the review useful if a new M-name
-  // carrier is added without the explicit field.
   return c.leslie_m_candidate === true || /m/i.test(c.name || '');
 }
 
@@ -190,12 +220,28 @@ function hasBurgundy(c){
   );
 }
 
+function logoOf(c){
+  return (c.images||[]).find(i => i.view === 'logo');
+}
+
+function trailerImages(c){
+  return (c.images||[]).filter(i => i.view !== 'logo');
+}
+
+function rearImages(c){
+  return trailerImages(c).filter(i => i.view === 'rear');
+}
+
+function hasRear(c){
+  return rearImages(c).length > 0 || (c.rear_image_count||0) > 0;
+}
+
 function match(c, q){
   if(!q) return true;
   const blob = [
     c.name, c.id, c.notes, c.lettering_hint, c.region,
     ...(c.door_text_keywords||[]),
-    ...(c.images||[]).flatMap(i=>[i.title,i.lettering_note,i.lettering_detected])
+    ...(c.images||[]).flatMap(i=>[i.title,i.lettering_note,i.lettering_detected,i.view])
   ].join(' ').toLowerCase();
   return q.split(/\s+/).filter(Boolean).every(t => blob.includes(t));
 }
@@ -209,12 +255,14 @@ async function load(){
     companies.sort((a,b)=>{
       const score = c => (c.priority==='high'?3:c.priority==='medium'?2:1)
         + (hasBurgundy(c)?2:0)
-        + (c.image_count?0.5:0);
+        + (hasRear(c)?3:0)
+        + (c.image_count?0.5:0)
+        + (c.has_logo?0.25:0);
       return score(b)-score(a);
     });
     buildChips();
+    syncRearChip();
     render();
-    // Don't open the keyboard on load — photos first on phone
     const q = document.getElementById('q');
     q.blur();
     setTimeout(()=>q.blur(), 50);
@@ -226,29 +274,42 @@ async function load(){
 
 function buildChips(){
   const root = document.getElementById('chips');
-  root.innerHTML = `<button type="button" class="leslie-chip" data-chip="__leslie_m">Leslie: M / sideways</button>` + QUICK.map(name =>
-    `<button type="button" data-chip="${name}">${name}</button>`
-  ).join('');
+  root.innerHTML =
+    `<button type="button" class="rear-chip active" data-chip="__rear">Rear views</button>` +
+    `<button type="button" class="leslie-chip" data-chip="__leslie_m">Leslie: M / sideways</button>` +
+    QUICK.map(name => `<button type="button" data-chip="${name}">${name}</button>`).join('');
+}
+
+function syncRearChip(){
+  const b = document.querySelector('#chips button[data-chip="__rear"]');
+  if(b) b.classList.toggle('active', rearMode);
+  const vf = document.getElementById('viewFilter');
+  if(rearMode && vf.value !== 'rear') vf.value = 'rear';
+  if(!rearMode && vf.value === 'rear') vf.value = 'all';
 }
 
 function resetFilters(){
   document.getElementById('prio').value = 'all';
   document.getElementById('letter').value = 'all';
+  document.getElementById('viewFilter').value = 'rear';
   document.getElementById('hideElim').checked = true;
+  rearMode = true;
+  syncRearChip();
 }
 
 function render(){
   const qEl = document.getElementById('q');
   const q = qEl.value.trim().toLowerCase();
-  // Typing a name searches ALL companies — filters stop blocking the search.
   const searching = q.length > 0;
   let prio = document.getElementById('prio').value;
   let letter = document.getElementById('letter').value;
-  if(searching){ prio = 'all'; letter = 'all'; }
+  let viewFilter = document.getElementById('viewFilter').value;
+  if(searching){ prio = 'all'; letter = 'all'; viewFilter = 'all'; }
+  else if(rearMode){ viewFilter = 'rear'; }
   const hideElim = document.getElementById('hideElim').checked;
   const root = document.getElementById('list');
   root.innerHTML = '';
-  let shown=0, imgs=0;
+  let shown=0, imgs=0, rearShown=0;
   const orderedCompanies = leslieMMode ? [...companies].sort((a,b) =>
     Number(isLeslieM(b)) - Number(isLeslieM(a))
   ) : companies;
@@ -261,12 +322,38 @@ function render(){
       if(prio==='high' && c.priority!=='high') continue;
       if(prio==='medium' && !(c.priority==='high'||c.priority==='medium')) continue;
       if(letter==='burgundy' && !hasBurgundy(c)) continue;
-      if(letter==='white' && !(c.images||[]).some(i=>i.white_ratio>=0.1)) continue;
+      if(letter==='white' && !(c.images||[]).some(i=>i.white_ratio>=0.1 && i.view!=='logo')) continue;
+      if(viewFilter==='rear' && !hasRear(c) && trailerImages(c).length>0){
+        // Still show side-only companies but we'll badge them — actually for rear filter,
+        // include companies with no rear so Leslie can still review, but sort rear first.
+        // Requirement: default filter "Rear views" — show companies that have rear, PLUS
+        // side-only marked clearly. Keep all so she doesn't miss carriers.
+      }
+      if(viewFilter==='side' && (hasRear(c) || trailerImages(c).every(i=>i.view!=='side'))) {
+        if(!trailerImages(c).some(i=>i.view==='side')) continue;
+      }
     }
     if(!match(c,q)) continue;
 
     shown++;
-    imgs += (c.images||[]).length;
+    const logo = logoOf(c);
+    let photos = trailerImages(c);
+    // When rear filter on (and not searching), put rear first; optionally hide pure-other
+    if(!searching && (viewFilter==='rear' || rearMode)){
+      const rears = photos.filter(i=>i.view==='rear');
+      const sides = photos.filter(i=>i.view==='side');
+      const rest = photos.filter(i=>i.view!=='rear' && i.view!=='side');
+      if(rears.length){
+        photos = rears.concat(sides.slice(0,1)); // one side for context max
+      } else {
+        photos = sides.concat(rest); // side only — not rear
+      }
+    } else if(!searching && viewFilter==='side'){
+      photos = photos.filter(i=>i.view==='side');
+    }
+    imgs += photos.length;
+    rearShown += photos.filter(i=>i.view==='rear').length;
+
     const div = document.createElement('section');
     div.className = 'company' + (status==='out'?' eliminated':'');
     div.dataset.id = c.id;
@@ -274,29 +361,43 @@ function render(){
     const badges = [];
     badges.push(`<span class="badge ${c.priority==='high'?'high':''}">${c.priority||'n/a'}</span>`);
     if(c.region) badges.push(`<span class="badge">${c.region}</span>`);
+    if(hasRear(c)) badges.push('<span class="badge rear-co">has rear</span>');
     if(/burgundy/i.test(c.lettering_hint||'')) badges.push('<span class="badge burgundy">burgundy hint</span>');
     else if(/red/i.test(c.lettering_hint||'')) badges.push('<span class="badge redhint">red lettering hint</span>');
-    badges.push(`<span class="badge">${c.image_count||0} photos</span>`);
+    badges.push(`<span class="badge">${photos.length} photos</span>`);
 
     let gallery='';
-    if(!(c.images||[]).length){
-      gallery = `<div class="noimgs">No public trailer photo yet — eliminate by name/lettering: <strong>${c.lettering_hint||'unknown'}</strong>. ${c.website?`<a href="${c.website}" target="_blank" rel="noopener">company site</a>`:''}</div>`;
+    if(!photos.length){
+      const hint = c.lettering_hint||'unknown';
+      gallery = `<div class="noimgs">No public trailer photo yet${logo?' (logo only)':''} — eliminate by name/lettering: <strong>${hint}</strong>. ${c.website?`<a href="${c.website}" target="_blank" rel="noopener">company site</a>`:''}</div>`;
     } else {
-      gallery = '<div class="gallery">' + c.images.map(im=>{
+      gallery = '<div class="gallery">' + photos.map(im=>{
         const tags = [];
+        const view = im.view || 'other';
         if(im.is_strong_white) tags.push('strong white');
         if(im.burgundy_candidate) tags.push('burgundy cand.');
         if(im.lettering_note) tags.push(im.lettering_note);
+        let warn = '';
+        if(view==='side' || im.side_only_note){
+          warn = '<div class="side-warn">side only — not rear</div>';
+        }
+        const vb = view==='rear' ? 'rear' : (view==='side' ? 'side' : 'other');
+        const vlabel = view==='rear' ? 'REAR' : (view==='side' ? 'SIDE' : 'OTHER');
         return `<div class="thumb">
-          <img src="images/${im.file}" alt="${(c.name+' trailer').replace(/"/g,'')}" loading="lazy" data-full="images/${im.file}" />
-          <div class="cap"><strong>${im.source||''}</strong>${tags.join(' · ')}</div>
+          <span class="view-badge ${vb}">${vlabel}</span>
+          <img src="images/${im.file}" alt="${(c.name+' trailer '+vlabel).replace(/"/g,'')}" loading="lazy" data-full="images/${im.file}" />
+          <div class="cap"><strong>${im.source||''}</strong> ${tags.join(' · ')}${warn}</div>
         </div>`;
       }).join('') + '</div>';
     }
 
+    const logoHtml = logo
+      ? `<img class="logo-thumb" src="images/${logo.file}" alt="${(c.name+' logo').replace(/"/g,'')}" loading="lazy" />`
+      : `<div class="logo-thumb missing">logo</div>`;
+
     div.innerHTML = `
       <div class="company-head">
-        <h2>${c.name}</h2>
+        <div class="name-row">${logoHtml}<h2>${c.name}</h2></div>
         ${badges.join('')}
         <p class="notes">${c.notes||''}</p>
         <div class="elim">
@@ -316,16 +417,21 @@ function render(){
     </div>`;
     document.getElementById('showAllBtn').onclick = ()=>{
       qEl.value = '';
+      leslieMMode = false;
       resetFilters();
+      document.querySelectorAll('#chips button').forEach(x => x.classList.remove('active'));
+      syncRearChip();
       render();
       qEl.focus();
     };
   }
 
   const mode = leslieMMode ? 'Leslie M / sideways shortlist' :
-    (searching ? 'searching all companies' : (letter==='burgundy'?'burgundy/red shortlist':'filtered list'));
+    (searching ? 'searching all companies' :
+      (rearMode || viewFilter==='rear') ? 'rear views first (+ side-only marked)' :
+      (letter==='burgundy'?'burgundy/red shortlist':'filtered list'));
   document.getElementById('stats').textContent =
-    `${shown} companies · ${imgs} photos · ${mode}`;
+    `${shown} companies · ${imgs} photos (${rearShown} rear) · ${mode}`;
 }
 
 document.getElementById('list').addEventListener('click', e=>{
@@ -347,24 +453,57 @@ document.getElementById('list').addEventListener('click', e=>{
 document.getElementById('chips').addEventListener('click', e=>{
   const b = e.target.closest('button[data-chip]');
   if(!b) return;
+  if(b.dataset.chip === '__rear'){
+    rearMode = !rearMode;
+    document.getElementById('q').value = '';
+    document.getElementById('viewFilter').value = rearMode ? 'rear' : 'all';
+    document.querySelectorAll('#chips button').forEach(x => {
+      if(x.dataset.chip === '__rear') x.classList.toggle('active', rearMode);
+      else if(x.dataset.chip !== '__leslie_m') x.classList.remove('active');
+    });
+    render();
+    return;
+  }
   if(b.dataset.chip === '__leslie_m'){
     leslieMMode = !leslieMMode;
     document.getElementById('q').value = '';
-    if(leslieMMode) resetFilters();
-    document.querySelectorAll('#chips button').forEach(x => x.classList.toggle('active', x === b && leslieMMode));
+    if(leslieMMode) {
+      // keep rear mode; just reset prio/letter
+      document.getElementById('prio').value = 'all';
+      document.getElementById('letter').value = 'all';
+    }
+    document.querySelectorAll('#chips button').forEach(x => {
+      if(x.dataset.chip === '__leslie_m') x.classList.toggle('active', leslieMMode);
+      else if(x.dataset.chip !== '__rear') x.classList.remove('active');
+    });
     render();
     return;
   }
   leslieMMode = false;
-  document.querySelectorAll('#chips button').forEach(x => x.classList.remove('active'));
+  document.querySelectorAll('#chips button').forEach(x => {
+    if(x.dataset.chip !== '__rear') x.classList.remove('active');
+  });
   document.getElementById('q').value = b.dataset.chip;
   render();
   document.getElementById('q').focus();
 });
 document.getElementById('lbClose').onclick = ()=> document.getElementById('lb').classList.remove('open');
 document.getElementById('lb').onclick = e=>{ if(e.target.id==='lb') e.currentTarget.classList.remove('open'); };
-document.getElementById('clearQ').onclick = ()=>{ document.getElementById('q').value=''; leslieMMode=false; document.querySelectorAll('#chips button').forEach(x => x.classList.remove('active')); render(); document.getElementById('q').focus(); };
+document.getElementById('clearQ').onclick = ()=>{
+  document.getElementById('q').value='';
+  leslieMMode=false;
+  document.querySelectorAll('#chips button').forEach(x => {
+    if(x.dataset.chip !== '__rear') x.classList.remove('active');
+  });
+  render();
+  document.getElementById('q').focus();
+};
 document.getElementById('clearFilters').onclick = ()=>{ resetFilters(); render(); };
+document.getElementById('viewFilter').addEventListener('change', ()=>{
+  rearMode = document.getElementById('viewFilter').value === 'rear';
+  syncRearChip();
+  render();
+});
 ['q','prio','letter','hideElim'].forEach(id=>{
   document.getElementById(id).addEventListener('input', render);
   document.getElementById(id).addEventListener('change', render);

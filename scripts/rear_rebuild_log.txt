@@ -1,0 +1,520 @@
+=== PHASE 1: classify existing + logos ===
+[1/75] classify/logo swift
+/workspace/leslie-hitrun/trailer-gallery/scripts/rebuild_rear_logos.py:105: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels = list(im2.getdata())
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/b/bf/SWIFT_LO)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/b/bf/SWIFT_LO)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/b/bf/SWIFT_LO)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/90/Swift_Tr)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/90/Swift_Tr)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/90/Swift_Tr)
+  logo=wikimedia_commons file=swift_logo.png
+[2/75] classify/logo werner
+  logo=wikimedia_commons file=werner_logo.png
+[3/75] classify/logo jbhunt
+  logo=google_favicon file=jbhunt_logo.png
+[4/75] classify/logo schneider
+  logo=google_favicon file=schneider_logo.png
+[5/75] classify/logo knight
+  drop junk knight_04.jpg
+  logo=wikimedia_commons file=knight_logo.png
+[6/75] classify/logo prime
+  logo=google_favicon file=prime_logo.png
+[7/75] classify/logo crst
+  logo=wikimedia_commons file=crst_logo.png
+[8/75] classify/logo crete
+  drop junk crete_00.jpg
+  drop junk crete_01.jpg
+  logo=wikimedia_commons file=crete_logo.png
+[9/75] classify/logo roehl
+  logo=google_favicon file=roehl_logo.png
+[10/75] classify/logo covenant
+  drop junk covenant_00.jpg
+  logo=google_favicon file=covenant_logo.png
+[11/75] classify/logo usxpress
+  drop junk usxpress_02.jpg
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  logo=wikimedia_commons file=usxpress_logo.png
+[12/75] classify/logo heartland
+  logo=wikimedia_commons file=heartland_logo.png
+[13/75] classify/logo marten
+  logo=wikimedia_commons file=marten_logo.png
+[14/75] classify/logo kllm
+  logo=google_favicon file=kllm_logo.png
+[15/75] classify/logo stevens
+  logo=wikimedia_commons file=stevens_logo.png
+[16/75] classify/logo pam
+  drop junk pam_00.jpg
+  logo=wikimedia_commons file=pam_logo.png
+[17/75] classify/logo usatruck
+  logo=google_favicon file=usatruck_logo.png
+[18/75] classify/logo averitt
+  HTTP 404: https://www.google.com/s2/favicons?domain=averittexpress.com&sz=128
+  logo=generated_mark file=averitt_logo.png
+[19/75] classify/logo estes
+  HTTP 404: https://www.google.com/s2/favicons?domain=estes-express.com&sz=128
+  logo=generated_mark file=estes_logo.png
+[20/75] classify/logo odfl
+  logo=google_favicon file=odfl_logo.png
+[21/75] classify/logo saia
+  logo=google_favicon file=saia_logo.png
+[22/75] classify/logo rlcarriers
+  HTTP 404: https://www.google.com/s2/favicons?domain=rlcarriers.com&sz=128
+  logo=generated_mark file=rlcarriers_logo.png
+[23/75] classify/logo xpo
+  logo=generated_mark file=xpo_logo.png
+[24/75] classify/logo abf
+  logo=google_favicon file=abf_logo.png
+[25/75] classify/logo tforce
+  logo=google_favicon file=tforce_logo.png
+[26/75] classify/logo fedexfreight
+  logo=google_favicon file=fedexfreight_logo.png
+[27/75] classify/logo landstar
+  logo=google_favicon file=landstar_logo.png
+[28/75] classify/logo nfi
+  logo=google_favicon file=nfi_logo.png
+[29/75] classify/logo crengland
+  logo=google_favicon file=crengland_logo.png
+[30/75] classify/logo melton
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  logo=wikimedia_commons file=melton_logo.png
+[31/75] classify/logo maverick
+  logo=wikimedia_commons file=maverick_logo.png
+[32/75] classify/logo tmc
+  logo=google_favicon file=tmc_logo.png
+[33/75] classify/logo hirschbach
+  logo=google_favicon file=hirschbach_logo.png
+[34/75] classify/logo paschall
+  logo=google_favicon file=paschall_logo.png
+[35/75] classify/logo millis
+  logo=wikimedia_commons file=millis_logo.png
+[36/75] classify/logo epes
+  logo=google_favicon file=epes_logo.png
+[37/75] classify/logo boydbros
+  logo=google_favicon file=boydbros_logo.png
+[38/75] classify/logo dart
+  logo=google_favicon file=dart_logo.png
+[39/75] classify/logo transportamerica
+  HTTP 404: https://www.google.com/s2/favicons?domain=transportamerica.com&sz=128
+  logo=generated_mark file=transportamerica_logo.png
+[40/75] classify/logo westernflyer
+  HTTP 404: https://www.google.com/s2/favicons?domain=wfxpress.com&sz=128
+  logo=generated_mark file=westernflyer_logo.png
+[41/75] classify/logo maytrucking
+  logo=wikimedia_commons file=maytrucking_logo.png
+[42/75] classify/logo systemtransport
+  HTTP 404: https://www.google.com/s2/favicons?domain=systemtransport.com&sz=128
+  logo=generated_mark file=systemtransport_logo.png
+[43/75] classify/logo johnchristner
+  logo=google_favicon file=johnchristner_logo.png
+[44/75] classify/logo pridetransport
+  logo=google_favicon file=pridetransport_logo.png
+[45/75] classify/logo centralfreight
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  HTTP 404: https://www.google.com/s2/favicons?domain=centralfreight.com&sz=128
+  logo=generated_mark file=centralfreight_logo.png
+[46/75] classify/logo mesillavalley
+  logo=existing file=mesillavalley_logo.png
+[47/75] classify/logo mercer
+  logo=wikimedia_commons file=mercer_logo.png
+[48/75] classify/logo hubgroup
+  logo=google_favicon file=hubgroup_logo.png
+[49/75] classify/logo southeastern
+  logo=google_favicon file=southeastern_logo.png
+[50/75] classify/logo forwardair
+  logo=google_favicon file=forwardair_logo.png
+[51/75] classify/logo dupre
+  logo=google_favicon file=dupre_logo.png
+[52/75] classify/logo acmetruck
+  logo=generated_mark file=acmetruck_logo.png
+[53/75] classify/logo millertrans
+  logo=google_favicon file=millertrans_logo.png
+[54/75] classify/logo roadrunner
+  HTTP 404: https://www.google.com/s2/favicons?domain=roadrunner.com&sz=128
+  logo=generated_mark file=roadrunner_logo.png
+[55/75] classify/logo daytonfreight
+  logo=google_favicon file=daytonfreight_logo.png
+[56/75] classify/logo pittohio
+  logo=generated_mark file=pittohio_logo.png
+[57/75] classify/logo walmart
+  logo=google_favicon file=walmart_logo.png
+[58/75] classify/logo amazon
+  logo=google_favicon file=amazon_logo.png
+[59/75] classify/logo sysco
+  logo=google_favicon file=sysco_logo.png
+[60/75] classify/logo usfoods
+  logo=google_favicon file=usfoods_logo.png
+[61/75] classify/logo pepsico
+  logo=google_favicon file=pepsico_logo.png
+[62/75] classify/logo cocacola
+  logo=google_favicon file=cocacola_logo.png
+[63/75] classify/logo penske
+  logo=generated_mark file=penske_logo.png
+[64/75] classify/logo ryder
+  logo=google_favicon file=ryder_logo.png
+[65/75] classify/logo uhaul
+  logo=google_favicon file=uhaul_logo.png
+[66/75] classify/logo budget
+  logo=generated_mark file=budget_logo.png
+[67/75] classify/logo schneiderdedicated
+  logo=google_favicon file=schneiderdedicated_logo.png
+[68/75] classify/logo ffe
+  logo=wikimedia_commons file=ffe_logo.png
+[69/75] classify/logo lonestar
+  logo=google_favicon file=lonestar_logo.png
+[70/75] classify/logo brownintegrated
+  HTTP 404: https://www.google.com/s2/favicons?domain=browngls.com&sz=128
+  logo=generated_mark file=brownintegrated_logo.png
+[71/75] classify/logo papertransport
+  logo=google_favicon file=papertransport_logo.png
+[72/75] classify/logo anderson
+  logo=google_favicon file=anderson_logo.png
+[73/75] classify/logo bennett
+  logo=google_favicon file=bennett_logo.png
+[74/75] classify/logo tql
+  logo=google_favicon file=tql_logo.png
+[75/75] classify/logo chrobinson
+  logo=google_favicon file=chrobinson_logo.png
+phase1 checkpoint written
+=== PHASE 2: scrape rear for Leslie M + burgundy ===
+[1/20] scrape rear millis
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  HTTP 404: https://www.millistransfer.com/fleet
+  HTTP 404: https://www.millistransfer.com/equipment
+  HTTP 403: https://live.staticflickr.com/7110/6929595404_0d6da32fb8.jpg
+/workspace/leslie-hitrun/trailer-gallery/scripts/rebuild_rear_logos.py:74: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  pixels = list(im_s.getdata())
+  + millis_03.jpg view=side :: File:The street railway review (1891) (14572619287).jpg
+[2/20] scrape rear mesillavalley
+  HTTP 404: https://www.m-v-t.com/equipment
+  HTTP 403: https://live.staticflickr.com/1130/1053651275_471a7b9a89_b.jpg
+  HTTP 403: https://live.staticflickr.com/7289/9131103454_beeb518356_b.jpg
+/workspace/leslie-hitrun/.venv/lib/python3.13/site-packages/PIL/Image.py:1136: UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+  warnings.warn(
+[3/20] scrape rear maytrucking
+  already 2 rear — skip scrape
+[4/20] scrape rear pam
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  HTTP 403: https://live.staticflickr.com/2677/4386386229_40c05e12c9_b.jpg
+  HTTP 403: https://live.staticflickr.com/3155/2823199540_58bf5b87db_b.jpg
+  HTTP 403: https://live.staticflickr.com/3003/2823200276_dd088bef71_b.jpg
+  HTTP 403: https://live.staticflickr.com/3130/2823198954_8c63914ddd_b.jpg
+  HTTP 403: https://live.staticflickr.com/3258/2822503743_3e201a5229_b.jpg
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/b/b3/Ford_tru)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/b/b3/Ford_tru)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/b/b3/Ford_tru)
+[5/20] scrape rear mercer
+  HTTP 202: https://www.mercer-trans.com/
+  HTTP 202: https://www.mercer-trans.com/fleet
+  HTTP 202: https://www.mercer-trans.com/equipment
+  HTTP 202: https://www.mercer-trans.com/about
+  HTTP 202: https://www.mercer-trans.com/about-us
+  HTTP 403: https://live.staticflickr.com/8542/8676362379_1c69bfc880_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/50395664091_58e77ab087_b.jpg
+  + mercer_00.jpg view=side :: File:2025-02-03 10 00 13 A Pepsi tractor trailer at the
+  + mercer_01.jpg view=other :: File:Richard Stockton Service Area; Picnic Tables and T
+  + mercer_02.jpg view=rear :: File:US-WV - Ada - Sign - North America - Truck - Road 
+[6/20] scrape rear maverick
+  HTTP 404: https://www.maverickusa.com/fleet
+  HTTP 404: https://www.maverickusa.com/equipment
+  HTTP 404: https://www.maverickusa.com/about
+  HTTP 404: https://www.maverickusa.com/about-us
+  HTTP 403: https://live.staticflickr.com/2781/4485237988_fafb3caa33_b.jpg
+  HTTP 403: https://live.staticflickr.com/2796/4484589781_ba45cb74c6_b.jpg
+  HTTP 403: https://live.staticflickr.com/2313/2316202598_0868ffa57e.jpg
+  HTTP 403: https://live.staticflickr.com/4113/4835934126_47000c37ab_b.jpg
+  HTTP 403: https://live.staticflickr.com/7075/7329016736_2d010242d4_b.jpg
+  HTTP 403: https://live.staticflickr.com/3404/3189150553_7acc71835a_b.jpg
+  HTTP 403: https://live.staticflickr.com/2802/4355086361_23f1105575_b.jpg
+  HTTP 403: https://live.staticflickr.com/5490/10959846424_9f9e229448.jpg
+  HTTP 403: https://live.staticflickr.com/1408/1399699171_2b9ec6a196_b.jpg
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/c/c3/Inside_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/c/c3/Inside_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/c/c3/Inside_t)
+  HTTP 403: https://live.staticflickr.com/3198/2962849389_f6f09556d7_b.jpg
+  HTTP 403: https://live.staticflickr.com/1398/1410959224_5aa311cb6f_b.jpg
+  HTTP 403: https://live.staticflickr.com/1179/1470506179_59b5e9133e_b.jpg
+  HTTP 403: https://live.staticflickr.com/2280/2537479424_7d3cfae460_b.jpg
+  + maverick_01.jpg view=side :: File:Inside the Mavericks Trailer (1399699171).jpg
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/c/cb/Islamic_)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/c/cb/Islamic_)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/c/cb/Islamic_)
+  + maverick_02.jpg view=rear :: File:Moscow, Can-Am Maverick XRS ATV on trailer, May 20
+  + maverick_03.jpg view=side :: File:Moscow, Can-Am Maverick XRS ATV on trailer, May 20
+[7/20] scrape rear marten
+  HTTP 404: https://www.marten.com/fleet
+  HTTP 404: https://www.marten.com/equipment
+  HTTP 404: https://www.marten.com/about-us
+  HTTP 403: https://live.staticflickr.com/5691/23536394450_f909cfeb89.jpg
+  HTTP 403: https://live.staticflickr.com/1403/1355985499_61b21c32a3_b.jpg
+  + marten_01.jpg view=rear :: File:Georgia I75sb Exit 216 .5 mile.jpg
+  HTTP 403: https://live.staticflickr.com/742/23832098495_aeb3b31460_b.jpg
+  HTTP 403: https://live.staticflickr.com/5780/23723702492_9bb6d5783f_b.jpg
+  HTTP 403: https://live.staticflickr.com/5745/23536395990_4d734e9a94_b.jpg
+[8/20] scrape rear melton
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /fleet (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /equipment (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  ERR HTTPSConnectionPool(host='www.meltontruck.com', port=443): Max retries exceeded with url: /about-us (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.meltontruck.com'. (_ssl.c:1029)")))
+  HTTP 403: https://live.staticflickr.com/7730/27126999280_09056ae5a3_b.jpg
+  HTTP 403: https://live.staticflickr.com/7762/26794801504_0f3af74b6f_b.jpg
+  HTTP 403: https://live.staticflickr.com/7263/26794800734_4a0b786fe5_b.jpg
+  HTTP 403: https://live.staticflickr.com/7701/26794794514_effc226db8_b.jpg
+  HTTP 403: https://live.staticflickr.com/7535/27126997360_61f85fe472_b.jpg
+  HTTP 403: https://live.staticflickr.com/7741/27127000130_9135eab829_b.jpg
+  HTTP 403: https://live.staticflickr.com/7457/27402885045_ff8b474feb_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/48960014627_a556e9cb6c_b.jpg
+  + melton_00.jpg view=other :: A180 north of Melton Ross
+  + melton_01.jpg view=rear :: File:Lorry parked on the A12 north of Woodbridge - geog
+  + melton_02.jpg view=other :: File:Multi vehicle accident - M4 Motorway, Sydney, NSW 
+[9/20] scrape rear swift
+  HTTP 404: https://www.swifttrans.com/fleet
+  HTTP 404: https://www.swifttrans.com/equipment
+  HTTP 404: https://www.swifttrans.com/about-us
+  HTTP 403: https://live.staticflickr.com/3906/14600304619_e1a9941fd8_b.jpg
+  + swift_04.jpg view=other :: Cosford Lane, Swift Valley Industrial Estate
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/7/7f/Target_S)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/7/7f/Target_S)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/7/7f/Target_S)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/2/24/Target_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/2/24/Target_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/2/24/Target_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/9f/Target_T)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/9f/Target_T)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/9f/Target_T)
+  + swift_05.jpg view=other :: File:Not so Swift Truck 2.jpg
+[10/20] scrape rear knight
+  HTTP 404: https://www.knighttrans.com/fleet
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/0/06/Knight_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/0/06/Knight_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/0/06/Knight_t)
+  + knight_04.jpg view=rear :: File:Knight transportation trailer - rear.jpg
+  HTTP 403: https://live.staticflickr.com/2575/3737127010_a6166abced_b.jpg
+  HTTP 403: https://live.staticflickr.com/3669/12410506833_4934f37e82_b.jpg
+  HTTP 403: https://live.staticflickr.com/7074/7068607531_0ddff1edbe_b.jpg
+  HTTP 403: https://live.staticflickr.com/401/19438659378_bd68585e92_b.jpg
+  HTTP 403: https://live.staticflickr.com/402/18591910339_0bef66abf2_b.jpg
+  HTTP 403: https://live.staticflickr.com/3088/3177857486_9c1be2853f_b.jpg
+  HTTP 403: https://live.staticflickr.com/7289/12775441163_3f4fccaabe_b.jpg
+  HTTP 403: https://live.staticflickr.com/7157/6586053311_f9317634d9_b.jpg
+  + knight_05.jpg view=other :: File:Atkinson Silver Knight (1966).jpg
+  + knight_06.jpg view=side :: /equipment
+[11/20] scrape rear werner
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/6/6c/Werner_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/6/6c/Werner_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/6/6c/Werner_t)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/e/e7/1984_Pet)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/e/e7/1984_Pet)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/e/e7/1984_Pet)
+  + werner_04.jpg view=other :: File:Werner 2011 Volvo 670.png
+  + werner_05.jpg view=side :: File:Werner Enterprises truck, Valdosta.jpg
+[12/20] scrape rear roehl
+  already 2 rear — skip scrape
+[13/20] scrape rear usxpress
+  already 2 rear — skip scrape
+[14/20] scrape rear crst
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  429 sleep (https://commons.wikimedia.org/w/api.php)
+  HTTP 404: https://www.crst.com/fleet
+  HTTP 404: https://www.crst.com/equipment
+  HTTP 404: https://www.crst.com/about
+  HTTP 404: https://www.crst.com/about-us
+  HTTP 403: https://live.staticflickr.com/7235/7280131264_9dcee26745_b.jpg
+  HTTP 403: https://live.staticflickr.com/3807/9534784390_e17427737b_b.jpg
+  HTTP 403: https://live.staticflickr.com/3694/9531995893_55a66b0055_b.jpg
+  HTTP 403: https://live.staticflickr.com/5342/9531998801_f69697f328_b.jpg
+  HTTP 403: https://live.staticflickr.com/5496/9534782198_23e2b7b533_b.jpg
+  HTTP 403: https://live.staticflickr.com/3727/9534782612_ccfffb7cd4_b.jpg
+  HTTP 403: https://live.staticflickr.com/3768/9534778362_8ffde8e6c8_b.jpg
+  HTTP 403: https://live.staticflickr.com/7439/9532000405_9930bd491d_b.jpg
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/3/3d/Arizona%)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/3/3d/Arizona%)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/3/3d/Arizona%)
+  + crst_02.jpg view=other :: File:NB I-75 Rest Area, Marion Co, FLA; Volvos, Freight
+  HTTP 403: https://live.staticflickr.com/5155/7146275971_49fbcfd400.jpg
+  HTTP 403: https://live.staticflickr.com/7098/7280150954_b4bdccc03f_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/52391498558_f49f30d982_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/52391288033_81d64b5be2_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/52391287938_c22d0e4c62_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/53408918499_dc45660801.jpg
+[15/20] scrape rear crete
+  HTTP 404: https://www.cretecarrier.com/fleet
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/1/10/Crete_se)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/1/10/Crete_se)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/1/10/Crete_se)
+  + crete_00.jpg view=side :: File:Crete truck, I-80 WB, Albany Co., WY.jpg
+  + crete_01.jpg view=rear :: File:Funks Grove Rest Area bridge.jpg
+  + crete_02.jpg view=other :: File:Seneca, SC, USA - panoramio.jpg
+[16/20] scrape rear heartland
+  HTTP 404: https://www.heartlandexpress.com/fleet
+  HTTP 404: https://www.heartlandexpress.com/equipment
+  HTTP 404: https://www.heartlandexpress.com/about
+  HTTP 404: https://www.heartlandexpress.com/about-us
+  HTTP 403: https://live.staticflickr.com/3192/2995773826_d29e488074_b.jpg
+  HTTP 403: https://live.staticflickr.com/3204/2994942111_9f46a1fb6d_b.jpg
+  HTTP 403: https://live.staticflickr.com/3184/2994936315_e9804d3168_b.jpg
+  HTTP 403: https://live.staticflickr.com/3295/2994939399_b614c7849a_b.jpg
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/9a/Heartlan)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/9a/Heartlan)
+  429 sleep (https://upload.wikimedia.org/wikipedia/commons/9/9a/Heartlan)
+  HTTP 403: https://live.staticflickr.com/65535/52903791204_ca5598fd8e_b.jpg
+  + heartland_01.jpg view=side :: Kenworth Chillicothe Plant Delivers Milestone 750,000th
+  HTTP 403: https://live.staticflickr.com/65535/52904840101_f862b7d4c7_b.jpg
+  + heartland_02.jpg view=rear :: File:St. Louis Club building at 3669 Lindell Boulevard,
+  + heartland_03.jpg view=rear :: File:Thomas Butler Gunn Diaries- Volume 6, page 199, No
+[17/20] scrape rear paschall
+  HTTP 404: https://www.ptl-inc.com/fleet
+  HTTP 404: https://www.ptl-inc.com/equipment
+  HTTP 404: https://www.ptl-inc.com/about
+  HTTP 404: https://www.ptl-inc.com/about-us
+  HTTP 403: https://live.staticflickr.com/65535/52391498558_f49f30d982_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/52391288033_81d64b5be2_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/52391287938_c22d0e4c62_b.jpg
+[18/20] scrape rear stevens
+  already 2 rear — skip scrape
+[19/20] scrape rear centralfreight
+  already 2 rear — skip scrape
+[20/20] scrape rear ffe
+  HTTP 404: https://www.ffeinc.com/fleet
+  HTTP 404: https://www.ffeinc.com/equipment
+  HTTP 404: https://www.ffeinc.com/about
+  HTTP 404: https://www.ffeinc.com/about-us
+  HTTP 403: https://live.staticflickr.com/3820/13788309484_f34ae58c41_b.jpg
+  HTTP 403: https://live.staticflickr.com/65535/51923644459_ae58b39c59_b.jpg
+  + ffe_01.jpg view=other :: File:Elmwood Louisiana, 25 Sept 2020 45.jpg
+==== SUMMARY ====
+{
+  "companies_with_rear": 39,
+  "logo_only": 8,
+  "side_only_no_rear": 28,
+  "still_missing": 0,
+  "total_logos": 75,
+  "total_trailer_images": 187,
+  "total_rear_images": 60,
+  "rear_ids": [
+    "swift",
+    "werner",
+    "knight",
+    "crete",
+    "roehl",
+    "covenant",
+    "usxpress",
+    "heartland",
+    "marten",
+    "kllm",
+    "stevens",
+    "usatruck",
+    "rlcarriers",
+    "xpo",
+    "tforce",
+    "crengland",
+    "melton",
+    "maverick",
+    "millis",
+    "epes",
+    "transportamerica",
+    "westernflyer",
+    "maytrucking",
+    "systemtransport",
+    "johnchristner",
+    "centralfreight",
+    "mercer",
+    "forwardair",
+    "dupre",
+    "daytonfreight",
+    "walmart",
+    "amazon",
+    "usfoods",
+    "ryder",
+    "uhaul",
+    "schneiderdedicated",
+    "brownintegrated",
+    "papertransport",
+    "chrobinson"
+  ],
+  "logo_only_ids": [
+    "pam",
+    "averitt",
+    "hirschbach",
+    "dart",
+    "roadrunner",
+    "pittohio",
+    "lonestar",
+    "bennett"
+  ],
+  "missing_ids": [],
+  "side_only_ids": [
+    "jbhunt",
+    "schneider",
+    "prime",
+    "crst",
+    "estes",
+    "odfl",
+    "saia",
+    "abf",
+    "fedexfreight",
+    "landstar",
+    "nfi",
+    "tmc",
+    "paschall",
+    "boydbros",
+    "pridetransport",
+    "mesillavalley",
+    "hubgroup",
+    "southeastern",
+    "acmetruck",
+    "millertrans",
+    "sysco",
+    "pepsico",
+    "cocacola",
+    "penske",
+    "budget",
+    "ffe",
+    "anderson",
+    "tql"
+  ],
+  "leslie_m_rear": {
+    "millis": 1,
+    "mesillavalley": 0,
+    "maytrucking": 2,
+    "pam": 0,
+    "mercer": 1,
+    "maverick": 1,
+    "marten": 1,
+    "melton": 1
+  },
+  "burgundy_rear": {
+    "swift": 1,
+    "knight": 1,
+    "werner": 1,
+    "roehl": 2,
+    "usxpress": 2,
+    "crst": 0,
+    "crete": 1,
+    "heartland": 2,
+    "paschall": 0,
+    "stevens": 2,
+    "centralfreight": 2,
+    "ffe": 0
+  }
+}
