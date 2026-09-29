@@ -2,10 +2,10 @@
   "incident": {
     "date": "2026-09-28",
     "approx_time": "9:32 AM CT",
-    "location": "Selma, TX \u2014 I-35",
-    "description": "White semi trailer; rear-door writing believed burgundy/dark red. Lineup only \u2014 not an identification."
+    "location": "Selma, TX — I-35",
+    "description": "White semi trailer; rear-door writing believed burgundy/dark red. Lineup only — not an identification."
   },
-  "generated_at": "2026-09-29 05:37:19 CDT",
+  "generated_at": "2026-09-29 09:45:13 CDT",
   "company_count": 75,
   "image_count": 234,
   "companies": [
@@ -86,7 +86,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "werner",
@@ -153,7 +154,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "jbhunt",
@@ -232,7 +234,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "schneider",
@@ -311,7 +314,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "knight",
@@ -390,7 +394,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "prime",
@@ -481,7 +486,9 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "M-shaped/initial clue is possible only as a loose fallback; white vans but blue/black Prime mark"
     },
     {
       "id": "crst",
@@ -526,7 +533,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "crete",
@@ -569,7 +577,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "roehl",
@@ -648,7 +657,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "covenant",
@@ -727,7 +737,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "usxpress",
@@ -865,7 +876,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "heartland",
@@ -896,7 +908,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "marten",
@@ -927,7 +940,9 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "M-name white reefer carrier; official mark is blue bird/wordmark, not red"
     },
     {
       "id": "kllm",
@@ -1019,7 +1034,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "stevens",
@@ -1086,7 +1102,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "pam",
@@ -1099,7 +1116,11 @@
       "door_text_keywords": [
         "P.A.M. Transport",
         "Transport",
-        "red"
+        "red",
+        "PAM",
+        "red/burgundy",
+        "M logo",
+        "sideways M"
       ],
       "image_count": 1,
       "images": [
@@ -1116,7 +1137,9 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "red PAM wordmark on white equipment; national carrier and M-shaped letter possibility"
     },
     {
       "id": "usatruck",
@@ -1207,7 +1230,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "averitt",
@@ -1225,7 +1249,8 @@
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "estes",
@@ -1261,7 +1286,7 @@
           "source": "company_site",
           "source_url": "https://www.estes-express.com/",
           "image_url": "https://www.estes-express.com/contentAsset/image/4b2f1274f11efbaba3bd56c7f51a09a6/fileAsset/webp_q/25",
-          "title": "Picture of Estes Prepared To Meet Shippers\u2019 Needs As Truckload Capacity Tightens",
+          "title": "Picture of Estes Prepared To Meet Shippers’ Needs As Truckload Capacity Tightens",
           "white_ratio": 0.211,
           "lettering_detected": "red",
           "lettering_note": "red",
@@ -1281,7 +1306,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "odfl",
@@ -1374,7 +1400,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "saia",
@@ -1406,7 +1433,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "rlcarriers",
@@ -1497,7 +1525,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "xpo",
@@ -1588,7 +1617,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "abf",
@@ -1655,7 +1685,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "tforce",
@@ -1710,7 +1741,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "fedexfreight",
@@ -1765,7 +1797,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "landstar",
@@ -1832,7 +1865,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "nfi",
@@ -1863,7 +1897,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "crengland",
@@ -1917,7 +1952,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "melton",
@@ -1932,11 +1968,15 @@
         "Melton",
         "Truck",
         "Lines",
-        "red"
+        "red",
+        "M logo",
+        "sideways M"
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "M-name carrier with historical red hint; current fleet is mostly blue flatbed"
     },
     {
       "id": "maverick",
@@ -1950,7 +1990,9 @@
         "Maverick Transportation",
         "Maverick",
         "Transportation",
-        "red"
+        "red",
+        "M logo",
+        "sideways M"
       ],
       "image_count": 1,
       "images": [
@@ -1967,7 +2009,9 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "red Maverick branding and M-name; mostly flatbed/glass, so rear-door fit is weak"
     },
     {
       "id": "tmc",
@@ -2022,7 +2066,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "hirschbach",
@@ -2041,7 +2086,8 @@
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "paschall",
@@ -2073,7 +2119,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "millis",
@@ -2082,12 +2129,16 @@
       "region": "regional",
       "notes": "Midwest; white trailers",
       "lettering_hint": "red",
-      "priority": "medium",
+      "priority": "high",
       "door_text_keywords": [
         "Millis Transfer",
         "Millis",
         "Transfer",
-        "red"
+        "red",
+        "maroon",
+        "red/burgundy",
+        "M logo",
+        "sideways M"
       ],
       "image_count": 2,
       "images": [
@@ -2116,7 +2167,9 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "maroon/white fleet; Alvarado TX facility; M-name and red rear-lettering fit"
     },
     {
       "id": "epes",
@@ -2160,7 +2213,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "boydbros",
@@ -2204,7 +2258,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "dart",
@@ -2223,7 +2278,8 @@
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "transportamerica",
@@ -2278,7 +2334,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "westernflyer",
@@ -2310,7 +2367,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "maytrucking",
@@ -2319,13 +2377,16 @@
       "region": "regional",
       "notes": "West; white trailers; red May",
       "lettering_hint": "red",
-      "priority": "medium",
+      "priority": "high",
       "door_text_keywords": [
         "May Trucking Company",
         "May",
         "Trucking",
         "Company",
-        "red"
+        "red",
+        "red/burgundy",
+        "M logo",
+        "sideways M"
       ],
       "image_count": 4,
       "images": [
@@ -2378,7 +2439,9 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "red May branding on white vans; Dallas terminal and Texas relevance"
     },
     {
       "id": "systemtransport",
@@ -2445,7 +2508,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "johnchristner",
@@ -2501,7 +2565,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "pridetransport",
@@ -2568,7 +2633,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "centralfreight",
@@ -2648,7 +2714,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "mesillavalley",
@@ -2663,7 +2730,11 @@
         "Mesilla",
         "Valley",
         "Transportation",
-        "red"
+        "red",
+        "MVT",
+        "red/burgundy",
+        "M logo",
+        "sideways M"
       ],
       "image_count": 1,
       "images": [
@@ -2680,7 +2751,9 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "MVT globe/initials logo uses red; El Paso/Laredo and Southwest relevance"
     },
     {
       "id": "mercer",
@@ -2694,11 +2767,15 @@
         "Mercer Transportation",
         "Mercer",
         "Transportation",
-        "varied"
+        "varied",
+        "M logo",
+        "sideways M"
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "M-name national carrier; white/varied trailer branding, but red evidence is weak"
     },
     {
       "id": "hubgroup",
@@ -2729,7 +2806,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "southeastern",
@@ -2773,7 +2851,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "forwardair",
@@ -2816,7 +2895,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "dupre",
@@ -2847,7 +2927,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "acmetruck",
@@ -2891,7 +2972,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "millertrans",
@@ -2922,7 +3004,9 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": true,
+      "leslie_m_reason": "M-name regional carrier, but blue branding and tank fleet make rear-door match weak"
     },
     {
       "id": "roadrunner",
@@ -2940,7 +3024,8 @@
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "daytonfreight",
@@ -2996,7 +3081,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "pittohio",
@@ -3014,7 +3100,8 @@
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "walmart",
@@ -3061,7 +3148,7 @@
           "source": "wikimedia_commons",
           "source_url": "https://commons.wikimedia.org/wiki/File%3AWalmart%E2%80%99s_Full_Hybrid_Truck.jpg",
           "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Walmart%E2%80%99s_Full_Hybrid_Truck.jpg/960px-Walmart%E2%80%99s_Full_Hybrid_Truck.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "File:Walmart\u2019s Full Hybrid Truck.jpg",
+          "title": "File:Walmart’s Full Hybrid Truck.jpg",
           "white_ratio": 0.621,
           "lettering_detected": "blue",
           "lettering_note": "blue",
@@ -3073,7 +3160,7 @@
           "source": "wikimedia_commons",
           "source_url": "https://commons.wikimedia.org/wiki/File%3AWalmart%E2%80%99s_Grease_Fuel_Truck_%282%29.jpg",
           "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Walmart%E2%80%99s_Grease_Fuel_Truck_%282%29.jpg/960px-Walmart%E2%80%99s_Grease_Fuel_Truck_%282%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "File:Walmart\u2019s Grease Fuel Truck (2).jpg",
+          "title": "File:Walmart’s Grease Fuel Truck (2).jpg",
           "white_ratio": 0.406,
           "lettering_detected": "blue",
           "lettering_note": "blue",
@@ -3081,7 +3168,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "amazon",
@@ -3173,7 +3261,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "sysco",
@@ -3250,7 +3339,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "usfoods",
@@ -3304,7 +3394,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "pepsico",
@@ -3399,7 +3490,7 @@
           "source": "wikimedia_commons",
           "source_url": "https://commons.wikimedia.org/wiki/File%3ACami%C3%B3n_de_Sabritas%2C_Mazatl%C3%A1n%2C_28_de_septiembre_de_2022.jpg",
           "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Cami%C3%B3n_de_Sabritas%2C_Mazatl%C3%A1n%2C_28_de_septiembre_de_2022.jpg/960px-Cami%C3%B3n_de_Sabritas%2C_Mazatl%C3%A1n%2C_28_de_septiembre_de_2022.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-          "title": "File:Cami\u00f3n de Sabritas, Mazatl\u00e1n, 28 de septiembre de 2022.jpg",
+          "title": "File:Camión de Sabritas, Mazatlán, 28 de septiembre de 2022.jpg",
           "white_ratio": 0.101,
           "lettering_detected": "orange",
           "lettering_note": "orange",
@@ -3431,7 +3522,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "cocacola",
@@ -3499,7 +3591,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "penske",
@@ -3567,7 +3660,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "ryder",
@@ -3718,7 +3812,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "uhaul",
@@ -3831,7 +3926,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "budget",
@@ -3891,7 +3987,7 @@
           "source": "company_site",
           "source_url": "https://www.budgettruck.com/",
           "image_url": "https://www.budgettruck.com/portals/budgettruck/Images/Banners/Personal/hireahelper-logo.png",
-          "title": "Don\u2019t lift a thing. Get loading help.",
+          "title": "Don’t lift a thing. Get loading help.",
           "white_ratio": 0.935,
           "lettering_detected": "blue",
           "lettering_note": "blue",
@@ -3911,7 +4007,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "schneiderdedicated",
@@ -3968,7 +4065,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "ffe",
@@ -4000,7 +4098,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": true
+      "has_burgundy_hint": true,
+      "leslie_m_candidate": false
     },
     {
       "id": "lonestar",
@@ -4019,7 +4118,8 @@
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "brownintegrated",
@@ -4087,7 +4187,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "papertransport",
@@ -4130,7 +4231,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "anderson",
@@ -4163,7 +4265,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "bennett",
@@ -4182,18 +4285,19 @@
       ],
       "image_count": 0,
       "images": [],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "tql",
-      "name": "TQL (broker \u2014 trailers vary)",
+      "name": "TQL (broker — trailers vary)",
       "website": "https://www.tql.com",
       "region": "broker",
-      "notes": "Broker; carrier trailers vary \u2014 include for completeness",
+      "notes": "Broker; carrier trailers vary — include for completeness",
       "lettering_hint": "varied",
       "priority": "low",
       "door_text_keywords": [
-        "TQL (broker \u2014 trailers vary)",
+        "TQL (broker — trailers vary)",
         "TQL",
         "broker",
         "trailers",
@@ -4215,7 +4319,8 @@
           "burgundy_candidate": false
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     },
     {
       "id": "chrobinson",
@@ -4258,7 +4363,8 @@
           "burgundy_candidate": true
         }
       ],
-      "has_burgundy_hint": false
+      "has_burgundy_hint": false,
+      "leslie_m_candidate": false
     }
   ]
 }
